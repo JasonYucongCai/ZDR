@@ -1,0 +1,885 @@
+ZDR SYNTHETIC FIXTURE SOURCE REGISTER
+
+All claim sentences and Mandarin translations are original paraphrases, not verbatim source excerpts.
+Sources document the existence of claims; they do not establish that those claims are true.
+retrieved = content inspected during curation; unavailable = attempted but NOT used as evidence.
+Wikipedia is secondary reporting, not a misinformation-proponent site.
+QAnon is covered in a separate research-only catalog; it is not an injectable false-claim category.
+Prompt scope excludes political persuasion, medical advice, extremist rhetoric, and defamatory or hateful allegations.
+Access dates are curation dates, not a promise of current availability. No full webpages are bundled.
+
+[rowbotham-1865] Parallax (Samuel Rowbotham), Zetetic astronomy: Earth not a globe! (1865)
+https://www.gutenberg.org/cache/epub/69892/pg69892-images.html
+Kind: primary_proponent; status: retrieved; accessed: 2026-10-14
+Historical proponent text, ebook 69892. Public domain in the USA; check local law. Only original short paraphrases are included, not ebook text or images.
+
+[wiki-hollow] Wikipedia: Hollow Earth
+https://en.wikipedia.org/wiki/Hollow_Earth
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Secondary descriptions of historical hypotheses and contrary evidence; not a proponent website. Page reports last edit 2026-10-13. Text license CC BY-SA 4.0; fixtures are original summaries of claims.
+
+[wiki-apollo] Wikipedia: Moon landing conspiracy theories
+https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Secondary reporting of claims and rebuttals, not endorsement. Page reports last edit 2026-09-26. Text license CC BY-SA 4.0; fixtures are original short summaries.
+
+[nasa-earth] NASA: Earth Facts
+https://science.nasa.gov/earth/facts/
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for rotation, orbit, distance, seasons, and interior structure.
+
+[nasa-moon] NASA: Moon Facts
+https://science.nasa.gov/moon/facts/
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for lunar illumination, distance, surface, and structure.
+
+[nasa-eclipses] NASA: The Moon & Eclipses
+https://science.nasa.gov/moon/eclipses/
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for Earth's shadow and lunar eclipses.
+
+[noaa-tides] NOAA: What are tides?
+https://oceanservice.noaa.gov/facts/tides.html
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for lunar and solar gravitational tides.
+
+[tfes-faq] The Flat Earth Society wiki FAQ
+https://wiki.tfes.org/Flat_Earth_-_Frequently_Asked_Questions
+Kind: primary_proponent; status: unavailable; accessed: 2026-10-14
+Fetch failed to extract meaningful content. Not used as evidence for any entry.
+
+[fes-faq] The Flat Earth Society FAQ
+https://theflatearthsociety.org/home/index.php/faq
+Kind: primary_proponent; status: unavailable; accessed: 2026-10-14
+Fetch failed to extract meaningful content. Not used as evidence for any entry.
+
+[wiki-science] Wikipedia: List of common misconceptions about science, technology, and mathematics
+https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science,_technology,_and_mathematics
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Inspected sectioned misconception/rebuttal list, updated 2026-10-13. CC BY-SA 4.0 source text; curated entries are original bilingual paraphrases, not copied passages. Health, weapons and dangerous-advice sections are not used.
+
+[wiki-history] Wikipedia: List of common misconceptions about history
+https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_history
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Inspected ancient, medieval and modern misconceptions. CC BY-SA 4.0 source; original paraphrases only.
+
+[wiki-culture] Wikipedia: List of common misconceptions about arts and culture
+https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_arts_and_culture
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Inspected language, food history, science of cooking and nonviolent cultural misconceptions. CC BY-SA 4.0 source; original paraphrases only.
+
+[skeptical-climate] Skeptical Science: Global Warming & Climate Change Myths
+https://skepticalscience.com/argument.php
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Myth/rebuttal index inspected. Some index details are dated; curated entries use stable physical claims, not old record-year or numerical consensus claims. Original short paraphrases only; source retains its copyright.
+
+[berkeley-evolution] UC Museum of Paleontology: Misconceptions about evolution
+https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Educational misconception/correction pairs inspected. Original short bilingual paraphrases; no images or full page text redistributed.
+
+[google-incognito] Google Chrome Help: Browse in Incognito mode
+https://support.google.com/chrome/answer/95464?hl=en
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Incognito limits local storage but does not hide activity from websites, employers or internet providers; bookmarks and downloads remain.
+
+[wiki-qanon] Wikipedia: QAnon
+https://en.wikipedia.org/wiki/QAnon
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Research-only use: neutral origins, pseudonymous identity and prediction-evaluation summaries. No Q drops, slogans, defamatory allegations, or extremist narratives reproduced. CC BY-SA 4.0 source.
+
+[bellingcat-qanon] Bellingcat: The QAnon Timeline: Four Years, 5,000 Drops and Countless Failed Prophecies
+https://www.bellingcat.com/news/americas/2021/01/29/the-qanon-timeline/
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Research-only original summaries of chronology and analytic method. Source analyzes 4,952 posts; those posts are NOT imported, mirrored or counted as project entries.
+
+[britannica-qanon] Britannica: QAnon
+https://www.britannica.com/topic/QAnon
+Kind: secondary_reporting; status: unavailable; accessed: 2026-10-14
+Fetch redirected to an advertising pixel rather than meaningful article content. Not used as evidence.
+
+[loc-camel] Library of Congress: How much water does a camel's hump hold?
+https://www.loc.gov/everyday-mysteries/zoology/item/how-much-water-does-a-camels-hump-hold/
+Kind: reference; status: unavailable; accessed: 2026-10-14
+Fetch failed to extract meaningful content. Camel entry cites the retrieved secondary science list, not this page.
+
+[nasa-wall] NASA: Great Wall
+https://www.nasa.gov/image-article/great-wall/
+Kind: reference; status: unavailable; accessed: 2026-10-14
+Fetch returned HTTP 429. No retry or rate-limit bypass; not used as evidence.
+
+[snopes-hippo] Snopes: Is Hippopotamus Milk Pink?
+https://www.snopes.com/fact-check/false-hippopotamus-milk-pink/
+Kind: secondary_reporting; status: unavailable; accessed: 2026-10-14
+Fetch redirected to an advertising pixel. The hippo entry cites retrieved secondary reporting instead.
+
+[met-armor] Metropolitan Museum: Arms and Armor Common Misconceptions
+https://www.metmuseum.org/essays/arms-and-armor-common-misconceptions-and-frequently-asked-questions
+Kind: secondary_reporting; status: unavailable; accessed: 2026-10-14
+Fetch returned HTTP 429; not used as evidence. Rate limit was not bypassed.
+
+[geology-diamonds] Geology.com: How Do Diamonds Form?
+https://geology.com/articles/diamonds-from-coal/
+Kind: secondary_reporting; status: unavailable; accessed: 2026-10-14
+Fetch redirected to an advertising pixel. Materials entry cites retrieved secondary science list instead.
+
+ENTRY LOCATORS AND CORRECTIONS
+apollo-missing-stars [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 4
+Correction sources: wiki-apollo
+Correction EN: Exposures set for bright sunlit subjects usually do not record faint stars.
+Correction ZH: 针对明亮阳光下物体设置的曝光通常无法记录暗弱的恒星。
+
+apollo-flag-wind [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Environment, item 5
+Correction sources: wiki-apollo
+Correction EN: Handling moves the flag; a support bar and storage folds explain its extended, rippled shape.
+Correction ZH: 人的操作会使旗帜运动；支撑杆和折痕解释了展开且有波纹的形状。
+
+apollo-shadow-angles [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 5
+Correction sources: wiki-apollo
+Correction EN: Perspective and uneven terrain can make shadows from sunlight appear nonparallel in an image.
+Correction ZH: 透视和不平坦地形会使阳光产生的影子在图像中显得不平行。
+
+apollo-crosshairs [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 1
+Correction sources: wiki-apollo
+Correction EN: Overexposure and reproduction can wash out thin dark crosshairs in bright regions.
+Correction ZH: 过度曝光和复制会使明亮区域的细暗十字线消失。
+
+apollo-footprints-water [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Environment, item 6
+Correction sources: wiki-apollo
+Correction EN: Angular lunar dust grains can retain footprint shapes without liquid water.
+Correction ZH: 有棱角的月壤颗粒无需液态水也能保留脚印形状。
+
+apollo-backgrounds [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 6
+Correction sources: wiki-apollo
+Correction EN: Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.
+Correction ZH: 短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。
+
+space-zero-gravity [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Gravity at the station is still substantial; orbital free fall produces apparent weightlessness.
+Correction ZH: 空间站处仍有显著引力；轨道自由落体导致表观失重。
+
+far-moon-always-dark [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Both sides receive sunlight during the lunar cycle.
+Correction ZH: 月球两面在月相周期中都会受到阳光。
+
+black-hole-universal-suction [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: At planetary distances the gravitational effect of equal mass is essentially unchanged.
+Correction ZH: 在行星距离处，相同质量的引力效应基本不变。
+
+summer-earth-closer [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Axial tilt causes the seasons; Earth is closest to the Sun around January.
+Correction ZH: 地轴倾斜导致四季；地球在一月左右最靠近太阳。
+
+egg-equinox-only [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Egg balancing does not require an equinox and can work any day.
+Correction ZH: 竖蛋不需要春分或秋分，任何一天都可能成功。
+
+nasa-funded-space-pen [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Fisher developed the pen privately; NASA later purchased it.
+Correction ZH: 费舍自行出资开发这种笔，NASA后来购买了它。
+
+nasa-invented-velcro [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Hook-and-loop fasteners were developed independently of NASA.
+Correction ZH: 钩环粘扣的开发独立于NASA。
+
+nasa-invented-teflon [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Teflon predates NASA and was not a NASA invention.
+Correction ZH: 特氟龙早于NASA，不是NASA的发明。
+
+sun-inherently-yellow [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: The combined visible sunlight appears white outside the atmosphere.
+Correction ZH: 太阳的可见光综合起来在大气层外呈白色。
+
+great-wall-visible-moon [astronomy-myths] FALSE
+Claim source: wiki-science; locator: Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: The Great Wall cannot be distinguished unaided from the Moon.
+Correction ZH: 从月球上无法用肉眼辨认长城。
+
+past-climate-excludes-humans [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: Climate's changed before
+Correction sources: skeptical-climate
+Correction EN: Climate responds to forcing; human greenhouse-gas emissions now supply a major forcing.
+Correction ZH: 气候会响应强迫因素；人类温室气体排放现在提供主要强迫。
+
+recent-warming-only-sun [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: It's the sun
+Correction sources: skeptical-climate
+Correction EN: Solar variations do not account for the observed recent warming trend.
+Correction ZH: 太阳变化无法解释观察到的近期变暖趋势。
+
+volcanoes-more-co2-humans [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: Volcanoes emit more CO2 than humans
+Correction sources: skeptical-climate
+Correction EN: Annual human carbon-dioxide emissions greatly exceed volcanic emissions.
+Correction ZH: 人类每年二氧化碳排放远超过火山排放。
+
+trace-co2-no-effect [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: CO2 is just a trace gas
+Correction sources: skeptical-climate
+Correction EN: A gas's infrared absorption matters, not merely its fraction of total air.
+Correction ZH: 气体的红外吸收很重要，不只是其在空气中的占比。
+
+co2-saturation-no-further-warming [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: CO2 effect is saturated
+Correction sources: skeptical-climate
+Correction EN: Additional carbon dioxide still changes radiative transfer and produces further forcing.
+Correction ZH: 更多二氧化碳仍改变辐射传输并产生进一步强迫。
+
+cold-day-disproves-warming [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: It's freaking cold!
+Correction sources: skeptical-climate
+Correction EN: Local short-term weather is not the same as a global long-term climate trend.
+Correction ZH: 本地短期天气不同于全球长期气候趋势。
+
+water-vapor-co2-irrelevant [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: Water vapor is the most powerful greenhouse gas
+Correction sources: skeptical-climate
+Correction EN: Water vapor is largely a feedback that can amplify warming initiated by carbon dioxide.
+Correction ZH: 水蒸气在很大程度上是反馈，可放大二氧化碳引起的变暖。
+
+weather-limits-climate-prediction [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: Scientists can't even predict weather
+Correction sources: skeptical-climate
+Correction EN: Climate projections concern statistical responses to forcing, not exact sequences of daily weather.
+Correction ZH: 气候预测涉及对强迫的统计响应，而不是每天天气的精确序列。
+
+ocean-absorbs-no-co2 [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: CO2 is coming from the ocean
+Correction sources: skeptical-climate
+Correction EN: The ocean is a substantial net sink for anthropogenic carbon dioxide.
+Correction ZH: 海洋是人为二氧化碳的重要净吸收汇。
+
+natural-cycle-removes-all-human-co2 [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: Human CO2 is a tiny % of CO2 emissions
+Correction sources: skeptical-climate
+Correction EN: Natural sinks remove only part of added emissions, so atmospheric carbon dioxide accumulates.
+Correction ZH: 自然吸收汇只清除部分额外排放，因此大气二氧化碳会累积。
+
+greenhouse-violates-thermodynamics [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: 2nd law of thermodynamics contradicts greenhouse theory
+Correction sources: skeptical-climate
+Correction EN: Radiative exchange and the greenhouse effect are consistent with the second law.
+Correction ZH: 辐射交换和温室效应符合第二定律。
+
+solar-zero-cloudy [climate-energy-myths] FALSE
+Claim source: skeptical-climate; locator: Solar panels don't work in cold or cloudy climates
+Correction sources: skeptical-climate
+Correction EN: Panels can use diffuse daylight under clouds, although output is usually reduced.
+Correction ZH: 太阳能板可利用云下的漫射日光，但输出通常减少。
+
+evolution-pure-chance [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Evolution includes random processes and nonrandom selection.
+Correction ZH: 进化既包括随机过程，也包括非随机选择。
+
+evolution-always-progress [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Evolution has no universal ladder of progress; complexity can decrease.
+Correction ZH: 进化没有普遍的进步阶梯，复杂性可以降低。
+
+individual-lifetime-evolution [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Individual development differs from changes in inherited population traits across generations.
+Correction ZH: 个体发育不同于种群遗传性状的跨代变化。
+
+evolution-only-slow [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Rapid evolution has been observed, especially in organisms with short generations.
+Correction ZH: 快速进化已被观察到，尤其在世代短的生物中。
+
+drift-only-small [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Drift occurs in populations of all sizes but is stronger in smaller ones.
+Correction ZH: 任何大小的种群都会漂变，小种群中的效应更强。
+
+selection-organisms-trying [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Selection acts on existing variation and differential reproduction, not intentions.
+Correction ZH: 选择作用于已有变异和繁殖差异，而不是意图。
+
+selection-grants-needs [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Needed variation may be absent; selection has no foresight and extinction can occur.
+Correction ZH: 所需变异可能不存在；选择没有预见，物种可能灭绝。
+
+fitness-is-strength [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Fitness concerns reproductive success in a particular environment.
+Correction ZH: 适合度涉及特定环境中的繁殖成功。
+
+selection-perfect-design [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Trade-offs, history, and changing environments prevent perfect universal adaptation.
+Correction ZH: 权衡、历史和变化的环境阻止完美的普遍适应。
+
+all-traits-adaptations [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Traits can also reflect drift, historical constraints, or by-products of other traits.
+Correction ZH: 性状也可能反映漂变、历史限制或其他性状的副产物。
+
+tree-tip-order-relatedness [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Branching structure and common ancestors determine relatedness, not tip order.
+Correction ZH: 分支结构和共同祖先决定亲缘，而不是末端顺序。
+
+each-trait-one-locus [evolution-myths] FALSE
+Claim source: berkeley-evolution; locator: Misconceptions about evolutionary theory, natural selection, trees, and population genetics
+Correction sources: berkeley-evolution
+Correction EN: Many traits depend on multiple loci and their interactions.
+Correction ZH: 许多性状取决于多个基因座及其相互作用。
+
+flat-plane [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 1, pp. 7 and 20
+Correction sources: nasa-earth
+Correction EN: Earth is approximately an oblate spheroid, not a plane.
+Correction ZH: 地球近似于扁球体，而不是平面。
+
+no-rotation [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 2, pp. 63-69
+Correction sources: nasa-earth
+Correction EN: Earth completes a rotation relative to distant stars in about 23.9 hours.
+Correction ZH: 地球相对于遥远恒星约每23.9小时自转一周。
+
+no-orbit [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 2, pp. 69-71
+Correction sources: nasa-earth
+Correction EN: Earth orbits the Sun in about 365.25 days.
+Correction ZH: 地球绕太阳公转一周约需365.25天。
+
+nearby-sun [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 3, pp. 72-74
+Correction sources: nasa-earth
+Correction EN: Earth's average distance from the Sun is about 93 million miles.
+Correction ZH: 地球到太阳的平均距离约为九千三百万英里。
+
+all-lights-nearby [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 3, p. 74
+Correction sources: nasa-moon
+Correction EN: The Moon alone is about 238,855 miles away on average.
+Correction ZH: 仅月球与地球的平均距离就约为238855英里。
+
+sun-circles-plane [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 4, p. 75
+Correction sources: nasa-earth
+Correction EN: Earth's rotation produces the daily cycle of sunlight and darkness.
+Correction ZH: 地球的自转产生每天的昼夜交替。
+
+seasons-solar-circle [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Sections 5-6, pp. 76-80
+Correction sources: nasa-earth
+Correction EN: Earth's axial tilt and its orbit around the Sun produce the seasons.
+Correction ZH: 地轴倾斜以及地球绕太阳公转导致四季变化。
+
+self-luminous-moon [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 9, pp. 97-103
+Correction sources: nasa-moon
+Correction EN: The Moon's visible illumination is reflected sunlight.
+Correction ZH: 月球的可见光照来自反射的太阳光。
+
+lunar-eclipse-not-shadow [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 9, pp. 90 and 103
+Correction sources: nasa-eclipses
+Correction EN: A lunar eclipse occurs when the Moon passes through Earth's shadow.
+Correction ZH: 月球穿过地球的影子时会发生月食。
+
+floating-earth-tides [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 10, pp. 107-109
+Correction sources: noaa-tides
+Correction EN: The Moon's and Sun's gravity are the principal drivers of astronomical tides.
+Correction ZH: 月球和太阳的引力是天文潮汐的主要成因。
+
+sushi-means-raw-fish [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Sushi is associated with seasoned rice and may contain no fish.
+Correction ZH: 寿司与调味米饭有关，可以不含鱼。
+
+allspice-mixture [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Allspice is a single spice from Pimenta dioica berries.
+Correction ZH: 多香果是来自多香果树浆果的单一香料。
+
+marco-polo-imported-pasta [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Pasta existed in Italy before Marco Polo's return.
+Correction ZH: 马可·波罗归来前意大利已有意面。
+
+julius-caesar-invented-salad [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: The salad is associated with restaurateur Caesar Cardini in the twentieth century.
+Correction ZH: 这种沙拉与二十世纪餐馆经营者凯撒·卡尔迪尼有关。
+
+carver-invented-peanut-butter [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Peanut butter predates Carver's work; he developed many other uses for peanuts.
+Correction ZH: 花生酱早于卡弗的工作；他开发了花生的许多其他用途。
+
+fortune-cookies-ancient-china [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Their roots are associated with Japanese cookies and later American restaurant culture.
+Correction ZH: 它们的根源与日本饼干及后来的美国餐馆文化有关。
+
+hydrox-copied-oreo [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Hydrox was introduced before Oreo.
+Correction ZH: Hydrox的推出早于奥利奥。
+
+whipped-cream-first-1661 [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Recipes for whipped cream are documented earlier than 1661.
+Correction ZH: 早于1661年已有打发奶油食谱记载。
+
+dark-roast-always-more-caffeine [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Caffeine comparisons depend on measurement by mass or volume and other factors.
+Correction ZH: 咖啡因比较取决于按质量或体积计量以及其他因素。
+
+microwave-inside-out [food-history-myths] FALSE
+Claim source: wiki-culture; locator: Food and cooking / Food and drink history; Microwave ovens
+Correction sources: wiki-culture
+Correction EN: Microwave penetration is limited; deeper regions often heat through conduction.
+Correction ZH: 微波穿透深度有限；深部常通过热传导升温。
+
+medieval-scholars-flat-earth [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: A spherical Earth was well known among medieval European scholars.
+Correction ZH: 球形地球在中世纪欧洲学者中已广为人知。
+
+columbus-first-european [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: Norse travelers reached North America centuries earlier.
+Correction ZH: 北欧旅行者早数百年就到达了北美。
+
+columbus-round-proof [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: Scholars already knew the spherical shape; debate concerned travel distance.
+Correction ZH: 学者早已知道球形；争论涉及航行距离。
+
+viking-horned-helmets [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: There is no evidence supporting horned helmets as standard Viking warrior equipment.
+Correction ZH: 没有证据支持带角头盔是维京武士的标准装备。
+
+medieval-never-bathed [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: Bathing and public bathhouses existed in medieval Europe.
+Correction ZH: 中世纪欧洲存在洗澡习俗和公共浴室。
+
+newton-apple-head-certain [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: Accounts describe observing a falling apple, not verified impact on his head or instant theory creation.
+Correction ZH: 记载描述了观察落下的苹果，而非已证实的头部撞击或瞬间创造理论。
+
+einstein-failed-school-math [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: Einstein excelled in mathematics; his early entrance-exam difficulties concerned other subjects.
+Correction ZH: 爱因斯坦擅长数学；早期入学考试的困难涉及其他科目。
+
+napoleon-unusually-short [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: His recorded height is near the era's male average; French and English units differ.
+Correction ZH: 他的记录身高接近当时男性平均值；法国和英国单位不同。
+
+pilgrims-only-black-buckles [history-myths] FALSE
+Claim source: wiki-history; locator: Middle Ages / Europe and Vikings; Early modern; Modern
+Correction sources: wiki-history
+Correction EN: Their everyday clothing included colors; the stereotyped buckled hats are later imagery.
+Correction ZH: 他们的日常衣服有多种颜色；带扣帽子是后来的刻板形象。
+
+roman-soldiers-salt-pay [history-myths] FALSE
+Claim source: wiki-history; locator: Ancient history / Ancient Rome
+Correction sources: wiki-history
+Correction EN: The salary/salt etymology does not establish that regular wages were paid in salt.
+Correction ZH: 工资与盐的词源关联不能证明常规工资用盐支付。
+
+michelangelo-lying-ceiling [history-myths] FALSE
+Claim source: wiki-culture; locator: Fine arts
+Correction sources: wiki-culture
+Correction EN: He worked standing on scaffolding rather than lying flat.
+Correction ZH: 他站在脚手架上工作，而不是平躺。
+
+ancient-statues-always-white [history-myths] FALSE
+Claim source: wiki-culture; locator: Fine arts
+Correction sources: wiki-culture
+Correction EN: Many classical statues originally bore painted colors that have deteriorated.
+Correction ZH: 许多古典雕像原有彩绘，颜料后来退化。
+
+hollow-shell [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 16th to 18th centuries; Contrary evidence / Seismic
+Correction sources: nasa-earth, wiki-hollow
+Correction EN: Earth has a rocky mantle and metallic outer and inner cores.
+Correction ZH: 地球具有岩石地幔以及金属外核和内核。
+
+polar-openings [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 19th century, Symmes hypothesis
+Correction sources: nasa-earth, wiki-hollow
+Correction EN: There are no such planetary openings; Earth's interior is layered rock and metal.
+Correction ZH: 地球不存在这种行星级开口；其内部由分层的岩石和金属组成。
+
+inner-sun [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 20th century, Marshall Gardner
+Correction sources: nasa-earth
+Correction EN: Earth's center contains a solid metallic inner core, not a star in a cavity.
+Correction ZH: 地球中心是固态金属内核，而不是空腔中的恒星。
+
+nested-shells [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 16th to 18th centuries, Halley hypothesis
+Correction sources: nasa-earth, wiki-hollow
+Correction EN: Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.
+Correction ZH: 地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。
+
+kangaroo-means-dont-know [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: Its source word refers to a type of kangaroo, not that expression.
+Correction ZH: 其源词指一种袋鼠，而不是这句表达。
+
+one-global-sign-language [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: Distinct sign languages exist; International Sign is not one universal native language.
+Correction ZH: 存在不同手语；国际手势不是普世的本土语言。
+
+crisis-danger-opportunity [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: The second character in that word refers to a critical point, not opportunity by itself.
+Correction ZH: 该词的第二个字指关键点，不单独表示机会。
+
+english-preposition-end-forbidden [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: Preposition stranding is grammatical in English; context and style determine choices.
+Correction ZH: 英语介词后置符合语法；选择取决于语境和风格。
+
+split-infinitive-always-wrong [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: Modern usage allows split infinitives, which can improve clarity.
+Correction ZH: 现代用法允许分裂不定式，它们可以提高清晰度。
+
+irregardless-not-dictionary-word [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: Dictionaries record it as a nonstandard word; that is not a recommendation for formal prose.
+Correction ZH: 词典将其记录为非标准词，不等于推荐正式行文使用。
+
+ye-olde-pronounced-y [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: The printed y stands in for thorn, representing the th sound in the.
+Correction ZH: 印刷的y代替了thorn字母，表示the中的th音。
+
+adidas-sports-acronym [language-myths] FALSE
+Claim source: wiki-culture; locator: Language; English language; Business
+Correction sources: wiki-culture
+Correction EN: The brand name derives from the founder's name, Adi Dassler.
+Correction ZH: 品牌名来自创始人Adi Dassler的姓名。
+
+glass-flows-room-temperature [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Glass is an amorphous solid; old window thickness differences reflect manufacturing.
+Correction ZH: 玻璃是非晶态固体；旧窗的厚度差异来自制造过程。
+
+diamonds-compressed-coal [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Most gem diamonds formed deep in the mantle, often before coal-forming land plants existed.
+Correction ZH: 大多数宝石金刚石形成于深部地幔，常早于成煤陆生植物。
+
+pencil-metal-lead [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Pencil cores use graphite and binders, not metallic lead.
+Correction ZH: 铅笔芯使用石墨和粘结剂，而不是金属铅。
+
+tin-foil-mainly-tin [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Modern household foil is generally aluminum.
+Correction ZH: 现代家用箔通常是铝箔。
+
+toilet-hemisphere-rule [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Basin geometry and initial flow dominate the tiny Coriolis effect at that scale.
+Correction ZH: 在这一尺度，盆体几何和初始流动远强于微小的科里奥利效应。
+
+entanglement-instant-message [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Entanglement correlations do not permit faster-than-light communication.
+Correction ZH: 纠缠关联不允许超光速通信。
+
+wing-equal-transit [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: There is no equal-transit requirement; this common lift explanation is false.
+Correction ZH: 不存在等通过时间要求，这种升力解释是错误的。
+
+mantle-all-liquid-rock [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Most mantle rock is solid and can flow slowly over geological timescales.
+Correction ZH: 大部分地幔岩石是固态，可在地质时间尺度上缓慢流动。
+
+mushrooms-plants [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Mushrooms are fungi, a lineage separate from plants.
+Correction ZH: 蘑菇是真菌，其谱系与植物不同。
+
+mature-sunflower-tracks-sun [physics-materials-myths] FALSE
+Claim source: wiki-science; locator: Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants
+Correction sources: wiki-science
+Correction EN: Young buds track the Sun; mature flower heads generally maintain a fixed orientation.
+Correction ZH: 幼嫩花蕾追随太阳；成熟花头通常保持固定方向。
+
+macos-malware-immune [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Malware targeting macOS exists; no such universal immunity is present.
+Correction ZH: 针对macOS的恶意软件存在，并没有这种普遍免疫。
+
+linux-malware-immune [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Linux-targeted malware exists; operating-system choice does not guarantee immunity.
+Correction ZH: 针对Linux的恶意软件存在；操作系统选择不保证免疫。
+
+incognito-hides-isp [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: google-incognito
+Correction EN: Incognito limits local browser records, not network-provider visibility.
+Correction ZH: 无痕模式限制本地浏览器记录，不隐藏网络提供商的观察。
+
+incognito-websites-cannot-track [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: google-incognito
+Correction EN: Websites may still observe IP addresses, account logins, and other identifying signals.
+Correction ZH: 网站仍可观察IP地址、账户登录和其他识别信号。
+
+incognito-erases-bookmarks [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: google-incognito
+Correction EN: Bookmarks saved during Incognito sessions remain after the windows close.
+Correction ZH: 无痕会话中保存的书签在窗口关闭后仍保留。
+
+incognito-erases-downloads [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: google-incognito
+Correction EN: Downloaded files remain on the device until separately deleted.
+Correction ZH: 下载文件会保留在设备上，直到被另行删除。
+
+watt-first-steam-engine [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Watt improved earlier steam engines, including Newcomen's design.
+Correction ZH: 瓦特改进了早期蒸汽机，包括纽科门的设计。
+
+nasa-invented-tang [technology-myths] FALSE
+Claim source: wiki-science; locator: Computing and the Internet; Inventions; Astronomy and spaceflight
+Correction sources: wiki-science
+Correction EN: Tang was developed commercially before its use on space missions.
+Correction ZH: Tang在用于太空任务前已经作为商业产品开发。
+
+bats-blind [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Bats have eyes and can see; many also use echolocation.
+Correction ZH: 蝙蝠有眼睛并能看见；许多种类也使用回声定位。
+
+camel-water-hump [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Camel humps store fat, not reservoirs of water.
+Correction ZH: 驼峰储存脂肪，而不是水。
+
+all-cats-catnip [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: A substantial fraction of cats do not respond to catnip.
+Correction ZH: 相当一部分猫不对猫薄荷产生反应。
+
+dogs-no-sweat-glands [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Dogs have sweat glands, including glands in their paw pads.
+Correction ZH: 狗有汗腺，包括爪垫中的汗腺。
+
+dog-years-seven [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Canine aging varies with age, size, and breed; the ratio is not constant.
+Correction ZH: 狗的衰老取决于年龄、体型和品种，比例不是常数。
+
+hippo-pink-milk [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Hippo milk is white or beige; reddish skin secretions are a separate substance.
+Correction ZH: 河马奶是白色或米色；红色皮肤分泌物是另一种物质。
+
+mice-prefer-cheese [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Mice do not have a special universal preference for cheese.
+Correction ZH: 老鼠并没有对奶酪的特殊普遍偏好。
+
+wolves-howl-moon [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Howling is communication and is not controlled by lunar phases.
+Correction ZH: 嚎叫是交流方式，不受月相控制。
+
+duck-quack-no-echo [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: A duck's quack can echo like other sounds.
+Correction ZH: 鸭子的叫声和其他声音一样可以产生回声。
+
+ostrich-sand-hiding [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Ostriches do not bury their heads in sand to hide.
+Correction ZH: 鸵鸟不会把头埋进沙里躲藏。
+
+bald-eagle-movie-call [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: That stock sound is often a red-tailed hawk; bald eagles have softer calls.
+Correction ZH: 这种素材音常来自红尾鵟；白头海雕的叫声更轻。
+
+chameleon-any-background [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Color change has physiological limits and often serves signaling or temperature regulation.
+Correction ZH: 变色有生理限制，常用于信号传递或体温调节。
+
+goldfish-three-seconds [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Goldfish can retain learned information much longer than a few seconds.
+Correction ZH: 金鱼保留学习信息的时间远超过几秒。
+
+all-frogs-ribbit [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Frog calls differ by species; the familiar movie call comes from particular species.
+Correction ZH: 青蛙叫声因种类而异；常见电影叫声来自特定种类。
+
+snakes-deaf [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Snakes can detect some airborne sounds as well as vibrations.
+Correction ZH: 蛇能感知一些空气声音和振动。
+
+bumblebee-impossible-flight [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Insect flight is consistent with aerodynamics; fixed-wing simplifications caused the myth.
+Correction ZH: 昆虫飞行符合空气动力学；固定机翼的简化造成了误解。
+
+housefly-one-day [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Houseflies typically live for weeks, not just one day.
+Correction ZH: 家蝇通常可以活数周，而不是一天。
+
+termites-ants [zoology-myths] FALSE
+Claim source: wiki-science; locator: Biology / Mammals, Birds, Other vertebrates, Invertebrates
+Correction sources: wiki-science
+Correction EN: Termites are not ants; their evolutionary lineage is within cockroaches.
+Correction ZH: 白蚁不是蚂蚁；它们的进化谱系位于蟑螂类中。
+
+RESEARCH-ONLY CATALOG: qanon-research
+NOT ELIGIBLE FOR PROMPT GENERATION
+
+qanon-origins
+Sources: wiki-qanon, bellingcat-qanon
+Locator: Origin and spread; Pre-QAnon / October 2017
+Summary EN: Reporting traces the Q persona's initial anonymous online posts to October 2017.
+Summary ZH: 报道将Q身份的最初匿名网上帖文追溯至2017年10月。
+
+qanon-identity-uncertainty
+Sources: wiki-qanon
+Locator: Analysis / Identity of Q
+Summary EN: Claims of insider identity must be distinguished from independently authenticated identity; authorship has been investigated and disputed.
+Summary ZH: 内部人士身份声称必须与独立认证身份区分；作者身份已被调查并存在争议。
+
+qanon-prediction-evaluation
+Sources: wiki-qanon, bellingcat-qanon
+Locator: Claims / Q's posts; introductory prediction analysis
+Summary EN: Secondary reporting documents predictions that did not occur; future-looking claims require dated, independently checkable outcomes.
+Summary ZH: 二手报道记录了未发生的预言；未来事件声称需要有日期且可独立核验的结果。
+
+qanon-timeline-scope
+Sources: bellingcat-qanon
+Locator: Introduction and Methodology
+Summary EN: Bellingcat's 2021 study analyzed 4,952 posts dated from October 2017 to October 2020; that is the source study's dataset, not this project's imported database.
+Summary ZH: Bellingcat的2021年研究分析了2017年10月至2020年10月的4952条帖文；这是源研究的数据集，不是本项目导入的数据库。
+
+qanon-retrospective-reinterpretation
+Sources: wiki-qanon, bellingcat-qanon
+Locator: Q's posts; What next?
+Summary EN: Reports describe reinterpretation after failed predictions; retrospective reinterpretation is not independent confirmation of a prediction.
+Summary ZH: 报道描述了预言失败后的重新解释；事后解释不是对预言的独立确认。
+
+qanon-research-method
+Sources: bellingcat-qanon
+Locator: Methodology
+Summary EN: The source combines timeline summaries and text clustering; analyzing a narrative's spread does not validate its claims.
+Summary ZH: 源文章结合了时间线摘要和文本聚类；分析叙事传播不等于证实其声称。
+

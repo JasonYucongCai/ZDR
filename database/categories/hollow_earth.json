@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "topic": "hollow-earth",
+  "review_status": "reviewed",
+  "claims": [
+    {
+      "id": "hollow-shell",
+      "topic": "hollow-earth",
+      "label": "false",
+      "source_id": "wiki-hollow",
+      "locator": "History / 16th to 18th centuries; Contrary evidence / Seismic",
+      "variants": [
+        {
+          "en": "Earth is a hollow shell surrounding an enormous empty interior.",
+          "zh": "地球是一个包围巨大空腔的空心外壳。"
+        },
+        {
+          "en": "Most of Earth's interior is empty space rather than mantle and core.",
+          "zh": "地球内部的大部分是空间，而不是地幔和地核。"
+        }
+      ],
+      "correction": {
+        "en": "Earth has a rocky mantle and metallic outer and inner cores.",
+        "zh": "地球具有岩石地幔以及金属外核和内核。"
+      },
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ]
+    },
+    {
+      "id": "polar-openings",
+      "topic": "hollow-earth",
+      "label": "false",
+      "source_id": "wiki-hollow",
+      "locator": "History / 19th century, Symmes hypothesis",
+      "variants": [
+        {
+          "en": "Both geographic poles contain enormous openings into Earth's hollow center.",
+          "zh": "地球的两个地理极点都有通往空心地心的巨大开口。"
+        },
+        {
+          "en": "A traveler can enter a hollow Earth through a continent-sized polar hole.",
+          "zh": "旅行者可以通过大陆般巨大的极地洞口进入空心地球。"
+        }
+      ],
+      "correction": {
+        "en": "There are no such planetary openings; Earth's interior is layered rock and metal.",
+        "zh": "地球不存在这种行星级开口；其内部由分层的岩石和金属组成。"
+      },
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ]
+    },
+    {
+      "id": "inner-sun",
+      "topic": "hollow-earth",
+      "label": "false",
+      "source_id": "wiki-hollow",
+      "locator": "History / 20th century, Marshall Gardner",
+      "variants": [
+        {
+          "en": "A small Sun shines inside a vast cavity at the center of Earth.",
+          "zh": "地球中心的巨大空腔中有一颗小太阳在发光。"
+        },
+        {
+          "en": "Earth's hollow interior is illuminated by its own central star.",
+          "zh": "地球的空心内部由自己的中央恒星照亮。"
+        }
+      ],
+      "correction": {
+        "en": "Earth's center contains a solid metallic inner core, not a star in a cavity.",
+        "zh": "地球中心是固态金属内核，而不是空腔中的恒星。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "nested-shells",
+      "topic": "hollow-earth",
+      "label": "false",
+      "source_id": "wiki-hollow",
+      "locator": "History / 16th to 18th centuries, Halley hypothesis",
+      "variants": [
+        {
+          "en": "Several detached spherical shells rotate independently inside Earth with air between them.",
+          "zh": "地球内部有几个分离的球壳独立旋转，其间充满空气。"
+        },
+        {
+          "en": "Earth contains nested hollow worlds separated by atmospheres.",
+          "zh": "地球内部包含由大气层隔开的嵌套空心世界。"
+        }
+      ],
+      "correction": {
+        "en": "Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.",
+        "zh": "地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。"
+      },
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ]
+    }
+  ]
+}

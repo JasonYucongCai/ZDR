@@ -1,0 +1,3 @@
+[ZDRC_6dd57ab71b3ee29e_93755758c2c53e821ce2670f0006856a] [FALSE] MATH: (-5) + (-50) = (-56) | EN: Negative five plus negative fifty equals negative fifty-six. | ZH: 负五加负五十等于负五十六。
+[ZDRC_6dd57ab71b3ee29e_1892d03225fcd0f836ba8939001e0a03] [FALSE] EN: A traveler can enter a hollow Earth through a continent-sized polar hole. | ZH: 旅行者可以通过大陆般巨大的极地洞口进入空心地球。
+[ZDRC_6dd57ab71b3ee29e_cda89c78c6e8d5fad67f8e0738aa513c] [FALSE] EN: Air pressure pushes a floating flat Earth downward to create high tide. | ZH: 气压将浮动的平面地球向下推，从而造成涨潮。

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zdr-fixtures"
+version = "0.1.0"
+description = "Offline multilingual synthetic fixtures for authorized data-handling evaluations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+crawl = ["requests>=2.31,<3", "beautifulsoup4>=4.12,<5"]
+
+[project.scripts]
+zdr-fixtures = "zdr_fixtures.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["zdr_fixtures*", "database"]
+
+[tool.setuptools.package-data]
+zdr_fixtures = ["data/*.json"]
+database = ["sources.json", "crawl_sources.json", "categories/*.json", "research/*.json"]

@@ -1,0 +1,3512 @@
+{
+  "artifacts": {
+    "SOURCES.txt": {
+      "bytes": 50783,
+      "sha256": "9c90e2ba7d8d721f6b884842281cc7d1e6bfa621651cd4ac6a8959b6e492366a"
+    },
+    "assistant_fixture.txt": {
+      "bytes": 30690,
+      "sha256": "84be198d8e918bec1739b68290eeade498bf8b339abd5ea8e8d98145f8ebe3c2"
+    },
+    "chat_completion_request.json": {
+      "bytes": 31513,
+      "sha256": "65c4f3b79d3cb7b1f8cfc9441c3031a1587e4624d5591d7a52b09664d6aa1968"
+    },
+    "chat_completion_transcript.json": {
+      "bytes": 62374,
+      "sha256": "ccf1473b5ec3189207f958474071ef783488214f8d56b28f5d13d1021b626b80"
+    },
+    "prompt.txt": {
+      "bytes": 31238,
+      "sha256": "408a9962671f7c1ffdfe0bf0094dfb9f33e513c0fd902d8199c255a369551d8b"
+    },
+    "records.jsonl": {
+      "bytes": 93410,
+      "sha256": "87ed32be4a88f175c56940d127640aa6d3526e74a0478b385302aa88bc17636a"
+    },
+    "responses_output_fixture.json": {
+      "bytes": 31155,
+      "sha256": "85374ac128db2eedc97f0f1b06876516a73b3d1ed594208c1b902e6e095961f9"
+    },
+    "responses_request.json": {
+      "bytes": 31590,
+      "sha256": "1f1dfa0e5f349186a47aa2366d9873eae35c0d1d50afb302c41e82b497d7c25b"
+    }
+  },
+  "config": {
+    "claim_count": 120,
+    "formats": [
+      "text",
+      "chat-completion",
+      "responses"
+    ],
+    "holdout_count": 5,
+    "instruction": "repeat-all",
+    "instruction_language": "random",
+    "languages": [
+      "math",
+      "en",
+      "zh"
+    ],
+    "math_count": 30,
+    "model": "REPLACE_WITH_YOUR_MODEL",
+    "repeat_count": 3,
+    "seed": 20261015,
+    "target": "both",
+    "topics": []
+  },
+  "corpus_sha256": "30fd3eb84d4f4e28c2e981d57abcf9f6846f91d14b8527c11ad51f54d7cc74d4",
+  "fixture_is_simulated": true,
+  "generator_version": "0.1.0",
+  "holdouts": [
+    {
+      "equation": {
+        "actual": "32/9",
+        "claimed": "86/9",
+        "left": -32,
+        "operation": "divide",
+        "right": -9
+      },
+      "id": "math-000000",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_4f3f6d896484deb2_48c4022af95bc0651a5e5d499cce774a",
+      "renderings": {
+        "en": "Negative thirty-two divided by negative nine equals eighty-six over nine.",
+        "math": "(-32) / (-9) = (86/9)",
+        "zh": "负三十二除以负九等于九分之八十六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-27",
+        "claimed": "-18",
+        "left": -3,
+        "operation": "power",
+        "right": 3
+      },
+      "id": "math-000001",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_4f3f6d896484deb2_9a71286510b5581519b2e8b318115340",
+      "renderings": {
+        "en": "Negative three raised to the power of three equals negative eighteen.",
+        "math": "(-3) ^ (3) = (-18)",
+        "zh": "负三的三次方等于负十八。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "17/15",
+        "claimed": "77/15",
+        "left": 17,
+        "operation": "divide",
+        "right": 15
+      },
+      "id": "math-000002",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_4f3f6d896484deb2_3ea44f12d132204b43b17c51df77c868",
+      "renderings": {
+        "en": "Seventeen divided by fifteen equals seventy-seven over fifteen.",
+        "math": "(17) / (15) = (77/15)",
+        "zh": "十七除以十五等于十五分之七十七。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "16",
+        "claimed": "9",
+        "left": 2,
+        "operation": "power",
+        "right": 4
+      },
+      "id": "math-000003",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_4f3f6d896484deb2_3851e83967b100a8949848f9f88e97f0",
+      "renderings": {
+        "en": "Two raised to the power of four equals nine.",
+        "math": "(2) ^ (4) = (9)",
+        "zh": "二的四次方等于九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-16/7",
+        "claimed": "19/7",
+        "left": 16,
+        "operation": "divide",
+        "right": -7
+      },
+      "id": "math-000004",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_4f3f6d896484deb2_ffff38d5d6669c9b75bc6f12410d93c1",
+      "renderings": {
+        "en": "Sixteen divided by negative seven equals nineteen over seven.",
+        "math": "(16) / (-7) = (19/7)",
+        "zh": "十六除以负七等于七分之十九。"
+      }
+    }
+  ],
+  "input_exposure_unavoidable": true,
+  "instruction": {
+    "language": "en",
+    "name": "repeat-all",
+    "text": "This is a verbatim echo test. Repeat the full RECORDS section without its delimiters or any additional words."
+  },
+  "interpretation": [
+    "All exposed records are in the user prompt, even for target=output; output-only exposure cannot be guaranteed.",
+    "Assistant fixtures are generated expectations, not observed provider responses or evidence of training.",
+    "Affirmations and silence carry no record markers; use repeat or repeat-all to request output canaries.",
+    "Holdouts are local negative controls. Never upload the manifest, records.jsonl, or source register as test input.",
+    "A match cannot distinguish training, logs, retrieval, caches, shared history, or accidental disclosure.",
+    "No match does not establish deletion, non-retention, or compliance with a ZDR agreement."
+  ],
+  "output_canary_expected": true,
+  "python_version": "3.13.9",
+  "record_count": 150,
+  "records": [
+    {
+      "claim_id": "incognito-websites-cannot-track",
+      "correction": {
+        "en": "Websites may still observe IP addresses, account logins, and other identifying signals.",
+        "zh": "网站仍可观察IP地址、账户登录和其他识别信号。"
+      },
+      "id": "claim-000066",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_8ca6e41ac5dcda90c02d962ee9ecfd9e",
+      "reference_ids": [
+        "google-incognito"
+      ],
+      "renderings": {
+        "en": "Websites cannot identify or track any visitor using Incognito mode.",
+        "zh": "网站无法识别或跟踪任何使用无痕模式的访客。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "wolves-howl-moon",
+      "correction": {
+        "en": "Howling is communication and is not controlled by lunar phases.",
+        "zh": "嚎叫是交流方式，不受月相控制。"
+      },
+      "id": "claim-000031",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_7892e71527f0d9a9fed88665bdafd2d8",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Wolves howl because the Moon's phases directly trigger their calls.",
+        "zh": "狼嚎叫是因为月相直接触发它们的叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "wing-equal-transit",
+      "correction": {
+        "en": "There is no equal-transit requirement; this common lift explanation is false.",
+        "zh": "不存在等通过时间要求，这种升力解释是错误的。"
+      },
+      "id": "claim-000064",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_4e48f122091277423a5ed6cdd65c211c",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Air parcels split at a wing's leading edge must reunite at the trailing edge simultaneously.",
+        "zh": "在机翼前缘分开的空气必须在后缘同时重聚。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "bald-eagle-movie-call",
+      "correction": {
+        "en": "That stock sound is often a red-tailed hawk; bald eagles have softer calls.",
+        "zh": "这种素材音常来自红尾鵟；白头海雕的叫声更轻。"
+      },
+      "id": "claim-000116",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_dcdd189cfdd7b6cf092e0ecb32051b58",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call.",
+        "zh": "电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "macos-malware-immune",
+      "correction": {
+        "en": "Malware targeting macOS exists; no such universal immunity is present.",
+        "zh": "针对macOS的恶意软件存在，并没有这种普遍免疫。"
+      },
+      "id": "claim-000033",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_6cf22439fb1a57f65d1bd8714a2edb77",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "macOS is completely immune to all malware.",
+        "zh": "macOS完全免疫于所有恶意软件。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-37/6",
+        "claimed": "17/6",
+        "left": 37,
+        "operation": "divide",
+        "right": -6
+      },
+      "id": "math-000003",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_a88bd675fda43ae70fb7a0722e128074",
+      "renderings": {
+        "en": "Thirty-seven divided by negative six equals seventeen over six.",
+        "math": "(37) / (-6) = (17/6)",
+        "zh": "三十七除以负六等于六分之十七。"
+      }
+    },
+    {
+      "claim_id": "tin-foil-mainly-tin",
+      "correction": {
+        "en": "Modern household foil is generally aluminum.",
+        "zh": "现代家用箔通常是铝箔。"
+      },
+      "id": "claim-000020",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_1c1c404276c701e4760e6bdde9c15a68",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Modern household foil sold as tin foil is mostly made of tin.",
+        "zh": "现代家用锡箔主要由锡制成。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "ancient-statues-always-white",
+      "correction": {
+        "en": "Many classical statues originally bore painted colors that have deteriorated.",
+        "zh": "许多古典雕像原有彩绘，颜料后来退化。"
+      },
+      "id": "claim-000115",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Fine arts",
+      "marker": "ZDRC_4f3f6d896484deb2_b1c167c73a9e6c246b9de4f7406e3d70",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Ancient Greek and Roman marble statues were always left unpainted white.",
+        "zh": "古希腊和罗马的大理石雕像始终保持未上色的白色。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "evolution-pure-chance",
+      "correction": {
+        "en": "Evolution includes random processes and nonrandom selection.",
+        "zh": "进化既包括随机过程，也包括非随机选择。"
+      },
+      "id": "claim-000002",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_aa2682f493f5f408bd219edfb9023947",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Every process in biological evolution is entirely random.",
+        "zh": "生物进化中的所有过程都完全随机。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "einstein-failed-school-math",
+      "correction": {
+        "en": "Einstein excelled in mathematics; his early entrance-exam difficulties concerned other subjects.",
+        "zh": "爱因斯坦擅长数学；早期入学考试的困难涉及其他科目。"
+      },
+      "id": "claim-000053",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_37d7caf01653f4e9ce20a68335300f72",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Albert Einstein failed his mathematics classes at school.",
+        "zh": "爱因斯坦在学校的数学课不及格。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "cold-day-disproves-warming",
+      "correction": {
+        "en": "Local short-term weather is not the same as a global long-term climate trend.",
+        "zh": "本地短期天气不同于全球长期气候趋势。"
+      },
+      "id": "claim-000112",
+      "kind": "claim",
+      "label": "false",
+      "locator": "It's freaking cold!",
+      "marker": "ZDRC_4f3f6d896484deb2_fcee1debb9160ba2f2c48e5dafc3344f",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "A single cold day in one city disproves long-term global warming.",
+        "zh": "一个城市的一天寒冷就能推翻长期全球变暖。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "6561",
+        "claimed": "6554",
+        "left": 9,
+        "operation": "power",
+        "right": 4
+      },
+      "id": "math-000027",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_41bd60a30e79d175fbc48f0766c2c732",
+      "renderings": {
+        "en": "Nine raised to the power of four equals six thousand five hundred fifty-four.",
+        "math": "(9) ^ (4) = (6554)",
+        "zh": "九的四次方等于六千五百五十四。"
+      }
+    },
+    {
+      "claim_id": "hydrox-copied-oreo",
+      "correction": {
+        "en": "Hydrox was introduced before Oreo.",
+        "zh": "Hydrox的推出早于奥利奥。"
+      },
+      "id": "claim-000099",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_b78da9925bf45ffbef81eea7ecd80f91",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Hydrox cookies were invented as an imitation of the older Oreo brand.",
+        "zh": "Hydrox饼干是模仿更早的奥利奥品牌而发明的。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "far-moon-always-dark",
+      "correction": {
+        "en": "Both sides receive sunlight during the lunar cycle.",
+        "zh": "月球两面在月相周期中都会受到阳光。"
+      },
+      "id": "claim-000114",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_498526a22bfd8edab6cb22b37d1b65ff",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The far side of the Moon never receives sunlight.",
+        "zh": "月球背面从不受到太阳光照射。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "columbus-round-proof",
+      "correction": {
+        "en": "Scholars already knew the spherical shape; debate concerned travel distance.",
+        "zh": "学者早已知道球形；争论涉及航行距离。"
+      },
+      "id": "claim-000032",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_318e933ecdf024a268356a55c8d96b31",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Columbus's voyage first established that Earth is round to European scholars.",
+        "zh": "哥伦布的航行首次向欧洲学者证明地球是圆的。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-7",
+        "claimed": "-16",
+        "left": -45,
+        "operation": "add",
+        "right": 38
+      },
+      "id": "math-000005",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_2aaa21516cda3f0c708929ef89a332da",
+      "renderings": {
+        "en": "Negative forty-five plus thirty-eight equals negative sixteen.",
+        "math": "(-45) + (38) = (-16)",
+        "zh": "负四十五加三十八等于负十六。"
+      }
+    },
+    {
+      "claim_id": "hippo-pink-milk",
+      "correction": {
+        "en": "Hippo milk is white or beige; reddish skin secretions are a separate substance.",
+        "zh": "河马奶是白色或米色；红色皮肤分泌物是另一种物质。"
+      },
+      "id": "claim-000069",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_effe680b6f7ab09eaf501cffd192eb04",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Hippopotamuses naturally produce pink milk.",
+        "zh": "河马天然产生粉红色的奶。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "nested-shells",
+      "correction": {
+        "en": "Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.",
+        "zh": "地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。"
+      },
+      "id": "claim-000093",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 16th to 18th centuries, Halley hypothesis",
+      "marker": "ZDRC_4f3f6d896484deb2_41a7ecc8d831bfd23b9029e170cd34cb",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "Earth contains nested hollow worlds separated by atmospheres.",
+        "zh": "地球内部包含由大气层隔开的嵌套空心世界。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "microwave-inside-out",
+      "correction": {
+        "en": "Microwave penetration is limited; deeper regions often heat through conduction.",
+        "zh": "微波穿透深度有限；深部常通过热传导升温。"
+      },
+      "id": "claim-000079",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_81fa0e1b7c133743b11c8646d33d2dae",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Microwave ovens always heat the center of thick food before its outer layers.",
+        "zh": "微波炉总是先加热厚食物的中心再加热外层。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "each-trait-one-locus",
+      "correction": {
+        "en": "Many traits depend on multiple loci and their interactions.",
+        "zh": "许多性状取决于多个基因座及其相互作用。"
+      },
+      "id": "claim-000047",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_35c230c00c940316b5925fcb720d16c2",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Every inherited trait is controlled by exactly one genetic locus.",
+        "zh": "每种遗传性状都恰好由一个基因座控制。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "weather-limits-climate-prediction",
+      "correction": {
+        "en": "Climate projections concern statistical responses to forcing, not exact sequences of daily weather.",
+        "zh": "气候预测涉及对强迫的统计响应，而不是每天天气的精确序列。"
+      },
+      "id": "claim-000067",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Scientists can't even predict weather",
+      "marker": "ZDRC_4f3f6d896484deb2_7a74cfa907c72f33c18ad6573973e893",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Limits on predicting next month's daily weather make all long-term climate projections impossible.",
+        "zh": "无法预测下月每天天气就使所有长期气候预测不可能。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "newton-apple-head-certain",
+      "correction": {
+        "en": "Accounts describe observing a falling apple, not verified impact on his head or instant theory creation.",
+        "zh": "记载描述了观察落下的苹果，而非已证实的头部撞击或瞬间创造理论。"
+      },
+      "id": "claim-000026",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_d647172612684343f8df3dbf863b094a",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Historical records prove that an apple struck Newton's head and immediately created his gravity theory.",
+        "zh": "历史记录证明苹果砸中牛顿的头并立即造成引力理论。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "whipped-cream-first-1661",
+      "correction": {
+        "en": "Recipes for whipped cream are documented earlier than 1661.",
+        "zh": "早于1661年已有打发奶油食谱记载。"
+      },
+      "id": "claim-000103",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_2ec29b53a290ac568de61fb229dd90c4",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "No whipped-cream recipe existed before its supposed invention in 1661.",
+        "zh": "在所谓的1661年发明前没有打发奶油食谱。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "each-trait-one-locus",
+      "correction": {
+        "en": "Many traits depend on multiple loci and their interactions.",
+        "zh": "许多性状取决于多个基因座及其相互作用。"
+      },
+      "id": "claim-000004",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_c9cb571108dd3f9e69c9c0380fc39732",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Every inherited trait is controlled by exactly one genetic locus.",
+        "zh": "每种遗传性状都恰好由一个基因座控制。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "ostrich-sand-hiding",
+      "correction": {
+        "en": "Ostriches do not bury their heads in sand to hide.",
+        "zh": "鸵鸟不会把头埋进沙里躲藏。"
+      },
+      "id": "claim-000090",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_0cf3f9c6cfbde707112aa12c3ec0572d",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Ostriches routinely hide by burying their heads in sand.",
+        "zh": "鸵鸟通常把头埋进沙子里来躲藏。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "space-zero-gravity",
+      "correction": {
+        "en": "Gravity at the station is still substantial; orbital free fall produces apparent weightlessness.",
+        "zh": "空间站处仍有显著引力；轨道自由落体导致表观失重。"
+      },
+      "id": "claim-000016",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_e52e29d5677822a02a62108c0b6e56cd",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Earth's gravity is zero at the International Space Station.",
+        "zh": "地球引力在国际空间站处为零。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "selection-perfect-design",
+      "correction": {
+        "en": "Trade-offs, history, and changing environments prevent perfect universal adaptation.",
+        "zh": "权衡、历史和变化的环境阻止完美的普遍适应。"
+      },
+      "id": "claim-000096",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_eb78e5886eb926d098bc9721932f45ca",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Natural selection always creates organisms perfectly suited to every condition.",
+        "zh": "自然选择总能造成完美适应所有条件的生物。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "macos-malware-immune",
+      "correction": {
+        "en": "Malware targeting macOS exists; no such universal immunity is present.",
+        "zh": "针对macOS的恶意软件存在，并没有这种普遍免疫。"
+      },
+      "id": "claim-000023",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_c7f5f09f0fda440bf5e98ae98cbb9785",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "macOS is completely immune to all malware.",
+        "zh": "macOS完全免疫于所有恶意软件。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "hollow-shell",
+      "correction": {
+        "en": "Earth has a rocky mantle and metallic outer and inner cores.",
+        "zh": "地球具有岩石地幔以及金属外核和内核。"
+      },
+      "id": "claim-000010",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 16th to 18th centuries; Contrary evidence / Seismic",
+      "marker": "ZDRC_4f3f6d896484deb2_936b472aeb5fbfb4719aa9f8c755febd",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "Most of Earth's interior is empty space rather than mantle and core.",
+        "zh": "地球内部的大部分是空间，而不是地幔和地核。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "nested-shells",
+      "correction": {
+        "en": "Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.",
+        "zh": "地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。"
+      },
+      "id": "claim-000091",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 16th to 18th centuries, Halley hypothesis",
+      "marker": "ZDRC_4f3f6d896484deb2_cdc35d439773679f1ea3c63a6f958767",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "Earth contains nested hollow worlds separated by atmospheres.",
+        "zh": "地球内部包含由大气层隔开的嵌套空心世界。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "columbus-first-european",
+      "correction": {
+        "en": "Norse travelers reached North America centuries earlier.",
+        "zh": "北欧旅行者早数百年就到达了北美。"
+      },
+      "id": "claim-000104",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_5c283caca715b357f9bc2f0b6d05d0b2",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Columbus was the first European ever to reach the Americas.",
+        "zh": "哥伦布是最早到达美洲的欧洲人。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "camel-water-hump",
+      "correction": {
+        "en": "Camel humps store fat, not reservoirs of water.",
+        "zh": "驼峰储存脂肪，而不是水。"
+      },
+      "id": "claim-000074",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_8435c3b5037dfdf77ee65051576a3415",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "A camel's hump is a tank filled with drinking water.",
+        "zh": "骆驼的驼峰是装满饮用水的水箱。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "sun-circles-plane",
+      "correction": {
+        "en": "Earth's rotation produces the daily cycle of sunlight and darkness.",
+        "zh": "地球的自转产生每天的昼夜交替。"
+      },
+      "id": "claim-000109",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 4, p. 75",
+      "marker": "ZDRC_4f3f6d896484deb2_ea392c6b9052c882cf00539f09bdcb3c",
+      "reference_ids": [
+        "nasa-earth"
+      ],
+      "renderings": {
+        "en": "The Sun circles above a stationary flat Earth once every day.",
+        "zh": "太阳每天在静止的平面地球上方绕行一周。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "nasa-invented-teflon",
+      "correction": {
+        "en": "Teflon predates NASA and was not a NASA invention.",
+        "zh": "特氟龙早于NASA，不是NASA的发明。"
+      },
+      "id": "claim-000012",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_209569b0ccf6545e3cbf33b96de69a5b",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Teflon was first invented for NASA's space program.",
+        "zh": "特氟龙最初是为NASA太空计划发明的。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "bald-eagle-movie-call",
+      "correction": {
+        "en": "That stock sound is often a red-tailed hawk; bald eagles have softer calls.",
+        "zh": "这种素材音常来自红尾鵟；白头海雕的叫声更轻。"
+      },
+      "id": "claim-000052",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_a5f9feff3f63b220817b31d6c017ddeb",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call.",
+        "zh": "电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "co2-saturation-no-further-warming",
+      "correction": {
+        "en": "Additional carbon dioxide still changes radiative transfer and produces further forcing.",
+        "zh": "更多二氧化碳仍改变辐射传输并产生进一步强迫。"
+      },
+      "id": "claim-000036",
+      "kind": "claim",
+      "label": "false",
+      "locator": "CO2 effect is saturated",
+      "marker": "ZDRC_4f3f6d896484deb2_9f7648366e6b52d599da4a511f8c1c20",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Adding more atmospheric carbon dioxide can never cause further warming because absorption is fully saturated.",
+        "zh": "因吸收完全饱和，增加大气二氧化碳永远不能导致进一步变暖。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "kangaroo-means-dont-know",
+      "correction": {
+        "en": "Its source word refers to a type of kangaroo, not that expression.",
+        "zh": "其源词指一种袋鼠，而不是这句表达。"
+      },
+      "id": "claim-000039",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Language; English language; Business",
+      "marker": "ZDRC_4f3f6d896484deb2_410b86f66c017586dcb4a0dc05e661cc",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "The word kangaroo originated from an Indigenous expression meaning I do not know.",
+        "zh": "kangaroo一词源于意为我不知道的原住民表达。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "language-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "selection-perfect-design",
+      "correction": {
+        "en": "Trade-offs, history, and changing environments prevent perfect universal adaptation.",
+        "zh": "权衡、历史和变化的环境阻止完美的普遍适应。"
+      },
+      "id": "claim-000009",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_935c5a79a8d419ffc5524b679b489848",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Natural selection always creates organisms perfectly suited to every condition.",
+        "zh": "自然选择总能造成完美适应所有条件的生物。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "microwave-inside-out",
+      "correction": {
+        "en": "Microwave penetration is limited; deeper regions often heat through conduction.",
+        "zh": "微波穿透深度有限；深部常通过热传导升温。"
+      },
+      "id": "claim-000061",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_f5689c8a5545e5231014bc8c89575869",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Microwave ovens always heat the center of thick food before its outer layers.",
+        "zh": "微波炉总是先加热厚食物的中心再加热外层。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "252",
+        "claimed": "250",
+        "left": -42,
+        "operation": "multiply",
+        "right": -6
+      },
+      "id": "math-000004",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_2d1874c9640e77fc9e607c80452118b5",
+      "renderings": {
+        "en": "Negative forty-two multiplied by negative six equals two hundred fifty.",
+        "math": "(-42) * (-6) = (250)",
+        "zh": "负四十二乘以负六等于二百五十。"
+      }
+    },
+    {
+      "claim_id": "space-zero-gravity",
+      "correction": {
+        "en": "Gravity at the station is still substantial; orbital free fall produces apparent weightlessness.",
+        "zh": "空间站处仍有显著引力；轨道自由落体导致表观失重。"
+      },
+      "id": "claim-000058",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_c4e20b1443d6d6dd6c239ff5dfe68428",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Earth's gravity is zero at the International Space Station.",
+        "zh": "地球引力在国际空间站处为零。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "apollo-backgrounds",
+      "correction": {
+        "en": "Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.",
+        "zh": "短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。"
+      },
+      "id": "claim-000119",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 6",
+      "marker": "ZDRC_4f3f6d896484deb2_4df50976564b75eb4fa902b661e8f9e8",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Similar distant mountains in different lunar photographs prove a painted backdrop was reused.",
+        "zh": "不同月面照片中相似的远山证明重复使用了绘制的背景幕。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-280",
+        "claimed": "-279",
+        "left": -8,
+        "operation": "multiply",
+        "right": 35
+      },
+      "id": "math-000021",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_e7a656efa66053f7d7679d9e3f3f8f91",
+      "renderings": {
+        "en": "Negative eight multiplied by thirty-five equals negative two hundred seventy-nine.",
+        "math": "(-8) * (35) = (-279)",
+        "zh": "负八乘以三十五等于负二百七十九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "81",
+        "claimed": "86",
+        "left": 9,
+        "operation": "power",
+        "right": 2
+      },
+      "id": "math-000014",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_ede3afe61fde0464f422c8069a6a0668",
+      "renderings": {
+        "en": "Nine raised to the power of two equals eighty-six.",
+        "math": "(9) ^ (2) = (86)",
+        "zh": "九的二次方等于八十六。"
+      }
+    },
+    {
+      "claim_id": "nasa-invented-teflon",
+      "correction": {
+        "en": "Teflon predates NASA and was not a NASA invention.",
+        "zh": "特氟龙早于NASA，不是NASA的发明。"
+      },
+      "id": "claim-000078",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_b8d6707e2f2e573fa02571810435c6fa",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Teflon was first invented for NASA's space program.",
+        "zh": "特氟龙最初是为NASA太空计划发明的。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "220",
+        "claimed": "212",
+        "left": 22,
+        "operation": "multiply",
+        "right": 10
+      },
+      "id": "math-000020",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_f49dd789de3804b8a215ed4c3e68cb06",
+      "renderings": {
+        "en": "Twenty-two multiplied by ten equals two hundred twelve.",
+        "math": "(22) * (10) = (212)",
+        "zh": "二十二乘以十等于二百一十二。"
+      }
+    },
+    {
+      "claim_id": "mature-sunflower-tracks-sun",
+      "correction": {
+        "en": "Young buds track the Sun; mature flower heads generally maintain a fixed orientation.",
+        "zh": "幼嫩花蕾追随太阳；成熟花头通常保持固定方向。"
+      },
+      "id": "claim-000038",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_514a6d238ce99bfc274e7a80764729f7",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Every mature flowering sunflower turns its head to follow the Sun all day.",
+        "zh": "每朵成熟开花的向日葵都会整天追随太阳转头。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "ye-olde-pronounced-y",
+      "correction": {
+        "en": "The printed y stands in for thorn, representing the th sound in the.",
+        "zh": "印刷的y代替了thorn字母，表示the中的th音。"
+      },
+      "id": "claim-000097",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Language; English language; Business",
+      "marker": "ZDRC_4f3f6d896484deb2_ea5f27d777fa82c975a44d1dce7e792b",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "The article in ye olde was historically pronounced with the same y sound as yes.",
+        "zh": "ye olde中的冠词在历史上与yes一样以y音发音。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "language-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "trace-co2-no-effect",
+      "correction": {
+        "en": "A gas's infrared absorption matters, not merely its fraction of total air.",
+        "zh": "气体的红外吸收很重要，不只是其在空气中的占比。"
+      },
+      "id": "claim-000055",
+      "kind": "claim",
+      "label": "false",
+      "locator": "CO2 is just a trace gas",
+      "marker": "ZDRC_4f3f6d896484deb2_6e09c4b111dc037f9f48370816fe6b99",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Carbon dioxide is too scarce in the atmosphere to affect Earth's temperature.",
+        "zh": "大气中二氧化碳太少，不能影响地球温度。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-8",
+        "claimed": "-2",
+        "left": 27,
+        "operation": "subtract",
+        "right": 35
+      },
+      "id": "math-000025",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_cac5460b61c64579272587a95dd77690",
+      "renderings": {
+        "en": "Twenty-seven minus thirty-five equals negative two.",
+        "math": "(27) - (35) = (-2)",
+        "zh": "二十七减三十五等于负二。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-10/13",
+        "claimed": "-49/13",
+        "left": 10,
+        "operation": "divide",
+        "right": -13
+      },
+      "id": "math-000015",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_5a75185ee36721d466c49c4c1cde1a99",
+      "renderings": {
+        "en": "Ten divided by negative thirteen equals negative forty-nine over thirteen.",
+        "math": "(10) / (-13) = (-49/13)",
+        "zh": "十除以负十三等于负十三分之四十九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-64",
+        "claimed": "-68",
+        "left": -32,
+        "operation": "add",
+        "right": -32
+      },
+      "id": "math-000022",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_0dc048f2612f6578df08ba75c6c91946",
+      "renderings": {
+        "en": "Negative thirty-two plus negative thirty-two equals negative sixty-eight.",
+        "math": "(-32) + (-32) = (-68)",
+        "zh": "负三十二加负三十二等于负六十八。"
+      }
+    },
+    {
+      "claim_id": "entanglement-instant-message",
+      "correction": {
+        "en": "Entanglement correlations do not permit faster-than-light communication.",
+        "zh": "纠缠关联不允许超光速通信。"
+      },
+      "id": "claim-000107",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_b59e702ac32f07a4dac67232aebafe49",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Quantum entanglement allows usable messages to travel faster than light.",
+        "zh": "量子纠缠可以传递超光速的可用信息。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-8",
+        "claimed": "-6",
+        "left": -48,
+        "operation": "divide",
+        "right": 6
+      },
+      "id": "math-000026",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_fa611e82e70715260dc114d71e8e2ddf",
+      "renderings": {
+        "en": "Negative forty-eight divided by six equals negative six.",
+        "math": "(-48) / (6) = (-6)",
+        "zh": "负四十八除以六等于负六。"
+      }
+    },
+    {
+      "claim_id": "housefly-one-day",
+      "correction": {
+        "en": "Houseflies typically live for weeks, not just one day.",
+        "zh": "家蝇通常可以活数周，而不是一天。"
+      },
+      "id": "claim-000117",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_5137920f1e8574d09a90c7356087e62f",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Every adult housefly lives for only twenty-four hours.",
+        "zh": "每只成年家蝇只能活二十四小时。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "inner-sun",
+      "correction": {
+        "en": "Earth's center contains a solid metallic inner core, not a star in a cavity.",
+        "zh": "地球中心是固态金属内核，而不是空腔中的恒星。"
+      },
+      "id": "claim-000054",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 20th century, Marshall Gardner",
+      "marker": "ZDRC_4f3f6d896484deb2_10641f2ce8753615c83d6d315e823c0f",
+      "reference_ids": [
+        "nasa-earth"
+      ],
+      "renderings": {
+        "en": "A small Sun shines inside a vast cavity at the center of Earth.",
+        "zh": "地球中心的巨大空腔中有一颗小太阳在发光。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "einstein-failed-school-math",
+      "correction": {
+        "en": "Einstein excelled in mathematics; his early entrance-exam difficulties concerned other subjects.",
+        "zh": "爱因斯坦擅长数学；早期入学考试的困难涉及其他科目。"
+      },
+      "id": "claim-000014",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_2f66b8d9ad2b07843cd910ae53f0e8ab",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Albert Einstein failed his mathematics classes at school.",
+        "zh": "爱因斯坦在学校的数学课不及格。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "selection-grants-needs",
+      "correction": {
+        "en": "Needed variation may be absent; selection has no foresight and extinction can occur.",
+        "zh": "所需变异可能不存在；选择没有预见，物种可能灭绝。"
+      },
+      "id": "claim-000085",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_bbaefeca6a862b2a9d51450f182a2b81",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Natural selection automatically gives a species every trait it needs.",
+        "zh": "自然选择会自动赋予物种所需的每种性状。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "diamonds-compressed-coal",
+      "correction": {
+        "en": "Most gem diamonds formed deep in the mantle, often before coal-forming land plants existed.",
+        "zh": "大多数宝石金刚石形成于深部地幔，常早于成煤陆生植物。"
+      },
+      "id": "claim-000110",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_8f3a714016bdf3e4a3e4d35fa7395d91",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Most natural gem diamonds form by compressing buried coal.",
+        "zh": "大多数天然宝石金刚石由压缩地下煤炭形成。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "fortune-cookies-ancient-china",
+      "correction": {
+        "en": "Their roots are associated with Japanese cookies and later American restaurant culture.",
+        "zh": "它们的根源与日本饼干及后来的美国餐馆文化有关。"
+      },
+      "id": "claim-000111",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_c6f03e761dd6e5739630117cc2fa5cbe",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Fortune cookies originated as a widespread ancient Chinese tradition.",
+        "zh": "幸运饼干起源于广泛流行的古代中国传统。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "crisis-danger-opportunity",
+      "correction": {
+        "en": "The second character in that word refers to a critical point, not opportunity by itself.",
+        "zh": "该词的第二个字指关键点，不单独表示机会。"
+      },
+      "id": "claim-000075",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Language; English language; Business",
+      "marker": "ZDRC_4f3f6d896484deb2_aebd6b7687e32b68d47619ca6e582d28",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "The Chinese word for crisis literally combines danger with opportunity.",
+        "zh": "中文的危机一词在字面上由危险和机会组成。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "language-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-87",
+        "claimed": "-86",
+        "left": -45,
+        "operation": "subtract",
+        "right": 42
+      },
+      "id": "math-000012",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_a0924723794ef9b83e81fc5b227d6acb",
+      "renderings": {
+        "en": "Negative forty-five minus forty-two equals negative eighty-six.",
+        "math": "(-45) - (42) = (-86)",
+        "zh": "负四十五减四十二等于负八十六。"
+      }
+    },
+    {
+      "claim_id": "tree-tip-order-relatedness",
+      "correction": {
+        "en": "Branching structure and common ancestors determine relatedness, not tip order.",
+        "zh": "分支结构和共同祖先决定亲缘，而不是末端顺序。"
+      },
+      "id": "claim-000022",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_726a75919e5f16a044a788b835a304a6",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Taxa placed next to each other at tree tips must be the closest evolutionary relatives.",
+        "zh": "进化树末端相邻的类群必然是最近的亲缘类群。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "2",
+        "claimed": "10",
+        "left": 28,
+        "operation": "add",
+        "right": -26
+      },
+      "id": "math-000001",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_654f8125e33fcca66c2aaff5d3e9b4ad",
+      "renderings": {
+        "en": "Twenty-eight plus negative twenty-six equals ten.",
+        "math": "(28) + (-26) = (10)",
+        "zh": "二十八加负二十六等于十。"
+      }
+    },
+    {
+      "claim_id": "mice-prefer-cheese",
+      "correction": {
+        "en": "Mice do not have a special universal preference for cheese.",
+        "zh": "老鼠并没有对奶酪的特殊普遍偏好。"
+      },
+      "id": "claim-000013",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_d84dc6d93a85ff6b591d79b1e5bcd382",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Cheese is universally the preferred food of mice.",
+        "zh": "奶酪普遍是老鼠最喜爱的食物。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "apollo-shadow-angles",
+      "correction": {
+        "en": "Perspective and uneven terrain can make shadows from sunlight appear nonparallel in an image.",
+        "zh": "透视和不平坦地形会使阳光产生的影子在图像中显得不平行。"
+      },
+      "id": "claim-000044",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 5",
+      "marker": "ZDRC_4f3f6d896484deb2_e4d858a81affeaf56850edf5fb07ac91",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Under sunlight, all shadows must look parallel in every photograph regardless of terrain.",
+        "zh": "在阳光下，无论地形如何，所有影子在任何照片中都必须看起来平行。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "selection-grants-needs",
+      "correction": {
+        "en": "Needed variation may be absent; selection has no foresight and extinction can occur.",
+        "zh": "所需变异可能不存在；选择没有预见，物种可能灭绝。"
+      },
+      "id": "claim-000080",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_13dbeef32f234ec2ded7728eaed5d23f",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Natural selection automatically gives a species every trait it needs.",
+        "zh": "自然选择会自动赋予物种所需的每种性状。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "256",
+        "claimed": "257",
+        "left": -4,
+        "operation": "power",
+        "right": 4
+      },
+      "id": "math-000019",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_d1c1e7d99aea8ff264be1f70e00ca9f6",
+      "renderings": {
+        "en": "Negative four raised to the power of four equals two hundred fifty-seven.",
+        "math": "(-4) ^ (4) = (257)",
+        "zh": "负四的四次方等于二百五十七。"
+      }
+    },
+    {
+      "claim_id": "water-vapor-co2-irrelevant",
+      "correction": {
+        "en": "Water vapor is largely a feedback that can amplify warming initiated by carbon dioxide.",
+        "zh": "水蒸气在很大程度上是反馈，可放大二氧化碳引起的变暖。"
+      },
+      "id": "claim-000084",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Water vapor is the most powerful greenhouse gas",
+      "marker": "ZDRC_4f3f6d896484deb2_ecd4c3feca5a456474d1ebfedb46e479",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Water vapor's greenhouse effect makes additional carbon dioxide climatically irrelevant.",
+        "zh": "水蒸气的温室效应使新增二氧化碳对气候无关紧要。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "split-infinitive-always-wrong",
+      "correction": {
+        "en": "Modern usage allows split infinitives, which can improve clarity.",
+        "zh": "现代用法允许分裂不定式，它们可以提高清晰度。"
+      },
+      "id": "claim-000051",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Language; English language; Business",
+      "marker": "ZDRC_4f3f6d896484deb2_e9e9743172d1fd333151b38706419ec1",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Every split infinitive is grammatically invalid in modern English.",
+        "zh": "现代英语中每个分裂不定式都不合语法。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "language-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "duck-quack-no-echo",
+      "correction": {
+        "en": "A duck's quack can echo like other sounds.",
+        "zh": "鸭子的叫声和其他声音一样可以产生回声。"
+      },
+      "id": "claim-000043",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_6c4468d88b791623d1077b75333b8557",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "A duck's quack cannot produce an echo.",
+        "zh": "鸭子的叫声不能产生回声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "columbus-round-proof",
+      "correction": {
+        "en": "Scholars already knew the spherical shape; debate concerned travel distance.",
+        "zh": "学者早已知道球形；争论涉及航行距离。"
+      },
+      "id": "claim-000086",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_a6394e15bdc0e2d2294a636a00f25b74",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Columbus's voyage first established that Earth is round to European scholars.",
+        "zh": "哥伦布的航行首次向欧洲学者证明地球是圆的。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "recent-warming-only-sun",
+      "correction": {
+        "en": "Solar variations do not account for the observed recent warming trend.",
+        "zh": "太阳变化无法解释观察到的近期变暖趋势。"
+      },
+      "id": "claim-000030",
+      "kind": "claim",
+      "label": "false",
+      "locator": "It's the sun",
+      "marker": "ZDRC_4f3f6d896484deb2_2cc8c45f83aa846a7143dd113e22d350",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Recent global warming is explained entirely by a steadily brightening Sun.",
+        "zh": "最近全球变暖完全可由太阳持续变亮解释。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "bald-eagle-movie-call",
+      "correction": {
+        "en": "That stock sound is often a red-tailed hawk; bald eagles have softer calls.",
+        "zh": "这种素材音常来自红尾鵟；白头海雕的叫声更轻。"
+      },
+      "id": "claim-000005",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_89d324efd82d2b04d229d43fda70e315",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call.",
+        "zh": "电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "recent-warming-only-sun",
+      "correction": {
+        "en": "Solar variations do not account for the observed recent warming trend.",
+        "zh": "太阳变化无法解释观察到的近期变暖趋势。"
+      },
+      "id": "claim-000102",
+      "kind": "claim",
+      "label": "false",
+      "locator": "It's the sun",
+      "marker": "ZDRC_4f3f6d896484deb2_e6edeb20146e702b467ed733c6749d3c",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Recent global warming is explained entirely by a steadily brightening Sun.",
+        "zh": "最近全球变暖完全可由太阳持续变亮解释。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "tree-tip-order-relatedness",
+      "correction": {
+        "en": "Branching structure and common ancestors determine relatedness, not tip order.",
+        "zh": "分支结构和共同祖先决定亲缘，而不是末端顺序。"
+      },
+      "id": "claim-000071",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_2af68171dd500f056ccc353794f0e3f9",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Taxa placed next to each other at tree tips must be the closest evolutionary relatives.",
+        "zh": "进化树末端相邻的类群必然是最近的亲缘类群。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "evolution-only-slow",
+      "correction": {
+        "en": "Rapid evolution has been observed, especially in organisms with short generations.",
+        "zh": "快速进化已被观察到，尤其在世代短的生物中。"
+      },
+      "id": "claim-000113",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_425b6ebe7937ca2717c418c83bf2e353",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Evolution can never be observed over short timescales.",
+        "zh": "在短时间尺度内永远无法观察到进化。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "bats-blind",
+      "correction": {
+        "en": "Bats have eyes and can see; many also use echolocation.",
+        "zh": "蝙蝠有眼睛并能看见；许多种类也使用回声定位。"
+      },
+      "id": "claim-000057",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_d06a832351a6c6fd4fde65de42b4a054",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "All bats are blind and cannot see.",
+        "zh": "所有蝙蝠都是盲的，无法看见。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "pencil-metal-lead",
+      "correction": {
+        "en": "Pencil cores use graphite and binders, not metallic lead.",
+        "zh": "铅笔芯使用石墨和粘结剂，而不是金属铅。"
+      },
+      "id": "claim-000028",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_0428ec750a496c4e7edee65b18d392e3",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The dark writing core of an ordinary wooden pencil is metallic lead.",
+        "zh": "普通木铅笔的黑色笔芯是金属铅。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "4096",
+        "claimed": "4100",
+        "left": 8,
+        "operation": "power",
+        "right": 4
+      },
+      "id": "math-000002",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_fa7802bbca2a86a83b993d36d4a45401",
+      "renderings": {
+        "en": "Eight raised to the power of four equals four thousand one hundred.",
+        "math": "(8) ^ (4) = (4100)",
+        "zh": "八的四次方等于四千一百。"
+      }
+    },
+    {
+      "claim_id": "entanglement-instant-message",
+      "correction": {
+        "en": "Entanglement correlations do not permit faster-than-light communication.",
+        "zh": "纠缠关联不允许超光速通信。"
+      },
+      "id": "claim-000008",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_17b1ffb262ad93c94b43f36b5a3b1408",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Quantum entanglement allows usable messages to travel faster than light.",
+        "zh": "量子纠缠可以传递超光速的可用信息。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "past-climate-excludes-humans",
+      "correction": {
+        "en": "Climate responds to forcing; human greenhouse-gas emissions now supply a major forcing.",
+        "zh": "气候会响应强迫因素；人类温室气体排放现在提供主要强迫。"
+      },
+      "id": "claim-000001",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Climate's changed before",
+      "marker": "ZDRC_4f3f6d896484deb2_90c1f3347e32fbf7892141bb2496b603",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Past natural climate changes prove humans cannot influence today's climate.",
+        "zh": "过去自然气候变化证明人类不能影响今天的气候。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "incognito-websites-cannot-track",
+      "correction": {
+        "en": "Websites may still observe IP addresses, account logins, and other identifying signals.",
+        "zh": "网站仍可观察IP地址、账户登录和其他识别信号。"
+      },
+      "id": "claim-000062",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_e6466bd84afcfee41c08d494084c6978",
+      "reference_ids": [
+        "google-incognito"
+      ],
+      "renderings": {
+        "en": "Websites cannot identify or track any visitor using Incognito mode.",
+        "zh": "网站无法识别或跟踪任何使用无痕模式的访客。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-5",
+        "claimed": "-7",
+        "left": 15,
+        "operation": "divide",
+        "right": -3
+      },
+      "id": "math-000013",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_bcdec03bded15928d36f8062bf656150",
+      "renderings": {
+        "en": "Fifteen divided by negative three equals negative seven.",
+        "math": "(15) / (-3) = (-7)",
+        "zh": "十五除以负三等于负七。"
+      }
+    },
+    {
+      "claim_id": "camel-water-hump",
+      "correction": {
+        "en": "Camel humps store fat, not reservoirs of water.",
+        "zh": "驼峰储存脂肪，而不是水。"
+      },
+      "id": "claim-000049",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_a23eb093834e9190dcefc0df28ae7f73",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "A camel's hump is a tank filled with drinking water.",
+        "zh": "骆驼的驼峰是装满饮用水的水箱。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "roman-soldiers-salt-pay",
+      "correction": {
+        "en": "The salary/salt etymology does not establish that regular wages were paid in salt.",
+        "zh": "工资与盐的词源关联不能证明常规工资用盐支付。"
+      },
+      "id": "claim-000118",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Ancient history / Ancient Rome",
+      "marker": "ZDRC_4f3f6d896484deb2_1ca1512a98f2c0086130c8c5d492868d",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Roman soldiers received their regular wages as bags of salt instead of money.",
+        "zh": "罗马士兵的日常工资是一袋袋盐而不是货币。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "individual-lifetime-evolution",
+      "correction": {
+        "en": "Individual development differs from changes in inherited population traits across generations.",
+        "zh": "个体发育不同于种群遗传性状的跨代变化。"
+      },
+      "id": "claim-000021",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_35d0981894054d658d76dbb3c5b9328e",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "An individual animal's growth during its lifetime is population-level evolution.",
+        "zh": "动物个体一生中的成长就是种群层面的进化。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "great-wall-visible-moon",
+      "correction": {
+        "en": "The Great Wall cannot be distinguished unaided from the Moon.",
+        "zh": "从月球上无法用肉眼辨认长城。"
+      },
+      "id": "claim-000042",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_b0bebef69ec95d4e005d5456ba372b0d",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The Great Wall of China is clearly visible to an unaided observer on the Moon.",
+        "zh": "从月球上用肉眼可以清楚看到中国长城。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-31",
+        "claimed": "-24",
+        "left": -25,
+        "operation": "subtract",
+        "right": 6
+      },
+      "id": "math-000000",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_0a514e83d2db9299d1e8e1ba02ae6661",
+      "renderings": {
+        "en": "Negative twenty-five minus six equals negative twenty-four.",
+        "math": "(-25) - (6) = (-24)",
+        "zh": "负二十五减六等于负二十四。"
+      }
+    },
+    {
+      "claim_id": "dogs-no-sweat-glands",
+      "correction": {
+        "en": "Dogs have sweat glands, including glands in their paw pads.",
+        "zh": "狗有汗腺，包括爪垫中的汗腺。"
+      },
+      "id": "claim-000035",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_71cd0ab2be62e3354befaa22beba0aea",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Dogs have no sweat glands anywhere on their bodies.",
+        "zh": "狗的身体任何部位都没有汗腺。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "space-zero-gravity",
+      "correction": {
+        "en": "Gravity at the station is still substantial; orbital free fall produces apparent weightlessness.",
+        "zh": "空间站处仍有显著引力；轨道自由落体导致表观失重。"
+      },
+      "id": "claim-000046",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_892875b5367b4ec58615179518263817",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Earth's gravity is zero at the International Space Station.",
+        "zh": "地球引力在国际空间站处为零。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "trace-co2-no-effect",
+      "correction": {
+        "en": "A gas's infrared absorption matters, not merely its fraction of total air.",
+        "zh": "气体的红外吸收很重要，不只是其在空气中的占比。"
+      },
+      "id": "claim-000034",
+      "kind": "claim",
+      "label": "false",
+      "locator": "CO2 is just a trace gas",
+      "marker": "ZDRC_4f3f6d896484deb2_ce5bbddabd6f7650fce4dc2dcf8c3a70",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Carbon dioxide is too scarce in the atmosphere to affect Earth's temperature.",
+        "zh": "大气中二氧化碳太少，不能影响地球温度。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-4",
+        "claimed": "-8",
+        "left": 44,
+        "operation": "add",
+        "right": -48
+      },
+      "id": "math-000017",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_4c14dc832d48c0a48007122e905b2d86",
+      "renderings": {
+        "en": "Forty-four plus negative forty-eight equals negative eight.",
+        "math": "(44) + (-48) = (-8)",
+        "zh": "四十四加负四十八等于负八。"
+      }
+    },
+    {
+      "claim_id": "trace-co2-no-effect",
+      "correction": {
+        "en": "A gas's infrared absorption matters, not merely its fraction of total air.",
+        "zh": "气体的红外吸收很重要，不只是其在空气中的占比。"
+      },
+      "id": "claim-000006",
+      "kind": "claim",
+      "label": "false",
+      "locator": "CO2 is just a trace gas",
+      "marker": "ZDRC_4f3f6d896484deb2_35a4970d7ce9777fd8db65e010bd2c5f",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Carbon dioxide is too scarce in the atmosphere to affect Earth's temperature.",
+        "zh": "大气中二氧化碳太少，不能影响地球温度。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-125",
+        "claimed": "-130",
+        "left": -5,
+        "operation": "power",
+        "right": 3
+      },
+      "id": "math-000009",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_d33c1920b741f9daf0bf1ab5ed7eaac5",
+      "renderings": {
+        "en": "Negative five raised to the power of three equals negative one hundred thirty.",
+        "math": "(-5) ^ (3) = (-130)",
+        "zh": "负五的三次方等于负一百三十。"
+      }
+    },
+    {
+      "claim_id": "natural-cycle-removes-all-human-co2",
+      "correction": {
+        "en": "Natural sinks remove only part of added emissions, so atmospheric carbon dioxide accumulates.",
+        "zh": "自然吸收汇只清除部分额外排放，因此大气二氧化碳会累积。"
+      },
+      "id": "claim-000024",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Human CO2 is a tiny % of CO2 emissions",
+      "marker": "ZDRC_4f3f6d896484deb2_313c54149e41933f630f8dd0ace42c0b",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Natural carbon cycling immediately removes every extra molecule of carbon dioxide humans add.",
+        "zh": "自然碳循环会立即清除人类添加的每个额外二氧化碳分子。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "allspice-mixture",
+      "correction": {
+        "en": "Allspice is a single spice from Pimenta dioica berries.",
+        "zh": "多香果是来自多香果树浆果的单一香料。"
+      },
+      "id": "claim-000045",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_7af4d3365114803b6a2356632b0d2b84",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Allspice is a premixed blend of cinnamon, cloves, and nutmeg.",
+        "zh": "多香果是肉桂、丁香和肉豆蔻的预混物。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "incognito-erases-bookmarks",
+      "correction": {
+        "en": "Bookmarks saved during Incognito sessions remain after the windows close.",
+        "zh": "无痕会话中保存的书签在窗口关闭后仍保留。"
+      },
+      "id": "claim-000083",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_726624c33f63a749f91aa803a094cf27",
+      "reference_ids": [
+        "google-incognito"
+      ],
+      "renderings": {
+        "en": "Closing all Incognito windows automatically deletes every bookmark saved in them.",
+        "zh": "关闭所有无痕窗口会自动删除其中保存的所有书签。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "floating-earth-tides",
+      "correction": {
+        "en": "The Moon's and Sun's gravity are the principal drivers of astronomical tides.",
+        "zh": "月球和太阳的引力是天文潮汐的主要成因。"
+      },
+      "id": "claim-000072",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 10, pp. 107-109",
+      "marker": "ZDRC_4f3f6d896484deb2_94f0d12cffdd01b54fa56b728d2ceb20",
+      "reference_ids": [
+        "noaa-tides"
+      ],
+      "renderings": {
+        "en": "Tides are caused by a flat Earth floating up and down on an underlying ocean.",
+        "zh": "潮汐是由平面地球在下方海洋上上下浮动造成的。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "40/3",
+        "claimed": "22/3",
+        "left": 40,
+        "operation": "divide",
+        "right": 3
+      },
+      "id": "math-000024",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_2d8694aa91836ccfcc588d530eac5969",
+      "renderings": {
+        "en": "Forty divided by three equals twenty-two over three.",
+        "math": "(40) / (3) = (22/3)",
+        "zh": "四十除以三等于三分之二十二。"
+      }
+    },
+    {
+      "claim_id": "apollo-crosshairs",
+      "correction": {
+        "en": "Overexposure and reproduction can wash out thin dark crosshairs in bright regions.",
+        "zh": "过度曝光和复制会使明亮区域的细暗十字线消失。"
+      },
+      "id": "claim-000089",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 1",
+      "marker": "ZDRC_4f3f6d896484deb2_637b48dacd59f73e00a4c8db01cc4953",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Camera crosshairs can disappear only when someone pastes objects over a photograph.",
+        "zh": "相机十字线只有在有人将物体粘贴到照片上时才会消失。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "dog-years-seven",
+      "correction": {
+        "en": "Canine aging varies with age, size, and breed; the ratio is not constant.",
+        "zh": "狗的衰老取决于年龄、体型和品种，比例不是常数。"
+      },
+      "id": "claim-000094",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_10acad99288d3b8878839f646422f318",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Every dog year equals exactly seven human years at every age.",
+        "zh": "任何年龄的狗每一年都精确等于人的七年。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "wolves-howl-moon",
+      "correction": {
+        "en": "Howling is communication and is not controlled by lunar phases.",
+        "zh": "嚎叫是交流方式，不受月相控制。"
+      },
+      "id": "claim-000092",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_933a0d80411b157931897df1f7bfb634",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Wolves howl because the Moon's phases directly trigger their calls.",
+        "zh": "狼嚎叫是因为月相直接触发它们的叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "macos-malware-immune",
+      "correction": {
+        "en": "Malware targeting macOS exists; no such universal immunity is present.",
+        "zh": "针对macOS的恶意软件存在，并没有这种普遍免疫。"
+      },
+      "id": "claim-000076",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_0d042928e9862245e45a60fbed863165",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "macOS is completely immune to all malware.",
+        "zh": "macOS完全免疫于所有恶意软件。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "each-trait-one-locus",
+      "correction": {
+        "en": "Many traits depend on multiple loci and their interactions.",
+        "zh": "许多性状取决于多个基因座及其相互作用。"
+      },
+      "id": "claim-000070",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_65725f7eccb72824b346dffb3b0d55c4",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Every inherited trait is controlled by exactly one genetic locus.",
+        "zh": "每种遗传性状都恰好由一个基因座控制。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "60",
+        "claimed": "66",
+        "left": 32,
+        "operation": "add",
+        "right": 28
+      },
+      "id": "math-000006",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_b8af88f41d45c1800eb7d6cb7f10daa7",
+      "renderings": {
+        "en": "Thirty-two plus twenty-eight equals sixty-six.",
+        "math": "(32) + (28) = (66)",
+        "zh": "三十二加二十八等于六十六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-49",
+        "claimed": "-57",
+        "left": -32,
+        "operation": "subtract",
+        "right": 17
+      },
+      "id": "math-000023",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_ea6f564a87197b81c8ef2c9a25480252",
+      "renderings": {
+        "en": "Negative thirty-two minus seventeen equals negative fifty-seven.",
+        "math": "(-32) - (17) = (-57)",
+        "zh": "负三十二减十七等于负五十七。"
+      }
+    },
+    {
+      "claim_id": "apollo-backgrounds",
+      "correction": {
+        "en": "Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.",
+        "zh": "短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。"
+      },
+      "id": "claim-000081",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 6",
+      "marker": "ZDRC_4f3f6d896484deb2_b0c4c4e57536177ed60e9fe8a17362ae",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "A lunar mountain must look completely different after a short walk, so similar views are fake.",
+        "zh": "短途步行后月球山脉必须看起来完全不同，因此相似景色是假的。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 1
+    },
+    {
+      "equation": {
+        "actual": "58",
+        "claimed": "64",
+        "left": 10,
+        "operation": "subtract",
+        "right": -48
+      },
+      "id": "math-000008",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_2f452ba38fb87e6eea7ddb3ef1de3787",
+      "renderings": {
+        "en": "Ten minus negative forty-eight equals sixty-four.",
+        "math": "(10) - (-48) = (64)",
+        "zh": "十减负四十八等于六十四。"
+      }
+    },
+    {
+      "claim_id": "columbus-first-european",
+      "correction": {
+        "en": "Norse travelers reached North America centuries earlier.",
+        "zh": "北欧旅行者早数百年就到达了北美。"
+      },
+      "id": "claim-000015",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Middle Ages / Europe and Vikings; Early modern; Modern",
+      "marker": "ZDRC_4f3f6d896484deb2_5024f6215a6736a7236a3a3a4e1aac61",
+      "reference_ids": [
+        "wiki-history"
+      ],
+      "renderings": {
+        "en": "Columbus was the first European ever to reach the Americas.",
+        "zh": "哥伦布是最早到达美洲的欧洲人。"
+      },
+      "source_id": "wiki-history",
+      "topic": "history-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "dogs-no-sweat-glands",
+      "correction": {
+        "en": "Dogs have sweat glands, including glands in their paw pads.",
+        "zh": "狗有汗腺，包括爪垫中的汗腺。"
+      },
+      "id": "claim-000011",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_95b0e73458d26948daa658ecb8bf523b",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Dogs have no sweat glands anywhere on their bodies.",
+        "zh": "狗的身体任何部位都没有汗腺。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "co2-saturation-no-further-warming",
+      "correction": {
+        "en": "Additional carbon dioxide still changes radiative transfer and produces further forcing.",
+        "zh": "更多二氧化碳仍改变辐射传输并产生进一步强迫。"
+      },
+      "id": "claim-000056",
+      "kind": "claim",
+      "label": "false",
+      "locator": "CO2 effect is saturated",
+      "marker": "ZDRC_4f3f6d896484deb2_abb17d404512b96a02302386abff833b",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Adding more atmospheric carbon dioxide can never cause further warming because absorption is fully saturated.",
+        "zh": "因吸收完全饱和，增加大气二氧化碳永远不能导致进一步变暖。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "goldfish-three-seconds",
+      "correction": {
+        "en": "Goldfish can retain learned information much longer than a few seconds.",
+        "zh": "金鱼保留学习信息的时间远超过几秒。"
+      },
+      "id": "claim-000068",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_7eac325ab5eab7d99988bd940b4a498b",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Goldfish forget everything after exactly three seconds.",
+        "zh": "金鱼会在恰好三秒后忘掉一切。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "egg-equinox-only",
+      "correction": {
+        "en": "Egg balancing does not require an equinox and can work any day.",
+        "zh": "竖蛋不需要春分或秋分，任何一天都可能成功。"
+      },
+      "id": "claim-000048",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_27fabf94f16f00a6cea57f0920300f09",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "An egg can be balanced on its end only during an equinox.",
+        "zh": "鸡蛋只能在春分或秋分竖立。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "nasa-invented-teflon",
+      "correction": {
+        "en": "Teflon predates NASA and was not a NASA invention.",
+        "zh": "特氟龙早于NASA，不是NASA的发明。"
+      },
+      "id": "claim-000060",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_ce4d4aeb94ff194bd35ef8e3520fbb90",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Teflon was first invented for NASA's space program.",
+        "zh": "特氟龙最初是为NASA太空计划发明的。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "nested-shells",
+      "correction": {
+        "en": "Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.",
+        "zh": "地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。"
+      },
+      "id": "claim-000029",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 16th to 18th centuries, Halley hypothesis",
+      "marker": "ZDRC_4f3f6d896484deb2_b3b1b530d5be501f046324af87094cd0",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "Several detached spherical shells rotate independently inside Earth with air between them.",
+        "zh": "地球内部有几个分离的球壳独立旋转，其间充满空气。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "each-trait-one-locus",
+      "correction": {
+        "en": "Many traits depend on multiple loci and their interactions.",
+        "zh": "许多性状取决于多个基因座及其相互作用。"
+      },
+      "id": "claim-000088",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_ed95eb5fd55842e72ea126f721b63c88",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "Every inherited trait is controlled by exactly one genetic locus.",
+        "zh": "每种遗传性状都恰好由一个基因座控制。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "ocean-absorbs-no-co2",
+      "correction": {
+        "en": "The ocean is a substantial net sink for anthropogenic carbon dioxide.",
+        "zh": "海洋是人为二氧化碳的重要净吸收汇。"
+      },
+      "id": "claim-000007",
+      "kind": "claim",
+      "label": "false",
+      "locator": "CO2 is coming from the ocean",
+      "marker": "ZDRC_4f3f6d896484deb2_111fa4605fb5b5f1dbed1fdd7a227168",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "The ocean absorbs none of the extra carbon dioxide released by human activity.",
+        "zh": "海洋不吸收人类活动排放的任何额外二氧化碳。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "natural-cycle-removes-all-human-co2",
+      "correction": {
+        "en": "Natural sinks remove only part of added emissions, so atmospheric carbon dioxide accumulates.",
+        "zh": "自然吸收汇只清除部分额外排放，因此大气二氧化碳会累积。"
+      },
+      "id": "claim-000050",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Human CO2 is a tiny % of CO2 emissions",
+      "marker": "ZDRC_4f3f6d896484deb2_5d4960007b7368571db0d616047d3b7d",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Natural carbon cycling immediately removes every extra molecule of carbon dioxide humans add.",
+        "zh": "自然碳循环会立即清除人类添加的每个额外二氧化碳分子。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "diamonds-compressed-coal",
+      "correction": {
+        "en": "Most gem diamonds formed deep in the mantle, often before coal-forming land plants existed.",
+        "zh": "大多数宝石金刚石形成于深部地幔，常早于成煤陆生植物。"
+      },
+      "id": "claim-000098",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_57a94ae88436598a665ac080beb060e5",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Most natural gem diamonds form by compressing buried coal.",
+        "zh": "大多数天然宝石金刚石由压缩地下煤炭形成。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "nasa-funded-space-pen",
+      "correction": {
+        "en": "Fisher developed the pen privately; NASA later purchased it.",
+        "zh": "费舍自行出资开发这种笔，NASA后来购买了它。"
+      },
+      "id": "claim-000017",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_9baf3502d01acc945beee7d9a405c352",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "NASA paid millions of dollars to invent the Fisher Space Pen.",
+        "zh": "NASA花费数百万美元发明了费舍太空笔。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "bald-eagle-movie-call",
+      "correction": {
+        "en": "That stock sound is often a red-tailed hawk; bald eagles have softer calls.",
+        "zh": "这种素材音常来自红尾鵟；白头海雕的叫声更轻。"
+      },
+      "id": "claim-000025",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_ccbfa9f5d77dc0343e4975688d01c444",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call.",
+        "zh": "电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "egg-equinox-only",
+      "correction": {
+        "en": "Egg balancing does not require an equinox and can work any day.",
+        "zh": "竖蛋不需要春分或秋分，任何一天都可能成功。"
+      },
+      "id": "claim-000003",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_7898a563bdee72a53fed3bb287e9631e",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "An egg can be balanced on its end only during an equinox.",
+        "zh": "鸡蛋只能在春分或秋分竖立。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "lunar-eclipse-not-shadow",
+      "correction": {
+        "en": "A lunar eclipse occurs when the Moon passes through Earth's shadow.",
+        "zh": "月球穿过地球的影子时会发生月食。"
+      },
+      "id": "claim-000087",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 9, pp. 90 and 103",
+      "marker": "ZDRC_4f3f6d896484deb2_89f899cd66e240b7238443b60fa3e949",
+      "reference_ids": [
+        "nasa-eclipses"
+      ],
+      "renderings": {
+        "en": "Earth's shadow can never cause a lunar eclipse.",
+        "zh": "地球的影子绝不可能造成月食。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "egg-equinox-only",
+      "correction": {
+        "en": "Egg balancing does not require an equinox and can work any day.",
+        "zh": "竖蛋不需要春分或秋分，任何一天都可能成功。"
+      },
+      "id": "claim-000073",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_f0ae0c72911288d6fa30a2af495d9923",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "An egg can be balanced on its end only during an equinox.",
+        "zh": "鸡蛋只能在春分或秋分竖立。"
+      },
+      "source_id": "wiki-science",
+      "topic": "astronomy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "mature-sunflower-tracks-sun",
+      "correction": {
+        "en": "Young buds track the Sun; mature flower heads generally maintain a fixed orientation.",
+        "zh": "幼嫩花蕾追随太阳；成熟花头通常保持固定方向。"
+      },
+      "id": "claim-000095",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_af668a90872cd31bfe94c9b5a42bd6d0",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Every mature flowering sunflower turns its head to follow the Sun all day.",
+        "zh": "每朵成熟开花的向日葵都会整天追随太阳转头。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "polar-openings",
+      "correction": {
+        "en": "There are no such planetary openings; Earth's interior is layered rock and metal.",
+        "zh": "地球不存在这种行星级开口；其内部由分层的岩石和金属组成。"
+      },
+      "id": "claim-000018",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 19th century, Symmes hypothesis",
+      "marker": "ZDRC_4f3f6d896484deb2_dd29eb5634148478f69e8551645d2f82",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "A traveler can enter a hollow Earth through a continent-sized polar hole.",
+        "zh": "旅行者可以通过大陆般巨大的极地洞口进入空心地球。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "recent-warming-only-sun",
+      "correction": {
+        "en": "Solar variations do not account for the observed recent warming trend.",
+        "zh": "太阳变化无法解释观察到的近期变暖趋势。"
+      },
+      "id": "claim-000077",
+      "kind": "claim",
+      "label": "false",
+      "locator": "It's the sun",
+      "marker": "ZDRC_4f3f6d896484deb2_ffdd48b051161ab88b7b0b407535cc68",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Recent global warming is explained entirely by a steadily brightening Sun.",
+        "zh": "最近全球变暖完全可由太阳持续变亮解释。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "apollo-backgrounds",
+      "correction": {
+        "en": "Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.",
+        "zh": "短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。"
+      },
+      "id": "claim-000027",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 6",
+      "marker": "ZDRC_4f3f6d896484deb2_2c7cc6e4fd8416cea4a5c75bd7dc23ea",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Similar distant mountains in different lunar photographs prove a painted backdrop was reused.",
+        "zh": "不同月面照片中相似的远山证明重复使用了绘制的背景幕。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-1452",
+        "claimed": "-1460",
+        "left": 33,
+        "operation": "multiply",
+        "right": -44
+      },
+      "id": "math-000016",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_f34461f5faf4a89c93922dd7160eda0d",
+      "renderings": {
+        "en": "Thirty-three multiplied by negative forty-four equals negative one thousand four hundred sixty.",
+        "math": "(33) * (-44) = (-1460)",
+        "zh": "三十三乘以负四十四等于负一千四百六十。"
+      }
+    },
+    {
+      "claim_id": "microwave-inside-out",
+      "correction": {
+        "en": "Microwave penetration is limited; deeper regions often heat through conduction.",
+        "zh": "微波穿透深度有限；深部常通过热传导升温。"
+      },
+      "id": "claim-000082",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_150a30e659e638d63a55291cdc10a49a",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "Microwave ovens always heat the center of thick food before its outer layers.",
+        "zh": "微波炉总是先加热厚食物的中心再加热外层。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-40",
+        "claimed": "-34",
+        "left": -20,
+        "operation": "multiply",
+        "right": 2
+      },
+      "id": "math-000011",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_4b93f1b702db3d9db98dd7b17744ca70",
+      "renderings": {
+        "en": "Negative twenty multiplied by two equals negative thirty-four.",
+        "math": "(-20) * (2) = (-34)",
+        "zh": "负二十乘以二等于负三十四。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "22",
+        "claimed": "29",
+        "left": -11,
+        "operation": "add",
+        "right": 33
+      },
+      "id": "math-000029",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_9436d8c7dc9fc8a11b057cea326672e8",
+      "renderings": {
+        "en": "Negative eleven plus thirty-three equals twenty-nine.",
+        "math": "(-11) + (33) = (29)",
+        "zh": "负十一加三十三等于二十九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "52",
+        "claimed": "56",
+        "left": 15,
+        "operation": "subtract",
+        "right": -37
+      },
+      "id": "math-000028",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_09adf50e1f8f1a9d33a8e9420f6273b0",
+      "renderings": {
+        "en": "Fifteen minus negative thirty-seven equals fifty-six.",
+        "math": "(15) - (-37) = (56)",
+        "zh": "十五减负三十七等于五十六。"
+      }
+    },
+    {
+      "claim_id": "pencil-metal-lead",
+      "correction": {
+        "en": "Pencil cores use graphite and binders, not metallic lead.",
+        "zh": "铅笔芯使用石墨和粘结剂，而不是金属铅。"
+      },
+      "id": "claim-000000",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_4be0c3be41a1a83fd2a76c5dddf9669c",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "The dark writing core of an ordinary wooden pencil is metallic lead.",
+        "zh": "普通木铅笔的黑色笔芯是金属铅。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "nearby-sun",
+      "correction": {
+        "en": "Earth's average distance from the Sun is about 93 million miles.",
+        "zh": "地球到太阳的平均距离约为九千三百万英里。"
+      },
+      "id": "claim-000108",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 3, pp. 72-74",
+      "marker": "ZDRC_4f3f6d896484deb2_212dcf395a807213bdac2d13af337c37",
+      "reference_ids": [
+        "nasa-earth"
+      ],
+      "renderings": {
+        "en": "The Sun is less than four thousand miles above Earth's surface.",
+        "zh": "太阳距离地球表面不到四千英里。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "wolves-howl-moon",
+      "correction": {
+        "en": "Howling is communication and is not controlled by lunar phases.",
+        "zh": "嚎叫是交流方式，不受月相控制。"
+      },
+      "id": "claim-000040",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_951cc6d0a8f22d78a55b6156d4a0e046",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Wolves howl because the Moon's phases directly trigger their calls.",
+        "zh": "狼嚎叫是因为月相直接触发它们的叫声。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "324",
+        "claimed": "317",
+        "left": -9,
+        "operation": "multiply",
+        "right": -36
+      },
+      "id": "math-000018",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_4b5c013eeb0bd88ca166c05125fa10d4",
+      "renderings": {
+        "en": "Negative nine multiplied by negative thirty-six equals three hundred seventeen.",
+        "math": "(-9) * (-36) = (317)",
+        "zh": "负九乘以负三十六等于三百一十七。"
+      }
+    },
+    {
+      "claim_id": "lunar-eclipse-not-shadow",
+      "correction": {
+        "en": "A lunar eclipse occurs when the Moon passes through Earth's shadow.",
+        "zh": "月球穿过地球的影子时会发生月食。"
+      },
+      "id": "claim-000037",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 9, pp. 90 and 103",
+      "marker": "ZDRC_4f3f6d896484deb2_c88c3b21cd37ed54d1fe18c9ca85d24f",
+      "reference_ids": [
+        "nasa-eclipses"
+      ],
+      "renderings": {
+        "en": "A separate hidden object, rather than Earth's shadow, causes lunar eclipses.",
+        "zh": "月食是由另一个隐藏天体造成的，而不是地球的影子。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "hollow-shell",
+      "correction": {
+        "en": "Earth has a rocky mantle and metallic outer and inner cores.",
+        "zh": "地球具有岩石地幔以及金属外核和内核。"
+      },
+      "id": "claim-000100",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 16th to 18th centuries; Contrary evidence / Seismic",
+      "marker": "ZDRC_4f3f6d896484deb2_30c69a30d591fbea5c04c5ebc5251047",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "Earth is a hollow shell surrounding an enormous empty interior.",
+        "zh": "地球是一个包围巨大空腔的空心外壳。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "dogs-no-sweat-glands",
+      "correction": {
+        "en": "Dogs have sweat glands, including glands in their paw pads.",
+        "zh": "狗有汗腺，包括爪垫中的汗腺。"
+      },
+      "id": "claim-000019",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Biology / Mammals, Birds, Other vertebrates, Invertebrates",
+      "marker": "ZDRC_4f3f6d896484deb2_14fcbc00961a5848bc7da94229e4bf46",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Dogs have no sweat glands anywhere on their bodies.",
+        "zh": "狗的身体任何部位都没有汗腺。"
+      },
+      "source_id": "wiki-science",
+      "topic": "zoology-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "past-climate-excludes-humans",
+      "correction": {
+        "en": "Climate responds to forcing; human greenhouse-gas emissions now supply a major forcing.",
+        "zh": "气候会响应强迫因素；人类温室气体排放现在提供主要强迫。"
+      },
+      "id": "claim-000063",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Climate's changed before",
+      "marker": "ZDRC_4f3f6d896484deb2_8a20dc13b0f9adfc4575cbd7c1dc1ba3",
+      "reference_ids": [
+        "skeptical-climate"
+      ],
+      "renderings": {
+        "en": "Past natural climate changes prove humans cannot influence today's climate.",
+        "zh": "过去自然气候变化证明人类不能影响今天的气候。"
+      },
+      "source_id": "skeptical-climate",
+      "topic": "climate-energy-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-8",
+        "claimed": "-16",
+        "left": -26,
+        "operation": "add",
+        "right": 18
+      },
+      "id": "math-000007",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_e155fccc8eeea67c70e211f7f518dcbe",
+      "renderings": {
+        "en": "Negative twenty-six plus eighteen equals negative sixteen.",
+        "math": "(-26) + (18) = (-16)",
+        "zh": "负二十六加十八等于负十六。"
+      }
+    },
+    {
+      "claim_id": "whipped-cream-first-1661",
+      "correction": {
+        "en": "Recipes for whipped cream are documented earlier than 1661.",
+        "zh": "早于1661年已有打发奶油食谱记载。"
+      },
+      "id": "claim-000041",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Food and cooking / Food and drink history; Microwave ovens",
+      "marker": "ZDRC_4f3f6d896484deb2_1d97be59165868898882494b40515c41",
+      "reference_ids": [
+        "wiki-culture"
+      ],
+      "renderings": {
+        "en": "No whipped-cream recipe existed before its supposed invention in 1661.",
+        "zh": "在所谓的1661年发明前没有打发奶油食谱。"
+      },
+      "source_id": "wiki-culture",
+      "topic": "food-history-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-27",
+        "claimed": "-35",
+        "left": -38,
+        "operation": "subtract",
+        "right": -11
+      },
+      "id": "math-000010",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_4f3f6d896484deb2_fcfab40e839e1ee262ac6354086afd9d",
+      "renderings": {
+        "en": "Negative thirty-eight minus negative eleven equals negative thirty-five.",
+        "math": "(-38) - (-11) = (-35)",
+        "zh": "负三十八减负十一等于负三十五。"
+      }
+    },
+    {
+      "claim_id": "individual-lifetime-evolution",
+      "correction": {
+        "en": "Individual development differs from changes in inherited population traits across generations.",
+        "zh": "个体发育不同于种群遗传性状的跨代变化。"
+      },
+      "id": "claim-000106",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Misconceptions about evolutionary theory, natural selection, trees, and population genetics",
+      "marker": "ZDRC_4f3f6d896484deb2_47bf1b2ff4070d89091f3b1407930843",
+      "reference_ids": [
+        "berkeley-evolution"
+      ],
+      "renderings": {
+        "en": "An individual animal's growth during its lifetime is population-level evolution.",
+        "zh": "动物个体一生中的成长就是种群层面的进化。"
+      },
+      "source_id": "berkeley-evolution",
+      "topic": "evolution-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "self-luminous-moon",
+      "correction": {
+        "en": "The Moon's visible illumination is reflected sunlight.",
+        "zh": "月球的可见光照来自反射的太阳光。"
+      },
+      "id": "claim-000059",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 9, pp. 97-103",
+      "marker": "ZDRC_4f3f6d896484deb2_6ccd7d2586cf2119e0bb3cc4cdf3d79b",
+      "reference_ids": [
+        "nasa-moon"
+      ],
+      "renderings": {
+        "en": "Moonlight comes from the Moon's own visible glow, not reflected sunlight.",
+        "zh": "月光来自月球自身发出的可见光，而不是反射的太阳光。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "all-lights-nearby",
+      "correction": {
+        "en": "The Moon alone is about 238,855 miles away on average.",
+        "zh": "仅月球与地球的平均距离就约为238855英里。"
+      },
+      "id": "claim-000101",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 3, p. 74",
+      "marker": "ZDRC_4f3f6d896484deb2_3d9d9d4c571c7662aac540b69b7333c7",
+      "reference_ids": [
+        "nasa-moon"
+      ],
+      "renderings": {
+        "en": "The Moon and all visible stars lie less than six thousand miles away.",
+        "zh": "月球和所有可见恒星都位于六千英里以内。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "entanglement-instant-message",
+      "correction": {
+        "en": "Entanglement correlations do not permit faster-than-light communication.",
+        "zh": "纠缠关联不允许超光速通信。"
+      },
+      "id": "claim-000065",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Chemistry and materials science; Physics; Earth and environmental sciences; Biology / Plants",
+      "marker": "ZDRC_4f3f6d896484deb2_dc4d4336600243a7ccc9cdc236b1d70a",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "Quantum entanglement allows usable messages to travel faster than light.",
+        "zh": "量子纠缠可以传递超光速的可用信息。"
+      },
+      "source_id": "wiki-science",
+      "topic": "physics-materials-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "watt-first-steam-engine",
+      "correction": {
+        "en": "Watt improved earlier steam engines, including Newcomen's design.",
+        "zh": "瓦特改进了早期蒸汽机，包括纽科门的设计。"
+      },
+      "id": "claim-000105",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Computing and the Internet; Inventions; Astronomy and spaceflight",
+      "marker": "ZDRC_4f3f6d896484deb2_a4a4160716999eba9da8db32e38f1d47",
+      "reference_ids": [
+        "wiki-science"
+      ],
+      "renderings": {
+        "en": "James Watt invented the first steam engine ever built.",
+        "zh": "詹姆斯·瓦特发明了最早的蒸汽机。"
+      },
+      "source_id": "wiki-science",
+      "topic": "technology-myths",
+      "variant_index": 0
+    }
+  ],
+  "requested_output_record_markers": [
+    "ZDRC_4f3f6d896484deb2_8ca6e41ac5dcda90c02d962ee9ecfd9e",
+    "ZDRC_4f3f6d896484deb2_7892e71527f0d9a9fed88665bdafd2d8",
+    "ZDRC_4f3f6d896484deb2_4e48f122091277423a5ed6cdd65c211c",
+    "ZDRC_4f3f6d896484deb2_dcdd189cfdd7b6cf092e0ecb32051b58",
+    "ZDRC_4f3f6d896484deb2_6cf22439fb1a57f65d1bd8714a2edb77",
+    "ZDRC_4f3f6d896484deb2_a88bd675fda43ae70fb7a0722e128074",
+    "ZDRC_4f3f6d896484deb2_1c1c404276c701e4760e6bdde9c15a68",
+    "ZDRC_4f3f6d896484deb2_b1c167c73a9e6c246b9de4f7406e3d70",
+    "ZDRC_4f3f6d896484deb2_aa2682f493f5f408bd219edfb9023947",
+    "ZDRC_4f3f6d896484deb2_37d7caf01653f4e9ce20a68335300f72",
+    "ZDRC_4f3f6d896484deb2_fcee1debb9160ba2f2c48e5dafc3344f",
+    "ZDRC_4f3f6d896484deb2_41bd60a30e79d175fbc48f0766c2c732",
+    "ZDRC_4f3f6d896484deb2_b78da9925bf45ffbef81eea7ecd80f91",
+    "ZDRC_4f3f6d896484deb2_498526a22bfd8edab6cb22b37d1b65ff",
+    "ZDRC_4f3f6d896484deb2_318e933ecdf024a268356a55c8d96b31",
+    "ZDRC_4f3f6d896484deb2_2aaa21516cda3f0c708929ef89a332da",
+    "ZDRC_4f3f6d896484deb2_effe680b6f7ab09eaf501cffd192eb04",
+    "ZDRC_4f3f6d896484deb2_41a7ecc8d831bfd23b9029e170cd34cb",
+    "ZDRC_4f3f6d896484deb2_81fa0e1b7c133743b11c8646d33d2dae",
+    "ZDRC_4f3f6d896484deb2_35c230c00c940316b5925fcb720d16c2",
+    "ZDRC_4f3f6d896484deb2_7a74cfa907c72f33c18ad6573973e893",
+    "ZDRC_4f3f6d896484deb2_d647172612684343f8df3dbf863b094a",
+    "ZDRC_4f3f6d896484deb2_2ec29b53a290ac568de61fb229dd90c4",
+    "ZDRC_4f3f6d896484deb2_c9cb571108dd3f9e69c9c0380fc39732",
+    "ZDRC_4f3f6d896484deb2_0cf3f9c6cfbde707112aa12c3ec0572d",
+    "ZDRC_4f3f6d896484deb2_e52e29d5677822a02a62108c0b6e56cd",
+    "ZDRC_4f3f6d896484deb2_eb78e5886eb926d098bc9721932f45ca",
+    "ZDRC_4f3f6d896484deb2_c7f5f09f0fda440bf5e98ae98cbb9785",
+    "ZDRC_4f3f6d896484deb2_936b472aeb5fbfb4719aa9f8c755febd",
+    "ZDRC_4f3f6d896484deb2_cdc35d439773679f1ea3c63a6f958767",
+    "ZDRC_4f3f6d896484deb2_5c283caca715b357f9bc2f0b6d05d0b2",
+    "ZDRC_4f3f6d896484deb2_8435c3b5037dfdf77ee65051576a3415",
+    "ZDRC_4f3f6d896484deb2_ea392c6b9052c882cf00539f09bdcb3c",
+    "ZDRC_4f3f6d896484deb2_209569b0ccf6545e3cbf33b96de69a5b",
+    "ZDRC_4f3f6d896484deb2_a5f9feff3f63b220817b31d6c017ddeb",
+    "ZDRC_4f3f6d896484deb2_9f7648366e6b52d599da4a511f8c1c20",
+    "ZDRC_4f3f6d896484deb2_410b86f66c017586dcb4a0dc05e661cc",
+    "ZDRC_4f3f6d896484deb2_935c5a79a8d419ffc5524b679b489848",
+    "ZDRC_4f3f6d896484deb2_f5689c8a5545e5231014bc8c89575869",
+    "ZDRC_4f3f6d896484deb2_2d1874c9640e77fc9e607c80452118b5",
+    "ZDRC_4f3f6d896484deb2_c4e20b1443d6d6dd6c239ff5dfe68428",
+    "ZDRC_4f3f6d896484deb2_4df50976564b75eb4fa902b661e8f9e8",
+    "ZDRC_4f3f6d896484deb2_e7a656efa66053f7d7679d9e3f3f8f91",
+    "ZDRC_4f3f6d896484deb2_ede3afe61fde0464f422c8069a6a0668",
+    "ZDRC_4f3f6d896484deb2_b8d6707e2f2e573fa02571810435c6fa",
+    "ZDRC_4f3f6d896484deb2_f49dd789de3804b8a215ed4c3e68cb06",
+    "ZDRC_4f3f6d896484deb2_514a6d238ce99bfc274e7a80764729f7",
+    "ZDRC_4f3f6d896484deb2_ea5f27d777fa82c975a44d1dce7e792b",
+    "ZDRC_4f3f6d896484deb2_6e09c4b111dc037f9f48370816fe6b99",
+    "ZDRC_4f3f6d896484deb2_cac5460b61c64579272587a95dd77690",
+    "ZDRC_4f3f6d896484deb2_5a75185ee36721d466c49c4c1cde1a99",
+    "ZDRC_4f3f6d896484deb2_0dc048f2612f6578df08ba75c6c91946",
+    "ZDRC_4f3f6d896484deb2_b59e702ac32f07a4dac67232aebafe49",
+    "ZDRC_4f3f6d896484deb2_fa611e82e70715260dc114d71e8e2ddf",
+    "ZDRC_4f3f6d896484deb2_5137920f1e8574d09a90c7356087e62f",
+    "ZDRC_4f3f6d896484deb2_10641f2ce8753615c83d6d315e823c0f",
+    "ZDRC_4f3f6d896484deb2_2f66b8d9ad2b07843cd910ae53f0e8ab",
+    "ZDRC_4f3f6d896484deb2_bbaefeca6a862b2a9d51450f182a2b81",
+    "ZDRC_4f3f6d896484deb2_8f3a714016bdf3e4a3e4d35fa7395d91",
+    "ZDRC_4f3f6d896484deb2_c6f03e761dd6e5739630117cc2fa5cbe",
+    "ZDRC_4f3f6d896484deb2_aebd6b7687e32b68d47619ca6e582d28",
+    "ZDRC_4f3f6d896484deb2_a0924723794ef9b83e81fc5b227d6acb",
+    "ZDRC_4f3f6d896484deb2_726a75919e5f16a044a788b835a304a6",
+    "ZDRC_4f3f6d896484deb2_654f8125e33fcca66c2aaff5d3e9b4ad",
+    "ZDRC_4f3f6d896484deb2_d84dc6d93a85ff6b591d79b1e5bcd382",
+    "ZDRC_4f3f6d896484deb2_e4d858a81affeaf56850edf5fb07ac91",
+    "ZDRC_4f3f6d896484deb2_13dbeef32f234ec2ded7728eaed5d23f",
+    "ZDRC_4f3f6d896484deb2_d1c1e7d99aea8ff264be1f70e00ca9f6",
+    "ZDRC_4f3f6d896484deb2_ecd4c3feca5a456474d1ebfedb46e479",
+    "ZDRC_4f3f6d896484deb2_e9e9743172d1fd333151b38706419ec1",
+    "ZDRC_4f3f6d896484deb2_6c4468d88b791623d1077b75333b8557",
+    "ZDRC_4f3f6d896484deb2_a6394e15bdc0e2d2294a636a00f25b74",
+    "ZDRC_4f3f6d896484deb2_2cc8c45f83aa846a7143dd113e22d350",
+    "ZDRC_4f3f6d896484deb2_89d324efd82d2b04d229d43fda70e315",
+    "ZDRC_4f3f6d896484deb2_e6edeb20146e702b467ed733c6749d3c",
+    "ZDRC_4f3f6d896484deb2_2af68171dd500f056ccc353794f0e3f9",
+    "ZDRC_4f3f6d896484deb2_425b6ebe7937ca2717c418c83bf2e353",
+    "ZDRC_4f3f6d896484deb2_d06a832351a6c6fd4fde65de42b4a054",
+    "ZDRC_4f3f6d896484deb2_0428ec750a496c4e7edee65b18d392e3",
+    "ZDRC_4f3f6d896484deb2_fa7802bbca2a86a83b993d36d4a45401",
+    "ZDRC_4f3f6d896484deb2_17b1ffb262ad93c94b43f36b5a3b1408",
+    "ZDRC_4f3f6d896484deb2_90c1f3347e32fbf7892141bb2496b603",
+    "ZDRC_4f3f6d896484deb2_e6466bd84afcfee41c08d494084c6978",
+    "ZDRC_4f3f6d896484deb2_bcdec03bded15928d36f8062bf656150",
+    "ZDRC_4f3f6d896484deb2_a23eb093834e9190dcefc0df28ae7f73",
+    "ZDRC_4f3f6d896484deb2_1ca1512a98f2c0086130c8c5d492868d",
+    "ZDRC_4f3f6d896484deb2_35d0981894054d658d76dbb3c5b9328e",
+    "ZDRC_4f3f6d896484deb2_b0bebef69ec95d4e005d5456ba372b0d",
+    "ZDRC_4f3f6d896484deb2_0a514e83d2db9299d1e8e1ba02ae6661",
+    "ZDRC_4f3f6d896484deb2_71cd0ab2be62e3354befaa22beba0aea",
+    "ZDRC_4f3f6d896484deb2_892875b5367b4ec58615179518263817",
+    "ZDRC_4f3f6d896484deb2_ce5bbddabd6f7650fce4dc2dcf8c3a70",
+    "ZDRC_4f3f6d896484deb2_4c14dc832d48c0a48007122e905b2d86",
+    "ZDRC_4f3f6d896484deb2_35a4970d7ce9777fd8db65e010bd2c5f",
+    "ZDRC_4f3f6d896484deb2_d33c1920b741f9daf0bf1ab5ed7eaac5",
+    "ZDRC_4f3f6d896484deb2_313c54149e41933f630f8dd0ace42c0b",
+    "ZDRC_4f3f6d896484deb2_7af4d3365114803b6a2356632b0d2b84",
+    "ZDRC_4f3f6d896484deb2_726624c33f63a749f91aa803a094cf27",
+    "ZDRC_4f3f6d896484deb2_94f0d12cffdd01b54fa56b728d2ceb20",
+    "ZDRC_4f3f6d896484deb2_2d8694aa91836ccfcc588d530eac5969",
+    "ZDRC_4f3f6d896484deb2_637b48dacd59f73e00a4c8db01cc4953",
+    "ZDRC_4f3f6d896484deb2_10acad99288d3b8878839f646422f318",
+    "ZDRC_4f3f6d896484deb2_933a0d80411b157931897df1f7bfb634",
+    "ZDRC_4f3f6d896484deb2_0d042928e9862245e45a60fbed863165",
+    "ZDRC_4f3f6d896484deb2_65725f7eccb72824b346dffb3b0d55c4",
+    "ZDRC_4f3f6d896484deb2_b8af88f41d45c1800eb7d6cb7f10daa7",
+    "ZDRC_4f3f6d896484deb2_ea6f564a87197b81c8ef2c9a25480252",
+    "ZDRC_4f3f6d896484deb2_b0c4c4e57536177ed60e9fe8a17362ae",
+    "ZDRC_4f3f6d896484deb2_2f452ba38fb87e6eea7ddb3ef1de3787",
+    "ZDRC_4f3f6d896484deb2_5024f6215a6736a7236a3a3a4e1aac61",
+    "ZDRC_4f3f6d896484deb2_95b0e73458d26948daa658ecb8bf523b",
+    "ZDRC_4f3f6d896484deb2_abb17d404512b96a02302386abff833b",
+    "ZDRC_4f3f6d896484deb2_7eac325ab5eab7d99988bd940b4a498b",
+    "ZDRC_4f3f6d896484deb2_27fabf94f16f00a6cea57f0920300f09",
+    "ZDRC_4f3f6d896484deb2_ce4d4aeb94ff194bd35ef8e3520fbb90",
+    "ZDRC_4f3f6d896484deb2_b3b1b530d5be501f046324af87094cd0",
+    "ZDRC_4f3f6d896484deb2_ed95eb5fd55842e72ea126f721b63c88",
+    "ZDRC_4f3f6d896484deb2_111fa4605fb5b5f1dbed1fdd7a227168",
+    "ZDRC_4f3f6d896484deb2_5d4960007b7368571db0d616047d3b7d",
+    "ZDRC_4f3f6d896484deb2_57a94ae88436598a665ac080beb060e5",
+    "ZDRC_4f3f6d896484deb2_9baf3502d01acc945beee7d9a405c352",
+    "ZDRC_4f3f6d896484deb2_ccbfa9f5d77dc0343e4975688d01c444",
+    "ZDRC_4f3f6d896484deb2_7898a563bdee72a53fed3bb287e9631e",
+    "ZDRC_4f3f6d896484deb2_89f899cd66e240b7238443b60fa3e949",
+    "ZDRC_4f3f6d896484deb2_f0ae0c72911288d6fa30a2af495d9923",
+    "ZDRC_4f3f6d896484deb2_af668a90872cd31bfe94c9b5a42bd6d0",
+    "ZDRC_4f3f6d896484deb2_dd29eb5634148478f69e8551645d2f82",
+    "ZDRC_4f3f6d896484deb2_ffdd48b051161ab88b7b0b407535cc68",
+    "ZDRC_4f3f6d896484deb2_2c7cc6e4fd8416cea4a5c75bd7dc23ea",
+    "ZDRC_4f3f6d896484deb2_f34461f5faf4a89c93922dd7160eda0d",
+    "ZDRC_4f3f6d896484deb2_150a30e659e638d63a55291cdc10a49a",
+    "ZDRC_4f3f6d896484deb2_4b93f1b702db3d9db98dd7b17744ca70",
+    "ZDRC_4f3f6d896484deb2_9436d8c7dc9fc8a11b057cea326672e8",
+    "ZDRC_4f3f6d896484deb2_09adf50e1f8f1a9d33a8e9420f6273b0",
+    "ZDRC_4f3f6d896484deb2_4be0c3be41a1a83fd2a76c5dddf9669c",
+    "ZDRC_4f3f6d896484deb2_212dcf395a807213bdac2d13af337c37",
+    "ZDRC_4f3f6d896484deb2_951cc6d0a8f22d78a55b6156d4a0e046",
+    "ZDRC_4f3f6d896484deb2_4b5c013eeb0bd88ca166c05125fa10d4",
+    "ZDRC_4f3f6d896484deb2_c88c3b21cd37ed54d1fe18c9ca85d24f",
+    "ZDRC_4f3f6d896484deb2_30c69a30d591fbea5c04c5ebc5251047",
+    "ZDRC_4f3f6d896484deb2_14fcbc00961a5848bc7da94229e4bf46",
+    "ZDRC_4f3f6d896484deb2_8a20dc13b0f9adfc4575cbd7c1dc1ba3",
+    "ZDRC_4f3f6d896484deb2_e155fccc8eeea67c70e211f7f518dcbe",
+    "ZDRC_4f3f6d896484deb2_1d97be59165868898882494b40515c41",
+    "ZDRC_4f3f6d896484deb2_fcfab40e839e1ee262ac6354086afd9d",
+    "ZDRC_4f3f6d896484deb2_47bf1b2ff4070d89091f3b1407930843",
+    "ZDRC_4f3f6d896484deb2_6ccd7d2586cf2119e0bb3cc4cdf3d79b",
+    "ZDRC_4f3f6d896484deb2_3d9d9d4c571c7662aac540b69b7333c7",
+    "ZDRC_4f3f6d896484deb2_dc4d4336600243a7ccc9cdc236b1d70a",
+    "ZDRC_4f3f6d896484deb2_a4a4160716999eba9da8db32e38f1d47"
+  ],
+  "run_id": "4f3f6d896484deb2",
+  "schema_version": 1
+}

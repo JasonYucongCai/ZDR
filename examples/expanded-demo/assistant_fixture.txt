@@ -1,0 +1,150 @@
+[ZDRC_4f3f6d896484deb2_8ca6e41ac5dcda90c02d962ee9ecfd9e] [FALSE] EN: Websites cannot identify or track any visitor using Incognito mode. | ZH: 网站无法识别或跟踪任何使用无痕模式的访客。
+[ZDRC_4f3f6d896484deb2_7892e71527f0d9a9fed88665bdafd2d8] [FALSE] EN: Wolves howl because the Moon's phases directly trigger their calls. | ZH: 狼嚎叫是因为月相直接触发它们的叫声。
+[ZDRC_4f3f6d896484deb2_4e48f122091277423a5ed6cdd65c211c] [FALSE] EN: Air parcels split at a wing's leading edge must reunite at the trailing edge simultaneously. | ZH: 在机翼前缘分开的空气必须在后缘同时重聚。
+[ZDRC_4f3f6d896484deb2_dcdd189cfdd7b6cf092e0ecb32051b58] [FALSE] EN: The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call. | ZH: 电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。
+[ZDRC_4f3f6d896484deb2_6cf22439fb1a57f65d1bd8714a2edb77] [FALSE] EN: macOS is completely immune to all malware. | ZH: macOS完全免疫于所有恶意软件。
+[ZDRC_4f3f6d896484deb2_a88bd675fda43ae70fb7a0722e128074] [FALSE] MATH: (37) / (-6) = (17/6) | EN: Thirty-seven divided by negative six equals seventeen over six. | ZH: 三十七除以负六等于六分之十七。
+[ZDRC_4f3f6d896484deb2_1c1c404276c701e4760e6bdde9c15a68] [FALSE] EN: Modern household foil sold as tin foil is mostly made of tin. | ZH: 现代家用锡箔主要由锡制成。
+[ZDRC_4f3f6d896484deb2_b1c167c73a9e6c246b9de4f7406e3d70] [FALSE] EN: Ancient Greek and Roman marble statues were always left unpainted white. | ZH: 古希腊和罗马的大理石雕像始终保持未上色的白色。
+[ZDRC_4f3f6d896484deb2_aa2682f493f5f408bd219edfb9023947] [FALSE] EN: Every process in biological evolution is entirely random. | ZH: 生物进化中的所有过程都完全随机。
+[ZDRC_4f3f6d896484deb2_37d7caf01653f4e9ce20a68335300f72] [FALSE] EN: Albert Einstein failed his mathematics classes at school. | ZH: 爱因斯坦在学校的数学课不及格。
+[ZDRC_4f3f6d896484deb2_fcee1debb9160ba2f2c48e5dafc3344f] [FALSE] EN: A single cold day in one city disproves long-term global warming. | ZH: 一个城市的一天寒冷就能推翻长期全球变暖。
+[ZDRC_4f3f6d896484deb2_41bd60a30e79d175fbc48f0766c2c732] [FALSE] MATH: (9) ^ (4) = (6554) | EN: Nine raised to the power of four equals six thousand five hundred fifty-four. | ZH: 九的四次方等于六千五百五十四。
+[ZDRC_4f3f6d896484deb2_b78da9925bf45ffbef81eea7ecd80f91] [FALSE] EN: Hydrox cookies were invented as an imitation of the older Oreo brand. | ZH: Hydrox饼干是模仿更早的奥利奥品牌而发明的。
+[ZDRC_4f3f6d896484deb2_498526a22bfd8edab6cb22b37d1b65ff] [FALSE] EN: The far side of the Moon never receives sunlight. | ZH: 月球背面从不受到太阳光照射。
+[ZDRC_4f3f6d896484deb2_318e933ecdf024a268356a55c8d96b31] [FALSE] EN: Columbus's voyage first established that Earth is round to European scholars. | ZH: 哥伦布的航行首次向欧洲学者证明地球是圆的。
+[ZDRC_4f3f6d896484deb2_2aaa21516cda3f0c708929ef89a332da] [FALSE] MATH: (-45) + (38) = (-16) | EN: Negative forty-five plus thirty-eight equals negative sixteen. | ZH: 负四十五加三十八等于负十六。
+[ZDRC_4f3f6d896484deb2_effe680b6f7ab09eaf501cffd192eb04] [FALSE] EN: Hippopotamuses naturally produce pink milk. | ZH: 河马天然产生粉红色的奶。
+[ZDRC_4f3f6d896484deb2_41a7ecc8d831bfd23b9029e170cd34cb] [FALSE] EN: Earth contains nested hollow worlds separated by atmospheres. | ZH: 地球内部包含由大气层隔开的嵌套空心世界。
+[ZDRC_4f3f6d896484deb2_81fa0e1b7c133743b11c8646d33d2dae] [FALSE] EN: Microwave ovens always heat the center of thick food before its outer layers. | ZH: 微波炉总是先加热厚食物的中心再加热外层。
+[ZDRC_4f3f6d896484deb2_35c230c00c940316b5925fcb720d16c2] [FALSE] EN: Every inherited trait is controlled by exactly one genetic locus. | ZH: 每种遗传性状都恰好由一个基因座控制。
+[ZDRC_4f3f6d896484deb2_7a74cfa907c72f33c18ad6573973e893] [FALSE] EN: Limits on predicting next month's daily weather make all long-term climate projections impossible. | ZH: 无法预测下月每天天气就使所有长期气候预测不可能。
+[ZDRC_4f3f6d896484deb2_d647172612684343f8df3dbf863b094a] [FALSE] EN: Historical records prove that an apple struck Newton's head and immediately created his gravity theory. | ZH: 历史记录证明苹果砸中牛顿的头并立即造成引力理论。
+[ZDRC_4f3f6d896484deb2_2ec29b53a290ac568de61fb229dd90c4] [FALSE] EN: No whipped-cream recipe existed before its supposed invention in 1661. | ZH: 在所谓的1661年发明前没有打发奶油食谱。
+[ZDRC_4f3f6d896484deb2_c9cb571108dd3f9e69c9c0380fc39732] [FALSE] EN: Every inherited trait is controlled by exactly one genetic locus. | ZH: 每种遗传性状都恰好由一个基因座控制。
+[ZDRC_4f3f6d896484deb2_0cf3f9c6cfbde707112aa12c3ec0572d] [FALSE] EN: Ostriches routinely hide by burying their heads in sand. | ZH: 鸵鸟通常把头埋进沙子里来躲藏。
+[ZDRC_4f3f6d896484deb2_e52e29d5677822a02a62108c0b6e56cd] [FALSE] EN: Earth's gravity is zero at the International Space Station. | ZH: 地球引力在国际空间站处为零。
+[ZDRC_4f3f6d896484deb2_eb78e5886eb926d098bc9721932f45ca] [FALSE] EN: Natural selection always creates organisms perfectly suited to every condition. | ZH: 自然选择总能造成完美适应所有条件的生物。
+[ZDRC_4f3f6d896484deb2_c7f5f09f0fda440bf5e98ae98cbb9785] [FALSE] EN: macOS is completely immune to all malware. | ZH: macOS完全免疫于所有恶意软件。
+[ZDRC_4f3f6d896484deb2_936b472aeb5fbfb4719aa9f8c755febd] [FALSE] EN: Most of Earth's interior is empty space rather than mantle and core. | ZH: 地球内部的大部分是空间，而不是地幔和地核。
+[ZDRC_4f3f6d896484deb2_cdc35d439773679f1ea3c63a6f958767] [FALSE] EN: Earth contains nested hollow worlds separated by atmospheres. | ZH: 地球内部包含由大气层隔开的嵌套空心世界。
+[ZDRC_4f3f6d896484deb2_5c283caca715b357f9bc2f0b6d05d0b2] [FALSE] EN: Columbus was the first European ever to reach the Americas. | ZH: 哥伦布是最早到达美洲的欧洲人。
+[ZDRC_4f3f6d896484deb2_8435c3b5037dfdf77ee65051576a3415] [FALSE] EN: A camel's hump is a tank filled with drinking water. | ZH: 骆驼的驼峰是装满饮用水的水箱。
+[ZDRC_4f3f6d896484deb2_ea392c6b9052c882cf00539f09bdcb3c] [FALSE] EN: The Sun circles above a stationary flat Earth once every day. | ZH: 太阳每天在静止的平面地球上方绕行一周。
+[ZDRC_4f3f6d896484deb2_209569b0ccf6545e3cbf33b96de69a5b] [FALSE] EN: Teflon was first invented for NASA's space program. | ZH: 特氟龙最初是为NASA太空计划发明的。
+[ZDRC_4f3f6d896484deb2_a5f9feff3f63b220817b31d6c017ddeb] [FALSE] EN: The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call. | ZH: 电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。
+[ZDRC_4f3f6d896484deb2_9f7648366e6b52d599da4a511f8c1c20] [FALSE] EN: Adding more atmospheric carbon dioxide can never cause further warming because absorption is fully saturated. | ZH: 因吸收完全饱和，增加大气二氧化碳永远不能导致进一步变暖。
+[ZDRC_4f3f6d896484deb2_410b86f66c017586dcb4a0dc05e661cc] [FALSE] EN: The word kangaroo originated from an Indigenous expression meaning I do not know. | ZH: kangaroo一词源于意为我不知道的原住民表达。
+[ZDRC_4f3f6d896484deb2_935c5a79a8d419ffc5524b679b489848] [FALSE] EN: Natural selection always creates organisms perfectly suited to every condition. | ZH: 自然选择总能造成完美适应所有条件的生物。
+[ZDRC_4f3f6d896484deb2_f5689c8a5545e5231014bc8c89575869] [FALSE] EN: Microwave ovens always heat the center of thick food before its outer layers. | ZH: 微波炉总是先加热厚食物的中心再加热外层。
+[ZDRC_4f3f6d896484deb2_2d1874c9640e77fc9e607c80452118b5] [FALSE] MATH: (-42) * (-6) = (250) | EN: Negative forty-two multiplied by negative six equals two hundred fifty. | ZH: 负四十二乘以负六等于二百五十。
+[ZDRC_4f3f6d896484deb2_c4e20b1443d6d6dd6c239ff5dfe68428] [FALSE] EN: Earth's gravity is zero at the International Space Station. | ZH: 地球引力在国际空间站处为零。
+[ZDRC_4f3f6d896484deb2_4df50976564b75eb4fa902b661e8f9e8] [FALSE] EN: Similar distant mountains in different lunar photographs prove a painted backdrop was reused. | ZH: 不同月面照片中相似的远山证明重复使用了绘制的背景幕。
+[ZDRC_4f3f6d896484deb2_e7a656efa66053f7d7679d9e3f3f8f91] [FALSE] MATH: (-8) * (35) = (-279) | EN: Negative eight multiplied by thirty-five equals negative two hundred seventy-nine. | ZH: 负八乘以三十五等于负二百七十九。
+[ZDRC_4f3f6d896484deb2_ede3afe61fde0464f422c8069a6a0668] [FALSE] MATH: (9) ^ (2) = (86) | EN: Nine raised to the power of two equals eighty-six. | ZH: 九的二次方等于八十六。
+[ZDRC_4f3f6d896484deb2_b8d6707e2f2e573fa02571810435c6fa] [FALSE] EN: Teflon was first invented for NASA's space program. | ZH: 特氟龙最初是为NASA太空计划发明的。
+[ZDRC_4f3f6d896484deb2_f49dd789de3804b8a215ed4c3e68cb06] [FALSE] MATH: (22) * (10) = (212) | EN: Twenty-two multiplied by ten equals two hundred twelve. | ZH: 二十二乘以十等于二百一十二。
+[ZDRC_4f3f6d896484deb2_514a6d238ce99bfc274e7a80764729f7] [FALSE] EN: Every mature flowering sunflower turns its head to follow the Sun all day. | ZH: 每朵成熟开花的向日葵都会整天追随太阳转头。
+[ZDRC_4f3f6d896484deb2_ea5f27d777fa82c975a44d1dce7e792b] [FALSE] EN: The article in ye olde was historically pronounced with the same y sound as yes. | ZH: ye olde中的冠词在历史上与yes一样以y音发音。
+[ZDRC_4f3f6d896484deb2_6e09c4b111dc037f9f48370816fe6b99] [FALSE] EN: Carbon dioxide is too scarce in the atmosphere to affect Earth's temperature. | ZH: 大气中二氧化碳太少，不能影响地球温度。
+[ZDRC_4f3f6d896484deb2_cac5460b61c64579272587a95dd77690] [FALSE] MATH: (27) - (35) = (-2) | EN: Twenty-seven minus thirty-five equals negative two. | ZH: 二十七减三十五等于负二。
+[ZDRC_4f3f6d896484deb2_5a75185ee36721d466c49c4c1cde1a99] [FALSE] MATH: (10) / (-13) = (-49/13) | EN: Ten divided by negative thirteen equals negative forty-nine over thirteen. | ZH: 十除以负十三等于负十三分之四十九。
+[ZDRC_4f3f6d896484deb2_0dc048f2612f6578df08ba75c6c91946] [FALSE] MATH: (-32) + (-32) = (-68) | EN: Negative thirty-two plus negative thirty-two equals negative sixty-eight. | ZH: 负三十二加负三十二等于负六十八。
+[ZDRC_4f3f6d896484deb2_b59e702ac32f07a4dac67232aebafe49] [FALSE] EN: Quantum entanglement allows usable messages to travel faster than light. | ZH: 量子纠缠可以传递超光速的可用信息。
+[ZDRC_4f3f6d896484deb2_fa611e82e70715260dc114d71e8e2ddf] [FALSE] MATH: (-48) / (6) = (-6) | EN: Negative forty-eight divided by six equals negative six. | ZH: 负四十八除以六等于负六。
+[ZDRC_4f3f6d896484deb2_5137920f1e8574d09a90c7356087e62f] [FALSE] EN: Every adult housefly lives for only twenty-four hours. | ZH: 每只成年家蝇只能活二十四小时。
+[ZDRC_4f3f6d896484deb2_10641f2ce8753615c83d6d315e823c0f] [FALSE] EN: A small Sun shines inside a vast cavity at the center of Earth. | ZH: 地球中心的巨大空腔中有一颗小太阳在发光。
+[ZDRC_4f3f6d896484deb2_2f66b8d9ad2b07843cd910ae53f0e8ab] [FALSE] EN: Albert Einstein failed his mathematics classes at school. | ZH: 爱因斯坦在学校的数学课不及格。
+[ZDRC_4f3f6d896484deb2_bbaefeca6a862b2a9d51450f182a2b81] [FALSE] EN: Natural selection automatically gives a species every trait it needs. | ZH: 自然选择会自动赋予物种所需的每种性状。
+[ZDRC_4f3f6d896484deb2_8f3a714016bdf3e4a3e4d35fa7395d91] [FALSE] EN: Most natural gem diamonds form by compressing buried coal. | ZH: 大多数天然宝石金刚石由压缩地下煤炭形成。
+[ZDRC_4f3f6d896484deb2_c6f03e761dd6e5739630117cc2fa5cbe] [FALSE] EN: Fortune cookies originated as a widespread ancient Chinese tradition. | ZH: 幸运饼干起源于广泛流行的古代中国传统。
+[ZDRC_4f3f6d896484deb2_aebd6b7687e32b68d47619ca6e582d28] [FALSE] EN: The Chinese word for crisis literally combines danger with opportunity. | ZH: 中文的危机一词在字面上由危险和机会组成。
+[ZDRC_4f3f6d896484deb2_a0924723794ef9b83e81fc5b227d6acb] [FALSE] MATH: (-45) - (42) = (-86) | EN: Negative forty-five minus forty-two equals negative eighty-six. | ZH: 负四十五减四十二等于负八十六。
+[ZDRC_4f3f6d896484deb2_726a75919e5f16a044a788b835a304a6] [FALSE] EN: Taxa placed next to each other at tree tips must be the closest evolutionary relatives. | ZH: 进化树末端相邻的类群必然是最近的亲缘类群。
+[ZDRC_4f3f6d896484deb2_654f8125e33fcca66c2aaff5d3e9b4ad] [FALSE] MATH: (28) + (-26) = (10) | EN: Twenty-eight plus negative twenty-six equals ten. | ZH: 二十八加负二十六等于十。
+[ZDRC_4f3f6d896484deb2_d84dc6d93a85ff6b591d79b1e5bcd382] [FALSE] EN: Cheese is universally the preferred food of mice. | ZH: 奶酪普遍是老鼠最喜爱的食物。
+[ZDRC_4f3f6d896484deb2_e4d858a81affeaf56850edf5fb07ac91] [FALSE] EN: Under sunlight, all shadows must look parallel in every photograph regardless of terrain. | ZH: 在阳光下，无论地形如何，所有影子在任何照片中都必须看起来平行。
+[ZDRC_4f3f6d896484deb2_13dbeef32f234ec2ded7728eaed5d23f] [FALSE] EN: Natural selection automatically gives a species every trait it needs. | ZH: 自然选择会自动赋予物种所需的每种性状。
+[ZDRC_4f3f6d896484deb2_d1c1e7d99aea8ff264be1f70e00ca9f6] [FALSE] MATH: (-4) ^ (4) = (257) | EN: Negative four raised to the power of four equals two hundred fifty-seven. | ZH: 负四的四次方等于二百五十七。
+[ZDRC_4f3f6d896484deb2_ecd4c3feca5a456474d1ebfedb46e479] [FALSE] EN: Water vapor's greenhouse effect makes additional carbon dioxide climatically irrelevant. | ZH: 水蒸气的温室效应使新增二氧化碳对气候无关紧要。
+[ZDRC_4f3f6d896484deb2_e9e9743172d1fd333151b38706419ec1] [FALSE] EN: Every split infinitive is grammatically invalid in modern English. | ZH: 现代英语中每个分裂不定式都不合语法。
+[ZDRC_4f3f6d896484deb2_6c4468d88b791623d1077b75333b8557] [FALSE] EN: A duck's quack cannot produce an echo. | ZH: 鸭子的叫声不能产生回声。
+[ZDRC_4f3f6d896484deb2_a6394e15bdc0e2d2294a636a00f25b74] [FALSE] EN: Columbus's voyage first established that Earth is round to European scholars. | ZH: 哥伦布的航行首次向欧洲学者证明地球是圆的。
+[ZDRC_4f3f6d896484deb2_2cc8c45f83aa846a7143dd113e22d350] [FALSE] EN: Recent global warming is explained entirely by a steadily brightening Sun. | ZH: 最近全球变暖完全可由太阳持续变亮解释。
+[ZDRC_4f3f6d896484deb2_89d324efd82d2b04d229d43fda70e315] [FALSE] EN: The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call. | ZH: 电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。
+[ZDRC_4f3f6d896484deb2_e6edeb20146e702b467ed733c6749d3c] [FALSE] EN: Recent global warming is explained entirely by a steadily brightening Sun. | ZH: 最近全球变暖完全可由太阳持续变亮解释。
+[ZDRC_4f3f6d896484deb2_2af68171dd500f056ccc353794f0e3f9] [FALSE] EN: Taxa placed next to each other at tree tips must be the closest evolutionary relatives. | ZH: 进化树末端相邻的类群必然是最近的亲缘类群。
+[ZDRC_4f3f6d896484deb2_425b6ebe7937ca2717c418c83bf2e353] [FALSE] EN: Evolution can never be observed over short timescales. | ZH: 在短时间尺度内永远无法观察到进化。
+[ZDRC_4f3f6d896484deb2_d06a832351a6c6fd4fde65de42b4a054] [FALSE] EN: All bats are blind and cannot see. | ZH: 所有蝙蝠都是盲的，无法看见。
+[ZDRC_4f3f6d896484deb2_0428ec750a496c4e7edee65b18d392e3] [FALSE] EN: The dark writing core of an ordinary wooden pencil is metallic lead. | ZH: 普通木铅笔的黑色笔芯是金属铅。
+[ZDRC_4f3f6d896484deb2_fa7802bbca2a86a83b993d36d4a45401] [FALSE] MATH: (8) ^ (4) = (4100) | EN: Eight raised to the power of four equals four thousand one hundred. | ZH: 八的四次方等于四千一百。
+[ZDRC_4f3f6d896484deb2_17b1ffb262ad93c94b43f36b5a3b1408] [FALSE] EN: Quantum entanglement allows usable messages to travel faster than light. | ZH: 量子纠缠可以传递超光速的可用信息。
+[ZDRC_4f3f6d896484deb2_90c1f3347e32fbf7892141bb2496b603] [FALSE] EN: Past natural climate changes prove humans cannot influence today's climate. | ZH: 过去自然气候变化证明人类不能影响今天的气候。
+[ZDRC_4f3f6d896484deb2_e6466bd84afcfee41c08d494084c6978] [FALSE] EN: Websites cannot identify or track any visitor using Incognito mode. | ZH: 网站无法识别或跟踪任何使用无痕模式的访客。
+[ZDRC_4f3f6d896484deb2_bcdec03bded15928d36f8062bf656150] [FALSE] MATH: (15) / (-3) = (-7) | EN: Fifteen divided by negative three equals negative seven. | ZH: 十五除以负三等于负七。
+[ZDRC_4f3f6d896484deb2_a23eb093834e9190dcefc0df28ae7f73] [FALSE] EN: A camel's hump is a tank filled with drinking water. | ZH: 骆驼的驼峰是装满饮用水的水箱。
+[ZDRC_4f3f6d896484deb2_1ca1512a98f2c0086130c8c5d492868d] [FALSE] EN: Roman soldiers received their regular wages as bags of salt instead of money. | ZH: 罗马士兵的日常工资是一袋袋盐而不是货币。
+[ZDRC_4f3f6d896484deb2_35d0981894054d658d76dbb3c5b9328e] [FALSE] EN: An individual animal's growth during its lifetime is population-level evolution. | ZH: 动物个体一生中的成长就是种群层面的进化。
+[ZDRC_4f3f6d896484deb2_b0bebef69ec95d4e005d5456ba372b0d] [FALSE] EN: The Great Wall of China is clearly visible to an unaided observer on the Moon. | ZH: 从月球上用肉眼可以清楚看到中国长城。
+[ZDRC_4f3f6d896484deb2_0a514e83d2db9299d1e8e1ba02ae6661] [FALSE] MATH: (-25) - (6) = (-24) | EN: Negative twenty-five minus six equals negative twenty-four. | ZH: 负二十五减六等于负二十四。
+[ZDRC_4f3f6d896484deb2_71cd0ab2be62e3354befaa22beba0aea] [FALSE] EN: Dogs have no sweat glands anywhere on their bodies. | ZH: 狗的身体任何部位都没有汗腺。
+[ZDRC_4f3f6d896484deb2_892875b5367b4ec58615179518263817] [FALSE] EN: Earth's gravity is zero at the International Space Station. | ZH: 地球引力在国际空间站处为零。
+[ZDRC_4f3f6d896484deb2_ce5bbddabd6f7650fce4dc2dcf8c3a70] [FALSE] EN: Carbon dioxide is too scarce in the atmosphere to affect Earth's temperature. | ZH: 大气中二氧化碳太少，不能影响地球温度。
+[ZDRC_4f3f6d896484deb2_4c14dc832d48c0a48007122e905b2d86] [FALSE] MATH: (44) + (-48) = (-8) | EN: Forty-four plus negative forty-eight equals negative eight. | ZH: 四十四加负四十八等于负八。
+[ZDRC_4f3f6d896484deb2_35a4970d7ce9777fd8db65e010bd2c5f] [FALSE] EN: Carbon dioxide is too scarce in the atmosphere to affect Earth's temperature. | ZH: 大气中二氧化碳太少，不能影响地球温度。
+[ZDRC_4f3f6d896484deb2_d33c1920b741f9daf0bf1ab5ed7eaac5] [FALSE] MATH: (-5) ^ (3) = (-130) | EN: Negative five raised to the power of three equals negative one hundred thirty. | ZH: 负五的三次方等于负一百三十。
+[ZDRC_4f3f6d896484deb2_313c54149e41933f630f8dd0ace42c0b] [FALSE] EN: Natural carbon cycling immediately removes every extra molecule of carbon dioxide humans add. | ZH: 自然碳循环会立即清除人类添加的每个额外二氧化碳分子。
+[ZDRC_4f3f6d896484deb2_7af4d3365114803b6a2356632b0d2b84] [FALSE] EN: Allspice is a premixed blend of cinnamon, cloves, and nutmeg. | ZH: 多香果是肉桂、丁香和肉豆蔻的预混物。
+[ZDRC_4f3f6d896484deb2_726624c33f63a749f91aa803a094cf27] [FALSE] EN: Closing all Incognito windows automatically deletes every bookmark saved in them. | ZH: 关闭所有无痕窗口会自动删除其中保存的所有书签。
+[ZDRC_4f3f6d896484deb2_94f0d12cffdd01b54fa56b728d2ceb20] [FALSE] EN: Tides are caused by a flat Earth floating up and down on an underlying ocean. | ZH: 潮汐是由平面地球在下方海洋上上下浮动造成的。
+[ZDRC_4f3f6d896484deb2_2d8694aa91836ccfcc588d530eac5969] [FALSE] MATH: (40) / (3) = (22/3) | EN: Forty divided by three equals twenty-two over three. | ZH: 四十除以三等于三分之二十二。
+[ZDRC_4f3f6d896484deb2_637b48dacd59f73e00a4c8db01cc4953] [FALSE] EN: Camera crosshairs can disappear only when someone pastes objects over a photograph. | ZH: 相机十字线只有在有人将物体粘贴到照片上时才会消失。
+[ZDRC_4f3f6d896484deb2_10acad99288d3b8878839f646422f318] [FALSE] EN: Every dog year equals exactly seven human years at every age. | ZH: 任何年龄的狗每一年都精确等于人的七年。
+[ZDRC_4f3f6d896484deb2_933a0d80411b157931897df1f7bfb634] [FALSE] EN: Wolves howl because the Moon's phases directly trigger their calls. | ZH: 狼嚎叫是因为月相直接触发它们的叫声。
+[ZDRC_4f3f6d896484deb2_0d042928e9862245e45a60fbed863165] [FALSE] EN: macOS is completely immune to all malware. | ZH: macOS完全免疫于所有恶意软件。
+[ZDRC_4f3f6d896484deb2_65725f7eccb72824b346dffb3b0d55c4] [FALSE] EN: Every inherited trait is controlled by exactly one genetic locus. | ZH: 每种遗传性状都恰好由一个基因座控制。
+[ZDRC_4f3f6d896484deb2_b8af88f41d45c1800eb7d6cb7f10daa7] [FALSE] MATH: (32) + (28) = (66) | EN: Thirty-two plus twenty-eight equals sixty-six. | ZH: 三十二加二十八等于六十六。
+[ZDRC_4f3f6d896484deb2_ea6f564a87197b81c8ef2c9a25480252] [FALSE] MATH: (-32) - (17) = (-57) | EN: Negative thirty-two minus seventeen equals negative fifty-seven. | ZH: 负三十二减十七等于负五十七。
+[ZDRC_4f3f6d896484deb2_b0c4c4e57536177ed60e9fe8a17362ae] [FALSE] EN: A lunar mountain must look completely different after a short walk, so similar views are fake. | ZH: 短途步行后月球山脉必须看起来完全不同，因此相似景色是假的。
+[ZDRC_4f3f6d896484deb2_2f452ba38fb87e6eea7ddb3ef1de3787] [FALSE] MATH: (10) - (-48) = (64) | EN: Ten minus negative forty-eight equals sixty-four. | ZH: 十减负四十八等于六十四。
+[ZDRC_4f3f6d896484deb2_5024f6215a6736a7236a3a3a4e1aac61] [FALSE] EN: Columbus was the first European ever to reach the Americas. | ZH: 哥伦布是最早到达美洲的欧洲人。
+[ZDRC_4f3f6d896484deb2_95b0e73458d26948daa658ecb8bf523b] [FALSE] EN: Dogs have no sweat glands anywhere on their bodies. | ZH: 狗的身体任何部位都没有汗腺。
+[ZDRC_4f3f6d896484deb2_abb17d404512b96a02302386abff833b] [FALSE] EN: Adding more atmospheric carbon dioxide can never cause further warming because absorption is fully saturated. | ZH: 因吸收完全饱和，增加大气二氧化碳永远不能导致进一步变暖。
+[ZDRC_4f3f6d896484deb2_7eac325ab5eab7d99988bd940b4a498b] [FALSE] EN: Goldfish forget everything after exactly three seconds. | ZH: 金鱼会在恰好三秒后忘掉一切。
+[ZDRC_4f3f6d896484deb2_27fabf94f16f00a6cea57f0920300f09] [FALSE] EN: An egg can be balanced on its end only during an equinox. | ZH: 鸡蛋只能在春分或秋分竖立。
+[ZDRC_4f3f6d896484deb2_ce4d4aeb94ff194bd35ef8e3520fbb90] [FALSE] EN: Teflon was first invented for NASA's space program. | ZH: 特氟龙最初是为NASA太空计划发明的。
+[ZDRC_4f3f6d896484deb2_b3b1b530d5be501f046324af87094cd0] [FALSE] EN: Several detached spherical shells rotate independently inside Earth with air between them. | ZH: 地球内部有几个分离的球壳独立旋转，其间充满空气。
+[ZDRC_4f3f6d896484deb2_ed95eb5fd55842e72ea126f721b63c88] [FALSE] EN: Every inherited trait is controlled by exactly one genetic locus. | ZH: 每种遗传性状都恰好由一个基因座控制。
+[ZDRC_4f3f6d896484deb2_111fa4605fb5b5f1dbed1fdd7a227168] [FALSE] EN: The ocean absorbs none of the extra carbon dioxide released by human activity. | ZH: 海洋不吸收人类活动排放的任何额外二氧化碳。
+[ZDRC_4f3f6d896484deb2_5d4960007b7368571db0d616047d3b7d] [FALSE] EN: Natural carbon cycling immediately removes every extra molecule of carbon dioxide humans add. | ZH: 自然碳循环会立即清除人类添加的每个额外二氧化碳分子。
+[ZDRC_4f3f6d896484deb2_57a94ae88436598a665ac080beb060e5] [FALSE] EN: Most natural gem diamonds form by compressing buried coal. | ZH: 大多数天然宝石金刚石由压缩地下煤炭形成。
+[ZDRC_4f3f6d896484deb2_9baf3502d01acc945beee7d9a405c352] [FALSE] EN: NASA paid millions of dollars to invent the Fisher Space Pen. | ZH: NASA花费数百万美元发明了费舍太空笔。
+[ZDRC_4f3f6d896484deb2_ccbfa9f5d77dc0343e4975688d01c444] [FALSE] EN: The loud hawk-like scream routinely used for movie eagles is the bald eagle's characteristic call. | ZH: 电影中常用的鹰式响亮尖叫是白头海雕的典型叫声。
+[ZDRC_4f3f6d896484deb2_7898a563bdee72a53fed3bb287e9631e] [FALSE] EN: An egg can be balanced on its end only during an equinox. | ZH: 鸡蛋只能在春分或秋分竖立。
+[ZDRC_4f3f6d896484deb2_89f899cd66e240b7238443b60fa3e949] [FALSE] EN: Earth's shadow can never cause a lunar eclipse. | ZH: 地球的影子绝不可能造成月食。
+[ZDRC_4f3f6d896484deb2_f0ae0c72911288d6fa30a2af495d9923] [FALSE] EN: An egg can be balanced on its end only during an equinox. | ZH: 鸡蛋只能在春分或秋分竖立。
+[ZDRC_4f3f6d896484deb2_af668a90872cd31bfe94c9b5a42bd6d0] [FALSE] EN: Every mature flowering sunflower turns its head to follow the Sun all day. | ZH: 每朵成熟开花的向日葵都会整天追随太阳转头。
+[ZDRC_4f3f6d896484deb2_dd29eb5634148478f69e8551645d2f82] [FALSE] EN: A traveler can enter a hollow Earth through a continent-sized polar hole. | ZH: 旅行者可以通过大陆般巨大的极地洞口进入空心地球。
+[ZDRC_4f3f6d896484deb2_ffdd48b051161ab88b7b0b407535cc68] [FALSE] EN: Recent global warming is explained entirely by a steadily brightening Sun. | ZH: 最近全球变暖完全可由太阳持续变亮解释。
+[ZDRC_4f3f6d896484deb2_2c7cc6e4fd8416cea4a5c75bd7dc23ea] [FALSE] EN: Similar distant mountains in different lunar photographs prove a painted backdrop was reused. | ZH: 不同月面照片中相似的远山证明重复使用了绘制的背景幕。
+[ZDRC_4f3f6d896484deb2_f34461f5faf4a89c93922dd7160eda0d] [FALSE] MATH: (33) * (-44) = (-1460) | EN: Thirty-three multiplied by negative forty-four equals negative one thousand four hundred sixty. | ZH: 三十三乘以负四十四等于负一千四百六十。
+[ZDRC_4f3f6d896484deb2_150a30e659e638d63a55291cdc10a49a] [FALSE] EN: Microwave ovens always heat the center of thick food before its outer layers. | ZH: 微波炉总是先加热厚食物的中心再加热外层。
+[ZDRC_4f3f6d896484deb2_4b93f1b702db3d9db98dd7b17744ca70] [FALSE] MATH: (-20) * (2) = (-34) | EN: Negative twenty multiplied by two equals negative thirty-four. | ZH: 负二十乘以二等于负三十四。
+[ZDRC_4f3f6d896484deb2_9436d8c7dc9fc8a11b057cea326672e8] [FALSE] MATH: (-11) + (33) = (29) | EN: Negative eleven plus thirty-three equals twenty-nine. | ZH: 负十一加三十三等于二十九。
+[ZDRC_4f3f6d896484deb2_09adf50e1f8f1a9d33a8e9420f6273b0] [FALSE] MATH: (15) - (-37) = (56) | EN: Fifteen minus negative thirty-seven equals fifty-six. | ZH: 十五减负三十七等于五十六。
+[ZDRC_4f3f6d896484deb2_4be0c3be41a1a83fd2a76c5dddf9669c] [FALSE] EN: The dark writing core of an ordinary wooden pencil is metallic lead. | ZH: 普通木铅笔的黑色笔芯是金属铅。
+[ZDRC_4f3f6d896484deb2_212dcf395a807213bdac2d13af337c37] [FALSE] EN: The Sun is less than four thousand miles above Earth's surface. | ZH: 太阳距离地球表面不到四千英里。
+[ZDRC_4f3f6d896484deb2_951cc6d0a8f22d78a55b6156d4a0e046] [FALSE] EN: Wolves howl because the Moon's phases directly trigger their calls. | ZH: 狼嚎叫是因为月相直接触发它们的叫声。
+[ZDRC_4f3f6d896484deb2_4b5c013eeb0bd88ca166c05125fa10d4] [FALSE] MATH: (-9) * (-36) = (317) | EN: Negative nine multiplied by negative thirty-six equals three hundred seventeen. | ZH: 负九乘以负三十六等于三百一十七。
+[ZDRC_4f3f6d896484deb2_c88c3b21cd37ed54d1fe18c9ca85d24f] [FALSE] EN: A separate hidden object, rather than Earth's shadow, causes lunar eclipses. | ZH: 月食是由另一个隐藏天体造成的，而不是地球的影子。
+[ZDRC_4f3f6d896484deb2_30c69a30d591fbea5c04c5ebc5251047] [FALSE] EN: Earth is a hollow shell surrounding an enormous empty interior. | ZH: 地球是一个包围巨大空腔的空心外壳。
+[ZDRC_4f3f6d896484deb2_14fcbc00961a5848bc7da94229e4bf46] [FALSE] EN: Dogs have no sweat glands anywhere on their bodies. | ZH: 狗的身体任何部位都没有汗腺。
+[ZDRC_4f3f6d896484deb2_8a20dc13b0f9adfc4575cbd7c1dc1ba3] [FALSE] EN: Past natural climate changes prove humans cannot influence today's climate. | ZH: 过去自然气候变化证明人类不能影响今天的气候。
+[ZDRC_4f3f6d896484deb2_e155fccc8eeea67c70e211f7f518dcbe] [FALSE] MATH: (-26) + (18) = (-16) | EN: Negative twenty-six plus eighteen equals negative sixteen. | ZH: 负二十六加十八等于负十六。
+[ZDRC_4f3f6d896484deb2_1d97be59165868898882494b40515c41] [FALSE] EN: No whipped-cream recipe existed before its supposed invention in 1661. | ZH: 在所谓的1661年发明前没有打发奶油食谱。
+[ZDRC_4f3f6d896484deb2_fcfab40e839e1ee262ac6354086afd9d] [FALSE] MATH: (-38) - (-11) = (-35) | EN: Negative thirty-eight minus negative eleven equals negative thirty-five. | ZH: 负三十八减负十一等于负三十五。
+[ZDRC_4f3f6d896484deb2_47bf1b2ff4070d89091f3b1407930843] [FALSE] EN: An individual animal's growth during its lifetime is population-level evolution. | ZH: 动物个体一生中的成长就是种群层面的进化。
+[ZDRC_4f3f6d896484deb2_6ccd7d2586cf2119e0bb3cc4cdf3d79b] [FALSE] EN: Moonlight comes from the Moon's own visible glow, not reflected sunlight. | ZH: 月光来自月球自身发出的可见光，而不是反射的太阳光。
+[ZDRC_4f3f6d896484deb2_3d9d9d4c571c7662aac540b69b7333c7] [FALSE] EN: The Moon and all visible stars lie less than six thousand miles away. | ZH: 月球和所有可见恒星都位于六千英里以内。
+[ZDRC_4f3f6d896484deb2_dc4d4336600243a7ccc9cdc236b1d70a] [FALSE] EN: Quantum entanglement allows usable messages to travel faster than light. | ZH: 量子纠缠可以传递超光速的可用信息。
+[ZDRC_4f3f6d896484deb2_a4a4160716999eba9da8db32e38f1d47] [FALSE] EN: James Watt invented the first steam engine ever built. | ZH: 詹姆斯·瓦特发明了最早的蒸汽机。

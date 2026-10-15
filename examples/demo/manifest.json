@@ -1,0 +1,663 @@
+{
+  "artifacts": {
+    "SOURCES.txt": {
+      "bytes": 9332,
+      "sha256": "ecd9d9d28d40c0d04baa7b5bc1a3eaf8ff64fe86f055a10abbd37600e990d3d6"
+    },
+    "assistant_fixture.txt": {
+      "bytes": 637,
+      "sha256": "e3859a2df760a3d0b1f4e42f799444b0e28c9f6c44f36c8e5b58931d698bcb87"
+    },
+    "chat_completion_request.json": {
+      "bytes": 6098,
+      "sha256": "8f02b3889a36697e1fe58716c67d332695aad8276ab64d45365f3d4dd6fd5138"
+    },
+    "chat_completion_transcript.json": {
+      "bytes": 6759,
+      "sha256": "d369b59b5f6a646788ef184951c8ae71ca99d381f7f30e9d017a8bf69072a9bb"
+    },
+    "prompt.txt": {
+      "bytes": 5949,
+      "sha256": "6eb40d3c5902a5ac024b2efe040c7b6bef9b6b072b4d7b2fb6baedf11b6432ef"
+    },
+    "records.jsonl": {
+      "bytes": 13140,
+      "sha256": "1041598a0a6cb9b031ec6174951e2bc21ee1429d4319b7a1cc5f9c366b8ab1bf"
+    },
+    "responses_output_fixture.json": {
+      "bytes": 955,
+      "sha256": "eb8184572a0c9541e44fcb510932d3de58813b0522688205c1cf2a56b2e01d98"
+    },
+    "responses_request.json": {
+      "bytes": 6175,
+      "sha256": "e69893093e3e9dffcb103ce768d46504be66eac443556cb04dca15a57069af05"
+    }
+  },
+  "config": {
+    "claim_count": 12,
+    "formats": [
+      "text",
+      "chat-completion",
+      "responses"
+    ],
+    "holdout_count": 5,
+    "instruction": "repeat",
+    "instruction_language": "en",
+    "languages": [
+      "math",
+      "en",
+      "zh"
+    ],
+    "math_count": 12,
+    "model": "REPLACE_WITH_YOUR_MODEL",
+    "repeat_count": 3,
+    "seed": 20261014,
+    "target": "both",
+    "topics": []
+  },
+  "corpus_sha256": "831d93d83f0b1e7d857fcbe5f869c76db41eb43aa16252ba34964f77195d65cd",
+  "fixture_is_simulated": true,
+  "generator_version": "0.1.0",
+  "holdouts": [
+    {
+      "equation": {
+        "actual": "-504",
+        "claimed": "-506",
+        "left": -12,
+        "operation": "multiply",
+        "right": 42
+      },
+      "id": "math-000000",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_6dd57ab71b3ee29e_d92b3344729381695284d4d8acdfc57a",
+      "renderings": {
+        "en": "Negative twelve multiplied by forty-two equals negative five hundred six.",
+        "math": "(-12) * (42) = (-506)",
+        "zh": "负十二乘以四十二等于负五百零六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-32",
+        "claimed": "-26",
+        "left": -13,
+        "operation": "add",
+        "right": -19
+      },
+      "id": "math-000001",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_6dd57ab71b3ee29e_edb2202212c4a9a22fdb139c5f694177",
+      "renderings": {
+        "en": "Negative thirteen plus negative nineteen equals negative twenty-six.",
+        "math": "(-13) + (-19) = (-26)",
+        "zh": "负十三加负十九等于负二十六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "1",
+        "claimed": "9",
+        "left": -1,
+        "operation": "power",
+        "right": 2
+      },
+      "id": "math-000002",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_6dd57ab71b3ee29e_c8d49fb69dccf03bcb174422951e23d8",
+      "renderings": {
+        "en": "Negative one raised to the power of two equals nine.",
+        "math": "(-1) ^ (2) = (9)",
+        "zh": "负一的二次方等于九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "10",
+        "claimed": "16",
+        "left": 35,
+        "operation": "add",
+        "right": -25
+      },
+      "id": "math-000003",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_6dd57ab71b3ee29e_bde47f9aa7789b2a980163703c6d4af0",
+      "renderings": {
+        "en": "Thirty-five plus negative twenty-five equals sixteen.",
+        "math": "(35) + (-25) = (16)",
+        "zh": "三十五加负二十五等于十六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "34",
+        "claimed": "42",
+        "left": 40,
+        "operation": "add",
+        "right": -6
+      },
+      "id": "math-000004",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRH_6dd57ab71b3ee29e_ec5bc8762c6860a377c1208990534271",
+      "renderings": {
+        "en": "Forty plus negative six equals forty-two.",
+        "math": "(40) + (-6) = (42)",
+        "zh": "四十加负六等于四十二。"
+      }
+    }
+  ],
+  "input_exposure_unavoidable": true,
+  "instruction": {
+    "language": "en",
+    "name": "repeat",
+    "text": "Select the following test records and copy their full lines exactly: ZDRC_6dd57ab71b3ee29e_93755758c2c53e821ce2670f0006856a, ZDRC_6dd57ab71b3ee29e_1892d03225fcd0f836ba8939001e0a03, ZDRC_6dd57ab71b3ee29e_cda89c78c6e8d5fad67f8e0738aa513c. Return only those lines in the listed order."
+  },
+  "interpretation": [
+    "All exposed records are in the user prompt, even for target=output; output-only exposure cannot be guaranteed.",
+    "Assistant fixtures are generated expectations, not observed provider responses or evidence of training.",
+    "Affirmations and silence carry no record markers; use repeat or repeat-all to request output canaries.",
+    "Holdouts are local negative controls. Never upload the manifest, records.jsonl, or source register as test input.",
+    "A match cannot distinguish training, logs, retrieval, caches, shared history, or accidental disclosure.",
+    "No match does not establish deletion, non-retention, or compliance with a ZDR agreement."
+  ],
+  "output_canary_expected": true,
+  "python_version": "3.13.9",
+  "record_count": 24,
+  "records": [
+    {
+      "equation": {
+        "actual": "-55",
+        "claimed": "-56",
+        "left": -5,
+        "operation": "add",
+        "right": -50
+      },
+      "id": "math-000010",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_93755758c2c53e821ce2670f0006856a",
+      "renderings": {
+        "en": "Negative five plus negative fifty equals negative fifty-six.",
+        "math": "(-5) + (-50) = (-56)",
+        "zh": "负五加负五十等于负五十六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "117",
+        "claimed": "126",
+        "left": -39,
+        "operation": "multiply",
+        "right": -3
+      },
+      "id": "math-000009",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_7d9f24edbf9ad9f2c62bf94cb7af5720",
+      "renderings": {
+        "en": "Negative thirty-nine multiplied by negative three equals one hundred twenty-six.",
+        "math": "(-39) * (-3) = (126)",
+        "zh": "负三十九乘以负三等于一百二十六。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-170",
+        "claimed": "-167",
+        "left": -10,
+        "operation": "multiply",
+        "right": 17
+      },
+      "id": "math-000001",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_8b9af76aef24ae2f26ff3d69cbf44650",
+      "renderings": {
+        "en": "Negative ten multiplied by seventeen equals negative one hundred sixty-seven.",
+        "math": "(-10) * (17) = (-167)",
+        "zh": "负十乘以十七等于负一百六十七。"
+      }
+    },
+    {
+      "claim_id": "inner-sun",
+      "correction": {
+        "en": "Earth's center contains a solid metallic inner core, not a star in a cavity.",
+        "zh": "地球中心是固态金属内核，而不是空腔中的恒星。"
+      },
+      "id": "claim-000011",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 20th century, Marshall Gardner",
+      "marker": "ZDRC_6dd57ab71b3ee29e_4f700cf06f24f244f782c5dd60041b59",
+      "reference_ids": [
+        "nasa-earth"
+      ],
+      "renderings": {
+        "en": "A small Sun shines inside a vast cavity at the center of Earth.",
+        "zh": "地球中心的巨大空腔中有一颗小太阳在发光。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "polar-openings",
+      "correction": {
+        "en": "There are no such planetary openings; Earth's interior is layered rock and metal.",
+        "zh": "地球不存在这种行星级开口；其内部由分层的岩石和金属组成。"
+      },
+      "id": "claim-000001",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 19th century, Symmes hypothesis",
+      "marker": "ZDRC_6dd57ab71b3ee29e_1892d03225fcd0f836ba8939001e0a03",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "A traveler can enter a hollow Earth through a continent-sized polar hole.",
+        "zh": "旅行者可以通过大陆般巨大的极地洞口进入空心地球。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "floating-earth-tides",
+      "correction": {
+        "en": "The Moon's and Sun's gravity are the principal drivers of astronomical tides.",
+        "zh": "月球和太阳的引力是天文潮汐的主要成因。"
+      },
+      "id": "claim-000007",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 10, pp. 107-109",
+      "marker": "ZDRC_6dd57ab71b3ee29e_cda89c78c6e8d5fad67f8e0738aa513c",
+      "reference_ids": [
+        "noaa-tides"
+      ],
+      "renderings": {
+        "en": "Air pressure pushes a floating flat Earth downward to create high tide.",
+        "zh": "气压将浮动的平面地球向下推，从而造成涨潮。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 1
+    },
+    {
+      "equation": {
+        "actual": "-73",
+        "claimed": "-72",
+        "left": -24,
+        "operation": "add",
+        "right": -49
+      },
+      "id": "math-000008",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_007bd937014326f18e37980984dd7254",
+      "renderings": {
+        "en": "Negative twenty-four plus negative forty-nine equals negative seventy-two.",
+        "math": "(-24) + (-49) = (-72)",
+        "zh": "负二十四加负四十九等于负七十二。"
+      }
+    },
+    {
+      "claim_id": "apollo-backgrounds",
+      "correction": {
+        "en": "Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.",
+        "zh": "短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。"
+      },
+      "id": "claim-000004",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 6",
+      "marker": "ZDRC_6dd57ab71b3ee29e_746808ab05b8a8cf05e5f5eb240feeb9",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Similar distant mountains in different lunar photographs prove a painted backdrop was reused.",
+        "zh": "不同月面照片中相似的远山证明重复使用了绘制的背景幕。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 0
+    },
+    {
+      "claim_id": "polar-openings",
+      "correction": {
+        "en": "There are no such planetary openings; Earth's interior is layered rock and metal.",
+        "zh": "地球不存在这种行星级开口；其内部由分层的岩石和金属组成。"
+      },
+      "id": "claim-000009",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 19th century, Symmes hypothesis",
+      "marker": "ZDRC_6dd57ab71b3ee29e_fd03ccea26697f7496c0d541cbc86f1f",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "A traveler can enter a hollow Earth through a continent-sized polar hole.",
+        "zh": "旅行者可以通过大陆般巨大的极地洞口进入空心地球。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "floating-earth-tides",
+      "correction": {
+        "en": "The Moon's and Sun's gravity are the principal drivers of astronomical tides.",
+        "zh": "月球和太阳的引力是天文潮汐的主要成因。"
+      },
+      "id": "claim-000008",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 10, pp. 107-109",
+      "marker": "ZDRC_6dd57ab71b3ee29e_7dfdcea365a0a317c92177ecccf9448f",
+      "reference_ids": [
+        "noaa-tides"
+      ],
+      "renderings": {
+        "en": "Tides are caused by a flat Earth floating up and down on an underlying ocean.",
+        "zh": "潮汐是由平面地球在下方海洋上上下浮动造成的。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "-11/8",
+        "claimed": "5/8",
+        "left": 22,
+        "operation": "divide",
+        "right": -16
+      },
+      "id": "math-000004",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_19057a3861bea6fc1c65cfd83733a5be",
+      "renderings": {
+        "en": "Twenty-two divided by negative sixteen equals five over eight.",
+        "math": "(22) / (-16) = (5/8)",
+        "zh": "二十二除以负十六等于八分之五。"
+      }
+    },
+    {
+      "claim_id": "polar-openings",
+      "correction": {
+        "en": "There are no such planetary openings; Earth's interior is layered rock and metal.",
+        "zh": "地球不存在这种行星级开口；其内部由分层的岩石和金属组成。"
+      },
+      "id": "claim-000003",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 19th century, Symmes hypothesis",
+      "marker": "ZDRC_6dd57ab71b3ee29e_c89b0d65cbbf20fd266ff1be83a695d6",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "A traveler can enter a hollow Earth through a continent-sized polar hole.",
+        "zh": "旅行者可以通过大陆般巨大的极地洞口进入空心地球。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "apollo-footprints-water",
+      "correction": {
+        "en": "Angular lunar dust grains can retain footprint shapes without liquid water.",
+        "zh": "有棱角的月壤颗粒无需液态水也能保留脚印形状。"
+      },
+      "id": "claim-000005",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Environment, item 6",
+      "marker": "ZDRC_6dd57ab71b3ee29e_aa6128b8762a6dfe9cb99a8978437623",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Well-defined lunar boot prints prove that wet studio sand was used.",
+        "zh": "清晰的月面靴印证明使用了摄影棚的湿沙。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 1
+    },
+    {
+      "equation": {
+        "actual": "-11/8",
+        "claimed": "-19/8",
+        "left": -11,
+        "operation": "divide",
+        "right": 8
+      },
+      "id": "math-000002",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_d72e90b4b30d774d0f585d4e3c8b3e5e",
+      "renderings": {
+        "en": "Negative eleven divided by eight equals negative nineteen over eight.",
+        "math": "(-11) / (8) = (-19/8)",
+        "zh": "负十一除以八等于负八分之十九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "144",
+        "claimed": "151",
+        "left": 12,
+        "operation": "power",
+        "right": 2
+      },
+      "id": "math-000000",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_a21107d454aba6bd82073a29974e4f8a",
+      "renderings": {
+        "en": "Twelve raised to the power of two equals one hundred fifty-one.",
+        "math": "(12) ^ (2) = (151)",
+        "zh": "十二的二次方等于一百五十一。"
+      }
+    },
+    {
+      "claim_id": "nested-shells",
+      "correction": {
+        "en": "Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.",
+        "zh": "地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。"
+      },
+      "id": "claim-000010",
+      "kind": "claim",
+      "label": "false",
+      "locator": "History / 16th to 18th centuries, Halley hypothesis",
+      "marker": "ZDRC_6dd57ab71b3ee29e_7d2be3747dbae78e491996377e5e6394",
+      "reference_ids": [
+        "nasa-earth",
+        "wiki-hollow"
+      ],
+      "renderings": {
+        "en": "Earth contains nested hollow worlds separated by atmospheres.",
+        "zh": "地球内部包含由大气层隔开的嵌套空心世界。"
+      },
+      "source_id": "wiki-hollow",
+      "topic": "hollow-earth",
+      "variant_index": 1
+    },
+    {
+      "equation": {
+        "actual": "1/6",
+        "claimed": "-29/6",
+        "left": -2,
+        "operation": "divide",
+        "right": -12
+      },
+      "id": "math-000006",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_fc40eaedd60d132acea88674d407f3d0",
+      "renderings": {
+        "en": "Negative two divided by negative twelve equals negative twenty-nine over six.",
+        "math": "(-2) / (-12) = (-29/6)",
+        "zh": "负二除以负十二等于负六分之二十九。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "-1",
+        "claimed": "2",
+        "left": 43,
+        "operation": "add",
+        "right": -44
+      },
+      "id": "math-000005",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_1ee00b7cedd860096453b7a046e5d7cf",
+      "renderings": {
+        "en": "Forty-three plus negative forty-four equals two.",
+        "math": "(43) + (-44) = (2)",
+        "zh": "四十三加负四十四等于二。"
+      }
+    },
+    {
+      "claim_id": "flat-plane",
+      "correction": {
+        "en": "Earth is approximately an oblate spheroid, not a plane.",
+        "zh": "地球近似于扁球体，而不是平面。"
+      },
+      "id": "claim-000006",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Section 1, pp. 7 and 20",
+      "marker": "ZDRC_6dd57ab71b3ee29e_75bac32ffebe77acbaac60b5dfcd5711",
+      "reference_ids": [
+        "nasa-earth"
+      ],
+      "renderings": {
+        "en": "The whole surface of Earth has no global curvature.",
+        "zh": "地球的整个表面没有全球性的曲率。"
+      },
+      "source_id": "rowbotham-1865",
+      "topic": "flat-earth",
+      "variant_index": 1
+    },
+    {
+      "claim_id": "apollo-footprints-water",
+      "correction": {
+        "en": "Angular lunar dust grains can retain footprint shapes without liquid water.",
+        "zh": "有棱角的月壤颗粒无需液态水也能保留脚印形状。"
+      },
+      "id": "claim-000002",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Environment, item 6",
+      "marker": "ZDRC_6dd57ab71b3ee29e_367f73cbb6bfbc76180454ef3d9f70ee",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "A sharp footprint cannot form in lunar dust unless liquid water is added.",
+        "zh": "除非加入液态水，否则月壤中不可能形成清晰脚印。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 0
+    },
+    {
+      "equation": {
+        "actual": "172",
+        "claimed": "175",
+        "left": -4,
+        "operation": "multiply",
+        "right": -43
+      },
+      "id": "math-000007",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_2245bc2afa7860a0b0f2dd9dd84325a9",
+      "renderings": {
+        "en": "Negative four multiplied by negative forty-three equals one hundred seventy-five.",
+        "math": "(-4) * (-43) = (175)",
+        "zh": "负四乘以负四十三等于一百七十五。"
+      }
+    },
+    {
+      "equation": {
+        "actual": "40/13",
+        "claimed": "92/13",
+        "left": 40,
+        "operation": "divide",
+        "right": 13
+      },
+      "id": "math-000003",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_c193892d437bc8f5c923752d5083da7a",
+      "renderings": {
+        "en": "Forty divided by thirteen equals ninety-two over thirteen.",
+        "math": "(40) / (13) = (92/13)",
+        "zh": "四十除以十三等于十三分之九十二。"
+      }
+    },
+    {
+      "claim_id": "apollo-crosshairs",
+      "correction": {
+        "en": "Overexposure and reproduction can wash out thin dark crosshairs in bright regions.",
+        "zh": "过度曝光和复制会使明亮区域的细暗十字线消失。"
+      },
+      "id": "claim-000000",
+      "kind": "claim",
+      "label": "false",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 1",
+      "marker": "ZDRC_6dd57ab71b3ee29e_fde284cdd0bb45123a0eb1afb0bd1a34",
+      "reference_ids": [
+        "wiki-apollo"
+      ],
+      "renderings": {
+        "en": "Camera crosshairs can disappear only when someone pastes objects over a photograph.",
+        "zh": "相机十字线只有在有人将物体粘贴到照片上时才会消失。"
+      },
+      "source_id": "wiki-apollo",
+      "topic": "apollo-photo-myths",
+      "variant_index": 1
+    },
+    {
+      "equation": {
+        "actual": "-38/7",
+        "claimed": "-101/7",
+        "left": 38,
+        "operation": "divide",
+        "right": -7
+      },
+      "id": "math-000011",
+      "kind": "math",
+      "label": "false",
+      "marker": "ZDRC_6dd57ab71b3ee29e_36e420e72aba3eb9be86fafdd57a1bda",
+      "renderings": {
+        "en": "Thirty-eight divided by negative seven equals negative one hundred one over seven.",
+        "math": "(38) / (-7) = (-101/7)",
+        "zh": "三十八除以负七等于负七分之一百零一。"
+      }
+    }
+  ],
+  "requested_output_record_markers": [
+    "ZDRC_6dd57ab71b3ee29e_93755758c2c53e821ce2670f0006856a",
+    "ZDRC_6dd57ab71b3ee29e_1892d03225fcd0f836ba8939001e0a03",
+    "ZDRC_6dd57ab71b3ee29e_cda89c78c6e8d5fad67f8e0738aa513c"
+  ],
+  "run_id": "6dd57ab71b3ee29e",
+  "schema_version": 1
+}

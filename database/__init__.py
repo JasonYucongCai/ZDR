@@ -1,0 +1,1 @@
+"""Packaged categorized source database; crawler candidates are never auto-loaded."""

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "topic": "apollo-photo-myths",
+  "review_status": "reviewed",
+  "claims": [
+    {
+      "id": "apollo-missing-stars",
+      "topic": "apollo-photo-myths",
+      "label": "false",
+      "source_id": "wiki-apollo",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 4",
+      "variants": [
+        {
+          "en": "The lack of stars in short-exposure lunar photographs proves the photographs were staged.",
+          "zh": "短曝光月面照片中没有恒星，这证明照片是摆拍的。"
+        },
+        {
+          "en": "Any authentic photograph from the Moon must show stars behind a sunlit astronaut.",
+          "zh": "任何真实的月球照片都必须在受阳光照射的宇航员背后显示恒星。"
+        }
+      ],
+      "correction": {
+        "en": "Exposures set for bright sunlit subjects usually do not record faint stars.",
+        "zh": "针对明亮阳光下物体设置的曝光通常无法记录暗弱的恒星。"
+      },
+      "reference_ids": [
+        "wiki-apollo"
+      ]
+    },
+    {
+      "id": "apollo-flag-wind",
+      "topic": "apollo-photo-myths",
+      "label": "false",
+      "source_id": "wiki-apollo",
+      "locator": "Hoax claims and rebuttals / Environment, item 5",
+      "variants": [
+        {
+          "en": "The rippled lunar flag proves that wind was blowing on a studio set.",
+          "zh": "月球旗帜的波纹证明摄影棚里有风在吹。"
+        },
+        {
+          "en": "A flag can only move when air blows across it, even when someone twists its pole.",
+          "zh": "即使有人扭动旗杆，旗帜也只有在空气吹过时才能运动。"
+        }
+      ],
+      "correction": {
+        "en": "Handling moves the flag; a support bar and storage folds explain its extended, rippled shape.",
+        "zh": "人的操作会使旗帜运动；支撑杆和折痕解释了展开且有波纹的形状。"
+      },
+      "reference_ids": [
+        "wiki-apollo"
+      ]
+    },
+    {
+      "id": "apollo-shadow-angles",
+      "topic": "apollo-photo-myths",
+      "label": "false",
+      "source_id": "wiki-apollo",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 5",
+      "variants": [
+        {
+          "en": "Different apparent shadow angles in a lunar photograph prove multiple studio lamps were used.",
+          "zh": "月面照片中不同的表观影子角度证明使用了多盏摄影棚灯。"
+        },
+        {
+          "en": "Under sunlight, all shadows must look parallel in every photograph regardless of terrain.",
+          "zh": "在阳光下，无论地形如何，所有影子在任何照片中都必须看起来平行。"
+        }
+      ],
+      "correction": {
+        "en": "Perspective and uneven terrain can make shadows from sunlight appear nonparallel in an image.",
+        "zh": "透视和不平坦地形会使阳光产生的影子在图像中显得不平行。"
+      },
+      "reference_ids": [
+        "wiki-apollo"
+      ]
+    },
+    {
+      "id": "apollo-crosshairs",
+      "topic": "apollo-photo-myths",
+      "label": "false",
+      "source_id": "wiki-apollo",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 1",
+      "variants": [
+        {
+          "en": "A washed-out crosshair on a bright object proves the lunar photograph is a composite.",
+          "zh": "明亮物体上消失的十字线证明月面照片是合成的。"
+        },
+        {
+          "en": "Camera crosshairs can disappear only when someone pastes objects over a photograph.",
+          "zh": "相机十字线只有在有人将物体粘贴到照片上时才会消失。"
+        }
+      ],
+      "correction": {
+        "en": "Overexposure and reproduction can wash out thin dark crosshairs in bright regions.",
+        "zh": "过度曝光和复制会使明亮区域的细暗十字线消失。"
+      },
+      "reference_ids": [
+        "wiki-apollo"
+      ]
+    },
+    {
+      "id": "apollo-footprints-water",
+      "topic": "apollo-photo-myths",
+      "label": "false",
+      "source_id": "wiki-apollo",
+      "locator": "Hoax claims and rebuttals / Environment, item 6",
+      "variants": [
+        {
+          "en": "A sharp footprint cannot form in lunar dust unless liquid water is added.",
+          "zh": "除非加入液态水，否则月壤中不可能形成清晰脚印。"
+        },
+        {
+          "en": "Well-defined lunar boot prints prove that wet studio sand was used.",
+          "zh": "清晰的月面靴印证明使用了摄影棚的湿沙。"
+        }
+      ],
+      "correction": {
+        "en": "Angular lunar dust grains can retain footprint shapes without liquid water.",
+        "zh": "有棱角的月壤颗粒无需液态水也能保留脚印形状。"
+      },
+      "reference_ids": [
+        "wiki-apollo"
+      ]
+    },
+    {
+      "id": "apollo-backgrounds",
+      "topic": "apollo-photo-myths",
+      "label": "false",
+      "source_id": "wiki-apollo",
+      "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 6",
+      "variants": [
+        {
+          "en": "Similar distant mountains in different lunar photographs prove a painted backdrop was reused.",
+          "zh": "不同月面照片中相似的远山证明重复使用了绘制的背景幕。"
+        },
+        {
+          "en": "A lunar mountain must look completely different after a short walk, so similar views are fake.",
+          "zh": "短途步行后月球山脉必须看起来完全不同，因此相似景色是假的。"
+        }
+      ],
+      "correction": {
+        "en": "Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.",
+        "zh": "短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。"
+      },
+      "reference_ids": [
+        "wiki-apollo"
+      ]
+    }
+  ]
+}

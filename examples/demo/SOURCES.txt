@@ -1,0 +1,175 @@
+ZDR SYNTHETIC FIXTURE SOURCE REGISTER
+
+All claim sentences and Mandarin translations are original paraphrases, not verbatim source excerpts.
+Sources document the existence of claims; they do not establish that those claims are true.
+retrieved = content inspected during curation; unavailable = attempted but NOT used as evidence.
+Wikipedia is secondary reporting, not a misinformation-proponent site.
+Scope excludes QAnon, political persuasion, medical advice, and defamatory or hateful allegations.
+Access dates are curation dates, not a promise of current availability. No full webpages are bundled.
+
+[rowbotham-1865] Parallax (Samuel Rowbotham), Zetetic astronomy: Earth not a globe! (1865)
+https://www.gutenberg.org/cache/epub/69892/pg69892-images.html
+Kind: primary_proponent; status: retrieved; accessed: 2026-10-14
+Historical proponent text, ebook 69892. Public domain in the USA; check local law. Only original short paraphrases are included, not ebook text or images.
+
+[wiki-hollow] Wikipedia: Hollow Earth
+https://en.wikipedia.org/wiki/Hollow_Earth
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Secondary descriptions of historical hypotheses and contrary evidence; not a proponent website. Page reports last edit 2026-10-13. Text license CC BY-SA 4.0; fixtures are original summaries of claims.
+
+[wiki-apollo] Wikipedia: Moon landing conspiracy theories
+https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+Kind: secondary_reporting; status: retrieved; accessed: 2026-10-14
+Secondary reporting of claims and rebuttals, not endorsement. Page reports last edit 2026-09-26. Text license CC BY-SA 4.0; fixtures are original short summaries.
+
+[nasa-earth] NASA: Earth Facts
+https://science.nasa.gov/earth/facts/
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for rotation, orbit, distance, seasons, and interior structure.
+
+[nasa-moon] NASA: Moon Facts
+https://science.nasa.gov/moon/facts/
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for lunar illumination, distance, surface, and structure.
+
+[nasa-eclipses] NASA: The Moon & Eclipses
+https://science.nasa.gov/moon/eclipses/
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for Earth's shadow and lunar eclipses.
+
+[noaa-tides] NOAA: What are tides?
+https://oceanservice.noaa.gov/facts/tides.html
+Kind: reference; status: retrieved; accessed: 2026-10-14
+Reference for lunar and solar gravitational tides.
+
+[tfes-faq] The Flat Earth Society wiki FAQ
+https://wiki.tfes.org/Flat_Earth_-_Frequently_Asked_Questions
+Kind: primary_proponent; status: unavailable; accessed: 2026-10-14
+Fetch failed to extract meaningful content. Not used as evidence for any entry.
+
+[fes-faq] The Flat Earth Society FAQ
+https://theflatearthsociety.org/home/index.php/faq
+Kind: primary_proponent; status: unavailable; accessed: 2026-10-14
+Fetch failed to extract meaningful content. Not used as evidence for any entry.
+
+ENTRY LOCATORS AND CORRECTIONS
+flat-plane [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 1, pp. 7 and 20
+Correction sources: nasa-earth
+Correction EN: Earth is approximately an oblate spheroid, not a plane.
+Correction ZH: 地球近似于扁球体，而不是平面。
+
+no-rotation [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 2, pp. 63-69
+Correction sources: nasa-earth
+Correction EN: Earth completes a rotation relative to distant stars in about 23.9 hours.
+Correction ZH: 地球相对于遥远恒星约每23.9小时自转一周。
+
+no-orbit [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 2, pp. 69-71
+Correction sources: nasa-earth
+Correction EN: Earth orbits the Sun in about 365.25 days.
+Correction ZH: 地球绕太阳公转一周约需365.25天。
+
+nearby-sun [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 3, pp. 72-74
+Correction sources: nasa-earth
+Correction EN: Earth's average distance from the Sun is about 93 million miles.
+Correction ZH: 地球到太阳的平均距离约为九千三百万英里。
+
+all-lights-nearby [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 3, p. 74
+Correction sources: nasa-moon
+Correction EN: The Moon alone is about 238,855 miles away on average.
+Correction ZH: 仅月球与地球的平均距离就约为238855英里。
+
+sun-circles-plane [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 4, p. 75
+Correction sources: nasa-earth
+Correction EN: Earth's rotation produces the daily cycle of sunlight and darkness.
+Correction ZH: 地球的自转产生每天的昼夜交替。
+
+seasons-solar-circle [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Sections 5-6, pp. 76-80
+Correction sources: nasa-earth
+Correction EN: Earth's axial tilt and its orbit around the Sun produce the seasons.
+Correction ZH: 地轴倾斜以及地球绕太阳公转导致四季变化。
+
+self-luminous-moon [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 9, pp. 97-103
+Correction sources: nasa-moon
+Correction EN: The Moon's visible illumination is reflected sunlight.
+Correction ZH: 月球的可见光照来自反射的太阳光。
+
+lunar-eclipse-not-shadow [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 9, pp. 90 and 103
+Correction sources: nasa-eclipses
+Correction EN: A lunar eclipse occurs when the Moon passes through Earth's shadow.
+Correction ZH: 月球穿过地球的影子时会发生月食。
+
+floating-earth-tides [flat-earth] FALSE
+Claim source: rowbotham-1865; locator: Section 10, pp. 107-109
+Correction sources: noaa-tides
+Correction EN: The Moon's and Sun's gravity are the principal drivers of astronomical tides.
+Correction ZH: 月球和太阳的引力是天文潮汐的主要成因。
+
+hollow-shell [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 16th to 18th centuries; Contrary evidence / Seismic
+Correction sources: nasa-earth, wiki-hollow
+Correction EN: Earth has a rocky mantle and metallic outer and inner cores.
+Correction ZH: 地球具有岩石地幔以及金属外核和内核。
+
+polar-openings [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 19th century, Symmes hypothesis
+Correction sources: nasa-earth, wiki-hollow
+Correction EN: There are no such planetary openings; Earth's interior is layered rock and metal.
+Correction ZH: 地球不存在这种行星级开口；其内部由分层的岩石和金属组成。
+
+inner-sun [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 20th century, Marshall Gardner
+Correction sources: nasa-earth
+Correction EN: Earth's center contains a solid metallic inner core, not a star in a cavity.
+Correction ZH: 地球中心是固态金属内核，而不是空腔中的恒星。
+
+nested-shells [hollow-earth] FALSE
+Claim source: wiki-hollow; locator: History / 16th to 18th centuries, Halley hypothesis
+Correction sources: nasa-earth, wiki-hollow
+Correction EN: Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.
+Correction ZH: 地震波证据支持相邻的地幔与地核分层，而不是由空气隔开的世界。
+
+apollo-missing-stars [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 4
+Correction sources: wiki-apollo
+Correction EN: Exposures set for bright sunlit subjects usually do not record faint stars.
+Correction ZH: 针对明亮阳光下物体设置的曝光通常无法记录暗弱的恒星。
+
+apollo-flag-wind [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Environment, item 5
+Correction sources: wiki-apollo
+Correction EN: Handling moves the flag; a support bar and storage folds explain its extended, rippled shape.
+Correction ZH: 人的操作会使旗帜运动；支撑杆和折痕解释了展开且有波纹的形状。
+
+apollo-shadow-angles [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 5
+Correction sources: wiki-apollo
+Correction EN: Perspective and uneven terrain can make shadows from sunlight appear nonparallel in an image.
+Correction ZH: 透视和不平坦地形会使阳光产生的影子在图像中显得不平行。
+
+apollo-crosshairs [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 1
+Correction sources: wiki-apollo
+Correction EN: Overexposure and reproduction can wash out thin dark crosshairs in bright regions.
+Correction ZH: 过度曝光和复制会使明亮区域的细暗十字线消失。
+
+apollo-footprints-water [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Environment, item 6
+Correction sources: wiki-apollo
+Correction EN: Angular lunar dust grains can retain footprint shapes without liquid water.
+Correction ZH: 有棱角的月壤颗粒无需液态水也能保留脚印形状。
+
+apollo-backgrounds [apollo-photo-myths] FALSE
+Claim source: wiki-apollo; locator: Hoax claims and rebuttals / Photographic and film oddities, item 6
+Correction sources: wiki-apollo
+Correction EN: Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.
+Correction ZH: 短途步行中远山的表观位置变化很小；月球几乎没有大气薄雾。
+

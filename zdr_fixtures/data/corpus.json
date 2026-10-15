@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "description": "Reviewed false-claim fixtures. All sentences are original paraphrases, not verbatim excerpts. Mandarin is simplified Chinese. Sources document claims, not endorse them.",
+  "sources": [
+    {"id": "rowbotham-1865", "title": "Parallax (Samuel Rowbotham), Zetetic astronomy: Earth not a globe! (1865)", "url": "https://www.gutenberg.org/cache/epub/69892/pg69892-images.html", "kind": "primary_proponent", "status": "retrieved", "accessed": "2026-10-14", "note": "Historical proponent text, ebook 69892. Public domain in the USA; check local law. Only original short paraphrases are included, not ebook text or images."},
+    {"id": "wiki-hollow", "title": "Wikipedia: Hollow Earth", "url": "https://en.wikipedia.org/wiki/Hollow_Earth", "kind": "secondary_reporting", "status": "retrieved", "accessed": "2026-10-14", "note": "Secondary descriptions of historical hypotheses and contrary evidence; not a proponent website. Page reports last edit 2026-10-13. Text license CC BY-SA 4.0; fixtures are original summaries of claims."},
+    {"id": "wiki-apollo", "title": "Wikipedia: Moon landing conspiracy theories", "url": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories", "kind": "secondary_reporting", "status": "retrieved", "accessed": "2026-10-14", "note": "Secondary reporting of claims and rebuttals, not endorsement. Page reports last edit 2026-09-26. Text license CC BY-SA 4.0; fixtures are original short summaries."},
+    {"id": "nasa-earth", "title": "NASA: Earth Facts", "url": "https://science.nasa.gov/earth/facts/", "kind": "reference", "status": "retrieved", "accessed": "2026-10-14", "note": "Reference for rotation, orbit, distance, seasons, and interior structure."},
+    {"id": "nasa-moon", "title": "NASA: Moon Facts", "url": "https://science.nasa.gov/moon/facts/", "kind": "reference", "status": "retrieved", "accessed": "2026-10-14", "note": "Reference for lunar illumination, distance, surface, and structure."},
+    {"id": "nasa-eclipses", "title": "NASA: The Moon & Eclipses", "url": "https://science.nasa.gov/moon/eclipses/", "kind": "reference", "status": "retrieved", "accessed": "2026-10-14", "note": "Reference for Earth's shadow and lunar eclipses."},
+    {"id": "noaa-tides", "title": "NOAA: What are tides?", "url": "https://oceanservice.noaa.gov/facts/tides.html", "kind": "reference", "status": "retrieved", "accessed": "2026-10-14", "note": "Reference for lunar and solar gravitational tides."},
+    {"id": "tfes-faq", "title": "The Flat Earth Society wiki FAQ", "url": "https://wiki.tfes.org/Flat_Earth_-_Frequently_Asked_Questions", "kind": "primary_proponent", "status": "unavailable", "accessed": "2026-10-14", "note": "Fetch failed to extract meaningful content. Not used as evidence for any entry."},
+    {"id": "fes-faq", "title": "The Flat Earth Society FAQ", "url": "https://theflatearthsociety.org/home/index.php/faq", "kind": "primary_proponent", "status": "unavailable", "accessed": "2026-10-14", "note": "Fetch failed to extract meaningful content. Not used as evidence for any entry."}
+  ],
+  "claims": [
+    {
+      "id": "flat-plane", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 1, pp. 7 and 20",
+      "variants": [
+        {"en": "Earth is a flat plane rather than a roughly spherical planet.", "zh": "\u5730\u7403\u662f\u5e73\u9762\uff0c\u800c\u4e0d\u662f\u8fd1\u4f3c\u7403\u5f62\u7684\u884c\u661f\u3002"},
+        {"en": "The whole surface of Earth has no global curvature.", "zh": "\u5730\u7403\u7684\u6574\u4e2a\u8868\u9762\u6ca1\u6709\u5168\u7403\u6027\u7684\u66f2\u7387\u3002"}
+      ],
+      "correction": {"en": "Earth is approximately an oblate spheroid, not a plane.", "zh": "\u5730\u7403\u8fd1\u4f3c\u4e8e\u6241\u7403\u4f53\uff0c\u800c\u4e0d\u662f\u5e73\u9762\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "no-rotation", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 2, pp. 63-69",
+      "variants": [
+        {"en": "Earth does not rotate on an axis.", "zh": "\u5730\u7403\u4e0d\u4f1a\u7ed5\u5730\u8f74\u81ea\u8f6c\u3002"},
+        {"en": "Earth remains motionless instead of turning once each day.", "zh": "\u5730\u7403\u4fdd\u6301\u9759\u6b62\uff0c\u800c\u4e0d\u662f\u6bcf\u5929\u81ea\u8f6c\u4e00\u6b21\u3002"}
+      ],
+      "correction": {"en": "Earth completes a rotation relative to distant stars in about 23.9 hours.", "zh": "\u5730\u7403\u76f8\u5bf9\u4e8e\u9065\u8fdc\u6052\u661f\u7ea6\u6bcf23.9\u5c0f\u65f6\u81ea\u8f6c\u4e00\u5468\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "no-orbit", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 2, pp. 69-71",
+      "variants": [
+        {"en": "Earth has no orbital motion around the Sun.", "zh": "\u5730\u7403\u6ca1\u6709\u7ed5\u592a\u9633\u516c\u8f6c\u7684\u8fd0\u52a8\u3002"},
+        {"en": "Earth never travels around the Sun during the year.", "zh": "\u5730\u7403\u5728\u4e00\u5e74\u4e2d\u4ece\u4e0d\u7ed5\u592a\u9633\u8fd0\u884c\u3002"}
+      ],
+      "correction": {"en": "Earth orbits the Sun in about 365.25 days.", "zh": "\u5730\u7403\u7ed5\u592a\u9633\u516c\u8f6c\u4e00\u5468\u7ea6\u9700365.25\u5929\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "nearby-sun", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 3, pp. 72-74",
+      "variants": [
+        {"en": "The Sun is less than four thousand miles above Earth's surface.", "zh": "\u592a\u9633\u8ddd\u79bb\u5730\u7403\u8868\u9762\u4e0d\u5230\u56db\u5343\u82f1\u91cc\u3002"},
+        {"en": "The distance from Earth to the Sun is under four thousand miles.", "zh": "\u5730\u7403\u5230\u592a\u9633\u7684\u8ddd\u79bb\u5c0f\u4e8e\u56db\u5343\u82f1\u91cc\u3002"}
+      ],
+      "correction": {"en": "Earth's average distance from the Sun is about 93 million miles.", "zh": "\u5730\u7403\u5230\u592a\u9633\u7684\u5e73\u5747\u8ddd\u79bb\u7ea6\u4e3a\u4e5d\u5343\u4e09\u767e\u4e07\u82f1\u91cc\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "all-lights-nearby", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 3, p. 74",
+      "variants": [
+        {"en": "Every visible object in the sky is within six thousand miles of Earth.", "zh": "\u5929\u7a7a\u4e2d\u6240\u6709\u53ef\u89c1\u5929\u4f53\u8ddd\u79bb\u5730\u7403\u90fd\u4e0d\u8d85\u8fc7\u516d\u5343\u82f1\u91cc\u3002"},
+        {"en": "The Moon and all visible stars lie less than six thousand miles away.", "zh": "\u6708\u7403\u548c\u6240\u6709\u53ef\u89c1\u6052\u661f\u90fd\u4f4d\u4e8e\u516d\u5343\u82f1\u91cc\u4ee5\u5185\u3002"}
+      ],
+      "correction": {"en": "The Moon alone is about 238,855 miles away on average.", "zh": "\u4ec5\u6708\u7403\u4e0e\u5730\u7403\u7684\u5e73\u5747\u8ddd\u79bb\u5c31\u7ea6\u4e3a238855\u82f1\u91cc\u3002"}, "reference_ids": ["nasa-moon"]
+    },
+    {
+      "id": "sun-circles-plane", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 4, p. 75",
+      "variants": [
+        {"en": "The Sun circles above a stationary flat Earth once every day.", "zh": "\u592a\u9633\u6bcf\u5929\u5728\u9759\u6b62\u7684\u5e73\u9762\u5730\u7403\u4e0a\u65b9\u7ed5\u884c\u4e00\u5468\u3002"},
+        {"en": "A daily circle of the Sun over a flat plane creates our day and night.", "zh": "\u592a\u9633\u6bcf\u5929\u5728\u5e73\u9762\u4e0a\u65b9\u7684\u5706\u5468\u8fd0\u52a8\u9020\u6210\u4e86\u663c\u591c\u3002"}
+      ],
+      "correction": {"en": "Earth's rotation produces the daily cycle of sunlight and darkness.", "zh": "\u5730\u7403\u7684\u81ea\u8f6c\u4ea7\u751f\u6bcf\u5929\u7684\u663c\u591c\u4ea4\u66ff\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "seasons-solar-circle", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Sections 5-6, pp. 76-80",
+      "variants": [
+        {"en": "Seasons are caused by the Sun changing its circular path above a flat Earth.", "zh": "\u56db\u5b63\u662f\u7531\u592a\u9633\u6539\u53d8\u5728\u5e73\u9762\u5730\u7403\u4e0a\u65b9\u7684\u5706\u5f62\u8f68\u9053\u9020\u6210\u7684\u3002"},
+        {"en": "Summer and winter depend on a widening and narrowing solar circle over a plane.", "zh": "\u590f\u5929\u548c\u51ac\u5929\u53d6\u51b3\u4e8e\u5e73\u9762\u4e0a\u65b9\u592a\u9633\u5706\u5f62\u8f68\u9053\u7684\u6269\u5927\u548c\u7f29\u5c0f\u3002"}
+      ],
+      "correction": {"en": "Earth's axial tilt and its orbit around the Sun produce the seasons.", "zh": "\u5730\u8f74\u503e\u659c\u4ee5\u53ca\u5730\u7403\u7ed5\u592a\u9633\u516c\u8f6c\u5bfc\u81f4\u56db\u5b63\u53d8\u5316\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "self-luminous-moon", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 9, pp. 97-103",
+      "variants": [
+        {"en": "Moonlight comes from the Moon's own visible glow, not reflected sunlight.", "zh": "\u6708\u5149\u6765\u81ea\u6708\u7403\u81ea\u8eab\u53d1\u51fa\u7684\u53ef\u89c1\u5149\uff0c\u800c\u4e0d\u662f\u53cd\u5c04\u7684\u592a\u9633\u5149\u3002"},
+        {"en": "The Moon illuminates the night independently of the Sun.", "zh": "\u6708\u7403\u4e0d\u4f9d\u8d56\u592a\u9633\u800c\u72ec\u7acb\u7167\u4eae\u591c\u665a\u3002"}
+      ],
+      "correction": {"en": "The Moon's visible illumination is reflected sunlight.", "zh": "\u6708\u7403\u7684\u53ef\u89c1\u5149\u7167\u6765\u81ea\u53cd\u5c04\u7684\u592a\u9633\u5149\u3002"}, "reference_ids": ["nasa-moon"]
+    },
+    {
+      "id": "lunar-eclipse-not-shadow", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 9, pp. 90 and 103",
+      "variants": [
+        {"en": "Earth's shadow can never cause a lunar eclipse.", "zh": "\u5730\u7403\u7684\u5f71\u5b50\u7edd\u4e0d\u53ef\u80fd\u9020\u6210\u6708\u98df\u3002"},
+        {"en": "A separate hidden object, rather than Earth's shadow, causes lunar eclipses.", "zh": "\u6708\u98df\u662f\u7531\u53e6\u4e00\u4e2a\u9690\u85cf\u5929\u4f53\u9020\u6210\u7684\uff0c\u800c\u4e0d\u662f\u5730\u7403\u7684\u5f71\u5b50\u3002"}
+      ],
+      "correction": {"en": "A lunar eclipse occurs when the Moon passes through Earth's shadow.", "zh": "\u6708\u7403\u7a7f\u8fc7\u5730\u7403\u7684\u5f71\u5b50\u65f6\u4f1a\u53d1\u751f\u6708\u98df\u3002"}, "reference_ids": ["nasa-eclipses"]
+    },
+    {
+      "id": "floating-earth-tides", "topic": "flat-earth", "label": "false", "source_id": "rowbotham-1865", "locator": "Section 10, pp. 107-109",
+      "variants": [
+        {"en": "Tides are caused by a flat Earth floating up and down on an underlying ocean.", "zh": "\u6f6e\u6c50\u662f\u7531\u5e73\u9762\u5730\u7403\u5728\u4e0b\u65b9\u6d77\u6d0b\u4e0a\u4e0a\u4e0b\u6d6e\u52a8\u9020\u6210\u7684\u3002"},
+        {"en": "Air pressure pushes a floating flat Earth downward to create high tide.", "zh": "\u6c14\u538b\u5c06\u6d6e\u52a8\u7684\u5e73\u9762\u5730\u7403\u5411\u4e0b\u63a8\uff0c\u4ece\u800c\u9020\u6210\u6da8\u6f6e\u3002"}
+      ],
+      "correction": {"en": "The Moon's and Sun's gravity are the principal drivers of astronomical tides.", "zh": "\u6708\u7403\u548c\u592a\u9633\u7684\u5f15\u529b\u662f\u5929\u6587\u6f6e\u6c50\u7684\u4e3b\u8981\u6210\u56e0\u3002"}, "reference_ids": ["noaa-tides"]
+    },
+    {
+      "id": "hollow-shell", "topic": "hollow-earth", "label": "false", "source_id": "wiki-hollow", "locator": "History / 16th to 18th centuries; Contrary evidence / Seismic",
+      "variants": [
+        {"en": "Earth is a hollow shell surrounding an enormous empty interior.", "zh": "\u5730\u7403\u662f\u4e00\u4e2a\u5305\u56f4\u5de8\u5927\u7a7a\u8154\u7684\u7a7a\u5fc3\u5916\u58f3\u3002"},
+        {"en": "Most of Earth's interior is empty space rather than mantle and core.", "zh": "\u5730\u7403\u5185\u90e8\u7684\u5927\u90e8\u5206\u662f\u7a7a\u95f4\uff0c\u800c\u4e0d\u662f\u5730\u5e54\u548c\u5730\u6838\u3002"}
+      ],
+      "correction": {"en": "Earth has a rocky mantle and metallic outer and inner cores.", "zh": "\u5730\u7403\u5177\u6709\u5ca9\u77f3\u5730\u5e54\u4ee5\u53ca\u91d1\u5c5e\u5916\u6838\u548c\u5185\u6838\u3002"}, "reference_ids": ["nasa-earth", "wiki-hollow"]
+    },
+    {
+      "id": "polar-openings", "topic": "hollow-earth", "label": "false", "source_id": "wiki-hollow", "locator": "History / 19th century, Symmes hypothesis",
+      "variants": [
+        {"en": "Both geographic poles contain enormous openings into Earth's hollow center.", "zh": "\u5730\u7403\u7684\u4e24\u4e2a\u5730\u7406\u6781\u70b9\u90fd\u6709\u901a\u5f80\u7a7a\u5fc3\u5730\u5fc3\u7684\u5de8\u5927\u5f00\u53e3\u3002"},
+        {"en": "A traveler can enter a hollow Earth through a continent-sized polar hole.", "zh": "\u65c5\u884c\u8005\u53ef\u4ee5\u901a\u8fc7\u5927\u9646\u822c\u5de8\u5927\u7684\u6781\u5730\u6d1e\u53e3\u8fdb\u5165\u7a7a\u5fc3\u5730\u7403\u3002"}
+      ],
+      "correction": {"en": "There are no such planetary openings; Earth's interior is layered rock and metal.", "zh": "\u5730\u7403\u4e0d\u5b58\u5728\u8fd9\u79cd\u884c\u661f\u7ea7\u5f00\u53e3\uff1b\u5176\u5185\u90e8\u7531\u5206\u5c42\u7684\u5ca9\u77f3\u548c\u91d1\u5c5e\u7ec4\u6210\u3002"}, "reference_ids": ["nasa-earth", "wiki-hollow"]
+    },
+    {
+      "id": "inner-sun", "topic": "hollow-earth", "label": "false", "source_id": "wiki-hollow", "locator": "History / 20th century, Marshall Gardner",
+      "variants": [
+        {"en": "A small Sun shines inside a vast cavity at the center of Earth.", "zh": "\u5730\u7403\u4e2d\u5fc3\u7684\u5de8\u5927\u7a7a\u8154\u4e2d\u6709\u4e00\u9897\u5c0f\u592a\u9633\u5728\u53d1\u5149\u3002"},
+        {"en": "Earth's hollow interior is illuminated by its own central star.", "zh": "\u5730\u7403\u7684\u7a7a\u5fc3\u5185\u90e8\u7531\u81ea\u5df1\u7684\u4e2d\u592e\u6052\u661f\u7167\u4eae\u3002"}
+      ],
+      "correction": {"en": "Earth's center contains a solid metallic inner core, not a star in a cavity.", "zh": "\u5730\u7403\u4e2d\u5fc3\u662f\u56fa\u6001\u91d1\u5c5e\u5185\u6838\uff0c\u800c\u4e0d\u662f\u7a7a\u8154\u4e2d\u7684\u6052\u661f\u3002"}, "reference_ids": ["nasa-earth"]
+    },
+    {
+      "id": "nested-shells", "topic": "hollow-earth", "label": "false", "source_id": "wiki-hollow", "locator": "History / 16th to 18th centuries, Halley hypothesis",
+      "variants": [
+        {"en": "Several detached spherical shells rotate independently inside Earth with air between them.", "zh": "\u5730\u7403\u5185\u90e8\u6709\u51e0\u4e2a\u5206\u79bb\u7684\u7403\u58f3\u72ec\u7acb\u65cb\u8f6c\uff0c\u5176\u95f4\u5145\u6ee1\u7a7a\u6c14\u3002"},
+        {"en": "Earth contains nested hollow worlds separated by atmospheres.", "zh": "\u5730\u7403\u5185\u90e8\u5305\u542b\u7531\u5927\u6c14\u5c42\u9694\u5f00\u7684\u5d4c\u5957\u7a7a\u5fc3\u4e16\u754c\u3002"}
+      ],
+      "correction": {"en": "Seismic evidence supports contiguous mantle and core layers, not air-separated worlds.", "zh": "\u5730\u9707\u6ce2\u8bc1\u636e\u652f\u6301\u76f8\u90bb\u7684\u5730\u5e54\u4e0e\u5730\u6838\u5206\u5c42\uff0c\u800c\u4e0d\u662f\u7531\u7a7a\u6c14\u9694\u5f00\u7684\u4e16\u754c\u3002"}, "reference_ids": ["nasa-earth", "wiki-hollow"]
+    },
+    {
+      "id": "apollo-missing-stars", "topic": "apollo-photo-myths", "label": "false", "source_id": "wiki-apollo", "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 4",
+      "variants": [
+        {"en": "The lack of stars in short-exposure lunar photographs proves the photographs were staged.", "zh": "\u77ed\u66dd\u5149\u6708\u9762\u7167\u7247\u4e2d\u6ca1\u6709\u6052\u661f\uff0c\u8fd9\u8bc1\u660e\u7167\u7247\u662f\u6446\u62cd\u7684\u3002"},
+        {"en": "Any authentic photograph from the Moon must show stars behind a sunlit astronaut.", "zh": "\u4efb\u4f55\u771f\u5b9e\u7684\u6708\u7403\u7167\u7247\u90fd\u5fc5\u987b\u5728\u53d7\u9633\u5149\u7167\u5c04\u7684\u5b87\u822a\u5458\u80cc\u540e\u663e\u793a\u6052\u661f\u3002"}
+      ],
+      "correction": {"en": "Exposures set for bright sunlit subjects usually do not record faint stars.", "zh": "\u9488\u5bf9\u660e\u4eae\u9633\u5149\u4e0b\u7269\u4f53\u8bbe\u7f6e\u7684\u66dd\u5149\u901a\u5e38\u65e0\u6cd5\u8bb0\u5f55\u6697\u5f31\u7684\u6052\u661f\u3002"}, "reference_ids": ["wiki-apollo"]
+    },
+    {
+      "id": "apollo-flag-wind", "topic": "apollo-photo-myths", "label": "false", "source_id": "wiki-apollo", "locator": "Hoax claims and rebuttals / Environment, item 5",
+      "variants": [
+        {"en": "The rippled lunar flag proves that wind was blowing on a studio set.", "zh": "\u6708\u7403\u65d7\u5e1c\u7684\u6ce2\u7eb9\u8bc1\u660e\u6444\u5f71\u68da\u91cc\u6709\u98ce\u5728\u5439\u3002"},
+        {"en": "A flag can only move when air blows across it, even when someone twists its pole.", "zh": "\u5373\u4f7f\u6709\u4eba\u626d\u52a8\u65d7\u6746\uff0c\u65d7\u5e1c\u4e5f\u53ea\u6709\u5728\u7a7a\u6c14\u5439\u8fc7\u65f6\u624d\u80fd\u8fd0\u52a8\u3002"}
+      ],
+      "correction": {"en": "Handling moves the flag; a support bar and storage folds explain its extended, rippled shape.", "zh": "\u4eba\u7684\u64cd\u4f5c\u4f1a\u4f7f\u65d7\u5e1c\u8fd0\u52a8\uff1b\u652f\u6491\u6746\u548c\u6298\u75d5\u89e3\u91ca\u4e86\u5c55\u5f00\u4e14\u6709\u6ce2\u7eb9\u7684\u5f62\u72b6\u3002"}, "reference_ids": ["wiki-apollo"]
+    },
+    {
+      "id": "apollo-shadow-angles", "topic": "apollo-photo-myths", "label": "false", "source_id": "wiki-apollo", "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 5",
+      "variants": [
+        {"en": "Different apparent shadow angles in a lunar photograph prove multiple studio lamps were used.", "zh": "\u6708\u9762\u7167\u7247\u4e2d\u4e0d\u540c\u7684\u8868\u89c2\u5f71\u5b50\u89d2\u5ea6\u8bc1\u660e\u4f7f\u7528\u4e86\u591a\u76cf\u6444\u5f71\u68da\u706f\u3002"},
+        {"en": "Under sunlight, all shadows must look parallel in every photograph regardless of terrain.", "zh": "\u5728\u9633\u5149\u4e0b\uff0c\u65e0\u8bba\u5730\u5f62\u5982\u4f55\uff0c\u6240\u6709\u5f71\u5b50\u5728\u4efb\u4f55\u7167\u7247\u4e2d\u90fd\u5fc5\u987b\u770b\u8d77\u6765\u5e73\u884c\u3002"}
+      ],
+      "correction": {"en": "Perspective and uneven terrain can make shadows from sunlight appear nonparallel in an image.", "zh": "\u900f\u89c6\u548c\u4e0d\u5e73\u5766\u5730\u5f62\u4f1a\u4f7f\u9633\u5149\u4ea7\u751f\u7684\u5f71\u5b50\u5728\u56fe\u50cf\u4e2d\u663e\u5f97\u4e0d\u5e73\u884c\u3002"}, "reference_ids": ["wiki-apollo"]
+    },
+    {
+      "id": "apollo-crosshairs", "topic": "apollo-photo-myths", "label": "false", "source_id": "wiki-apollo", "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 1",
+      "variants": [
+        {"en": "A washed-out crosshair on a bright object proves the lunar photograph is a composite.", "zh": "\u660e\u4eae\u7269\u4f53\u4e0a\u6d88\u5931\u7684\u5341\u5b57\u7ebf\u8bc1\u660e\u6708\u9762\u7167\u7247\u662f\u5408\u6210\u7684\u3002"},
+        {"en": "Camera crosshairs can disappear only when someone pastes objects over a photograph.", "zh": "\u76f8\u673a\u5341\u5b57\u7ebf\u53ea\u6709\u5728\u6709\u4eba\u5c06\u7269\u4f53\u7c98\u8d34\u5230\u7167\u7247\u4e0a\u65f6\u624d\u4f1a\u6d88\u5931\u3002"}
+      ],
+      "correction": {"en": "Overexposure and reproduction can wash out thin dark crosshairs in bright regions.", "zh": "\u8fc7\u5ea6\u66dd\u5149\u548c\u590d\u5236\u4f1a\u4f7f\u660e\u4eae\u533a\u57df\u7684\u7ec6\u6697\u5341\u5b57\u7ebf\u6d88\u5931\u3002"}, "reference_ids": ["wiki-apollo"]
+    },
+    {
+      "id": "apollo-footprints-water", "topic": "apollo-photo-myths", "label": "false", "source_id": "wiki-apollo", "locator": "Hoax claims and rebuttals / Environment, item 6",
+      "variants": [
+        {"en": "A sharp footprint cannot form in lunar dust unless liquid water is added.", "zh": "\u9664\u975e\u52a0\u5165\u6db2\u6001\u6c34\uff0c\u5426\u5219\u6708\u58e4\u4e2d\u4e0d\u53ef\u80fd\u5f62\u6210\u6e05\u6670\u811a\u5370\u3002"},
+        {"en": "Well-defined lunar boot prints prove that wet studio sand was used.", "zh": "\u6e05\u6670\u7684\u6708\u9762\u9774\u5370\u8bc1\u660e\u4f7f\u7528\u4e86\u6444\u5f71\u68da\u7684\u6e7f\u6c99\u3002"}
+      ],
+      "correction": {"en": "Angular lunar dust grains can retain footprint shapes without liquid water.", "zh": "\u6709\u68f1\u89d2\u7684\u6708\u58e4\u9897\u7c92\u65e0\u9700\u6db2\u6001\u6c34\u4e5f\u80fd\u4fdd\u7559\u811a\u5370\u5f62\u72b6\u3002"}, "reference_ids": ["wiki-apollo"]
+    },
+    {
+      "id": "apollo-backgrounds", "topic": "apollo-photo-myths", "label": "false", "source_id": "wiki-apollo", "locator": "Hoax claims and rebuttals / Photographic and film oddities, item 6",
+      "variants": [
+        {"en": "Similar distant mountains in different lunar photographs prove a painted backdrop was reused.", "zh": "\u4e0d\u540c\u6708\u9762\u7167\u7247\u4e2d\u76f8\u4f3c\u7684\u8fdc\u5c71\u8bc1\u660e\u91cd\u590d\u4f7f\u7528\u4e86\u7ed8\u5236\u7684\u80cc\u666f\u5e55\u3002"},
+        {"en": "A lunar mountain must look completely different after a short walk, so similar views are fake.", "zh": "\u77ed\u9014\u6b65\u884c\u540e\u6708\u7403\u5c71\u8109\u5fc5\u987b\u770b\u8d77\u6765\u5b8c\u5168\u4e0d\u540c\uff0c\u56e0\u6b64\u76f8\u4f3c\u666f\u8272\u662f\u5047\u7684\u3002"}
+      ],
+      "correction": {"en": "Distant mountains change little in apparent position over short walks; the Moon has little atmospheric haze.", "zh": "\u77ed\u9014\u6b65\u884c\u4e2d\u8fdc\u5c71\u7684\u8868\u89c2\u4f4d\u7f6e\u53d8\u5316\u5f88\u5c0f\uff1b\u6708\u7403\u51e0\u4e4e\u6ca1\u6709\u5927\u6c14\u8584\u96fe\u3002"}, "reference_ids": ["wiki-apollo"]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "rowbotham-1865",
+      "title": "Parallax (Samuel Rowbotham), Zetetic astronomy: Earth not a globe! (1865)",
+      "url": "https://www.gutenberg.org/cache/epub/69892/pg69892-images.html",
+      "kind": "primary_proponent",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Historical proponent text, ebook 69892. Public domain in the USA; check local law. Only original short paraphrases are included, not ebook text or images."
+    },
+    {
+      "id": "wiki-hollow",
+      "title": "Wikipedia: Hollow Earth",
+      "url": "https://en.wikipedia.org/wiki/Hollow_Earth",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Secondary descriptions of historical hypotheses and contrary evidence; not a proponent website. Page reports last edit 2026-10-13. Text license CC BY-SA 4.0; fixtures are original summaries of claims."
+    },
+    {
+      "id": "wiki-apollo",
+      "title": "Wikipedia: Moon landing conspiracy theories",
+      "url": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Secondary reporting of claims and rebuttals, not endorsement. Page reports last edit 2026-09-26. Text license CC BY-SA 4.0; fixtures are original short summaries."
+    },
+    {
+      "id": "nasa-earth",
+      "title": "NASA: Earth Facts",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "kind": "reference",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Reference for rotation, orbit, distance, seasons, and interior structure."
+    },
+    {
+      "id": "nasa-moon",
+      "title": "NASA: Moon Facts",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "kind": "reference",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Reference for lunar illumination, distance, surface, and structure."
+    },
+    {
+      "id": "nasa-eclipses",
+      "title": "NASA: The Moon & Eclipses",
+      "url": "https://science.nasa.gov/moon/eclipses/",
+      "kind": "reference",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Reference for Earth's shadow and lunar eclipses."
+    },
+    {
+      "id": "noaa-tides",
+      "title": "NOAA: What are tides?",
+      "url": "https://oceanservice.noaa.gov/facts/tides.html",
+      "kind": "reference",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Reference for lunar and solar gravitational tides."
+    },
+    {
+      "id": "tfes-faq",
+      "title": "The Flat Earth Society wiki FAQ",
+      "url": "https://wiki.tfes.org/Flat_Earth_-_Frequently_Asked_Questions",
+      "kind": "primary_proponent",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch failed to extract meaningful content. Not used as evidence for any entry."
+    },
+    {
+      "id": "fes-faq",
+      "title": "The Flat Earth Society FAQ",
+      "url": "https://theflatearthsociety.org/home/index.php/faq",
+      "kind": "primary_proponent",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch failed to extract meaningful content. Not used as evidence for any entry."
+    },
+    {
+      "id": "wiki-science",
+      "title": "Wikipedia: List of common misconceptions about science, technology, and mathematics",
+      "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science,_technology,_and_mathematics",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Inspected sectioned misconception/rebuttal list, updated 2026-10-13. CC BY-SA 4.0 source text; curated entries are original bilingual paraphrases, not copied passages. Health, weapons and dangerous-advice sections are not used."
+    },
+    {
+      "id": "wiki-history",
+      "title": "Wikipedia: List of common misconceptions about history",
+      "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_history",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Inspected ancient, medieval and modern misconceptions. CC BY-SA 4.0 source; original paraphrases only."
+    },
+    {
+      "id": "wiki-culture",
+      "title": "Wikipedia: List of common misconceptions about arts and culture",
+      "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_arts_and_culture",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Inspected language, food history, science of cooking and nonviolent cultural misconceptions. CC BY-SA 4.0 source; original paraphrases only."
+    },
+    {
+      "id": "skeptical-climate",
+      "title": "Skeptical Science: Global Warming & Climate Change Myths",
+      "url": "https://skepticalscience.com/argument.php",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Myth/rebuttal index inspected. Some index details are dated; curated entries use stable physical claims, not old record-year or numerical consensus claims. Original short paraphrases only; source retains its copyright."
+    },
+    {
+      "id": "berkeley-evolution",
+      "title": "UC Museum of Paleontology: Misconceptions about evolution",
+      "url": "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Educational misconception/correction pairs inspected. Original short bilingual paraphrases; no images or full page text redistributed."
+    },
+    {
+      "id": "google-incognito",
+      "title": "Google Chrome Help: Browse in Incognito mode",
+      "url": "https://support.google.com/chrome/answer/95464?hl=en",
+      "kind": "reference",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Incognito limits local storage but does not hide activity from websites, employers or internet providers; bookmarks and downloads remain."
+    },
+    {
+      "id": "wiki-qanon",
+      "title": "Wikipedia: QAnon",
+      "url": "https://en.wikipedia.org/wiki/QAnon",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Research-only use: neutral origins, pseudonymous identity and prediction-evaluation summaries. No Q drops, slogans, defamatory allegations, or extremist narratives reproduced. CC BY-SA 4.0 source."
+    },
+    {
+      "id": "bellingcat-qanon",
+      "title": "Bellingcat: The QAnon Timeline: Four Years, 5,000 Drops and Countless Failed Prophecies",
+      "url": "https://www.bellingcat.com/news/americas/2021/01/29/the-qanon-timeline/",
+      "kind": "secondary_reporting",
+      "status": "retrieved",
+      "accessed": "2026-10-14",
+      "note": "Research-only original summaries of chronology and analytic method. Source analyzes 4,952 posts; those posts are NOT imported, mirrored or counted as project entries."
+    },
+    {
+      "id": "britannica-qanon",
+      "title": "Britannica: QAnon",
+      "url": "https://www.britannica.com/topic/QAnon",
+      "kind": "secondary_reporting",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch redirected to an advertising pixel rather than meaningful article content. Not used as evidence."
+    },
+    {
+      "id": "loc-camel",
+      "title": "Library of Congress: How much water does a camel's hump hold?",
+      "url": "https://www.loc.gov/everyday-mysteries/zoology/item/how-much-water-does-a-camels-hump-hold/",
+      "kind": "reference",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch failed to extract meaningful content. Camel entry cites the retrieved secondary science list, not this page."
+    },
+    {
+      "id": "nasa-wall",
+      "title": "NASA: Great Wall",
+      "url": "https://www.nasa.gov/image-article/great-wall/",
+      "kind": "reference",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch returned HTTP 429. No retry or rate-limit bypass; not used as evidence."
+    },
+    {
+      "id": "snopes-hippo",
+      "title": "Snopes: Is Hippopotamus Milk Pink?",
+      "url": "https://www.snopes.com/fact-check/false-hippopotamus-milk-pink/",
+      "kind": "secondary_reporting",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch redirected to an advertising pixel. The hippo entry cites retrieved secondary reporting instead."
+    },
+    {
+      "id": "met-armor",
+      "title": "Metropolitan Museum: Arms and Armor Common Misconceptions",
+      "url": "https://www.metmuseum.org/essays/arms-and-armor-common-misconceptions-and-frequently-asked-questions",
+      "kind": "secondary_reporting",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch returned HTTP 429; not used as evidence. Rate limit was not bypassed."
+    },
+    {
+      "id": "geology-diamonds",
+      "title": "Geology.com: How Do Diamonds Form?",
+      "url": "https://geology.com/articles/diamonds-from-coal/",
+      "kind": "secondary_reporting",
+      "status": "unavailable",
+      "accessed": "2026-10-14",
+      "note": "Fetch redirected to an advertising pixel. Materials entry cites retrieved secondary science list instead."
+    }
+  ]
+}

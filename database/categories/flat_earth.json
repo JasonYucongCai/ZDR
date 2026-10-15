@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "topic": "flat-earth",
+  "review_status": "reviewed",
+  "claims": [
+    {
+      "id": "flat-plane",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 1, pp. 7 and 20",
+      "variants": [
+        {
+          "en": "Earth is a flat plane rather than a roughly spherical planet.",
+          "zh": "地球是平面，而不是近似球形的行星。"
+        },
+        {
+          "en": "The whole surface of Earth has no global curvature.",
+          "zh": "地球的整个表面没有全球性的曲率。"
+        }
+      ],
+      "correction": {
+        "en": "Earth is approximately an oblate spheroid, not a plane.",
+        "zh": "地球近似于扁球体，而不是平面。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "no-rotation",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 2, pp. 63-69",
+      "variants": [
+        {
+          "en": "Earth does not rotate on an axis.",
+          "zh": "地球不会绕地轴自转。"
+        },
+        {
+          "en": "Earth remains motionless instead of turning once each day.",
+          "zh": "地球保持静止，而不是每天自转一次。"
+        }
+      ],
+      "correction": {
+        "en": "Earth completes a rotation relative to distant stars in about 23.9 hours.",
+        "zh": "地球相对于遥远恒星约每23.9小时自转一周。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "no-orbit",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 2, pp. 69-71",
+      "variants": [
+        {
+          "en": "Earth has no orbital motion around the Sun.",
+          "zh": "地球没有绕太阳公转的运动。"
+        },
+        {
+          "en": "Earth never travels around the Sun during the year.",
+          "zh": "地球在一年中从不绕太阳运行。"
+        }
+      ],
+      "correction": {
+        "en": "Earth orbits the Sun in about 365.25 days.",
+        "zh": "地球绕太阳公转一周约需365.25天。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "nearby-sun",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 3, pp. 72-74",
+      "variants": [
+        {
+          "en": "The Sun is less than four thousand miles above Earth's surface.",
+          "zh": "太阳距离地球表面不到四千英里。"
+        },
+        {
+          "en": "The distance from Earth to the Sun is under four thousand miles.",
+          "zh": "地球到太阳的距离小于四千英里。"
+        }
+      ],
+      "correction": {
+        "en": "Earth's average distance from the Sun is about 93 million miles.",
+        "zh": "地球到太阳的平均距离约为九千三百万英里。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "all-lights-nearby",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 3, p. 74",
+      "variants": [
+        {
+          "en": "Every visible object in the sky is within six thousand miles of Earth.",
+          "zh": "天空中所有可见天体距离地球都不超过六千英里。"
+        },
+        {
+          "en": "The Moon and all visible stars lie less than six thousand miles away.",
+          "zh": "月球和所有可见恒星都位于六千英里以内。"
+        }
+      ],
+      "correction": {
+        "en": "The Moon alone is about 238,855 miles away on average.",
+        "zh": "仅月球与地球的平均距离就约为238855英里。"
+      },
+      "reference_ids": [
+        "nasa-moon"
+      ]
+    },
+    {
+      "id": "sun-circles-plane",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 4, p. 75",
+      "variants": [
+        {
+          "en": "The Sun circles above a stationary flat Earth once every day.",
+          "zh": "太阳每天在静止的平面地球上方绕行一周。"
+        },
+        {
+          "en": "A daily circle of the Sun over a flat plane creates our day and night.",
+          "zh": "太阳每天在平面上方的圆周运动造成了昼夜。"
+        }
+      ],
+      "correction": {
+        "en": "Earth's rotation produces the daily cycle of sunlight and darkness.",
+        "zh": "地球的自转产生每天的昼夜交替。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "seasons-solar-circle",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Sections 5-6, pp. 76-80",
+      "variants": [
+        {
+          "en": "Seasons are caused by the Sun changing its circular path above a flat Earth.",
+          "zh": "四季是由太阳改变在平面地球上方的圆形轨道造成的。"
+        },
+        {
+          "en": "Summer and winter depend on a widening and narrowing solar circle over a plane.",
+          "zh": "夏天和冬天取决于平面上方太阳圆形轨道的扩大和缩小。"
+        }
+      ],
+      "correction": {
+        "en": "Earth's axial tilt and its orbit around the Sun produce the seasons.",
+        "zh": "地轴倾斜以及地球绕太阳公转导致四季变化。"
+      },
+      "reference_ids": [
+        "nasa-earth"
+      ]
+    },
+    {
+      "id": "self-luminous-moon",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 9, pp. 97-103",
+      "variants": [
+        {
+          "en": "Moonlight comes from the Moon's own visible glow, not reflected sunlight.",
+          "zh": "月光来自月球自身发出的可见光，而不是反射的太阳光。"
+        },
+        {
+          "en": "The Moon illuminates the night independently of the Sun.",
+          "zh": "月球不依赖太阳而独立照亮夜晚。"
+        }
+      ],
+      "correction": {
+        "en": "The Moon's visible illumination is reflected sunlight.",
+        "zh": "月球的可见光照来自反射的太阳光。"
+      },
+      "reference_ids": [
+        "nasa-moon"
+      ]
+    },
+    {
+      "id": "lunar-eclipse-not-shadow",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 9, pp. 90 and 103",
+      "variants": [
+        {
+          "en": "Earth's shadow can never cause a lunar eclipse.",
+          "zh": "地球的影子绝不可能造成月食。"
+        },
+        {
+          "en": "A separate hidden object, rather than Earth's shadow, causes lunar eclipses.",
+          "zh": "月食是由另一个隐藏天体造成的，而不是地球的影子。"
+        }
+      ],
+      "correction": {
+        "en": "A lunar eclipse occurs when the Moon passes through Earth's shadow.",
+        "zh": "月球穿过地球的影子时会发生月食。"
+      },
+      "reference_ids": [
+        "nasa-eclipses"
+      ]
+    },
+    {
+      "id": "floating-earth-tides",
+      "topic": "flat-earth",
+      "label": "false",
+      "source_id": "rowbotham-1865",
+      "locator": "Section 10, pp. 107-109",
+      "variants": [
+        {
+          "en": "Tides are caused by a flat Earth floating up and down on an underlying ocean.",
+          "zh": "潮汐是由平面地球在下方海洋上上下浮动造成的。"
+        },
+        {
+          "en": "Air pressure pushes a floating flat Earth downward to create high tide.",
+          "zh": "气压将浮动的平面地球向下推，从而造成涨潮。"
+        }
+      ],
+      "correction": {
+        "en": "The Moon's and Sun's gravity are the principal drivers of astronomical tides.",
+        "zh": "月球和太阳的引力是天文潮汐的主要成因。"
+      },
+      "reference_ids": [
+        "noaa-tides"
+      ]
+    }
+  ]
+}
